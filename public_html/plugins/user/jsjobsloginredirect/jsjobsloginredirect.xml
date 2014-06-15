@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="user" method="upgrade"> 
+	<name>JSJobs Login Redirect</name>
+	<author>Joom Sky</author>
+	<creationDate>July 30, 2013</creationDate>
+	<copyright>Copyright (C) 2010. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>ahmad@joomsky.com</authorEmail>
+	<authorUrl>www.joomsky.com</authorUrl>
+	<version>1.0</version>
+	<description>Custom login redirect. </description>
+	<params>
+		<param name="isredirect" type="radio" default="1" label="JS_LOGIN_REDIRECT" description="JS_REDIRECT_YES_NO">
+			<option value="0">JS_NO</option>
+			<option value="1">JS_YES</option>
+		</param>
+		<param name="jb_default_login_redirect" type="menuitem" default="" disable="separator" label="JS_JOBSEEKER_DEFAULT_LOGIN_REDIRECT" description="JS_JOBSEEKER_DEFAULT_LOGIN_REDIRECT" state="1" />
+
+		<param name="em_default_login_redirect" type="menuitem" default="" disable="separator" label="JS_EMPLOYER_DEFAULT_LOGIN_REDIRECT" description="JS_EMPLOYER_DEFAULT_LOGIN_REDIRECT" state="1" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="isredirect" type="radio" default="1" label="JS_LOGIN_REDIRECT" description="JS_REDIRECT_YES_NO">
+					<option value="0">NO</option>
+					<option value="1">YES</option>
+				</field>
+				<field name="jb_default_login_redirect" type="menuitem" default="" disable="separator" label="JS_JOBSEEKER_DEFAULT_LOGIN_REDIRECT" description="JS_JOBSEEKER_DEFAULT_LOGIN_REDIRECT" state="1" />
+				<field name="em_default_login_redirect" type="menuitem" default="" disable="separator" label="JS_EMPLOYER_DEFAULT_LOGIN_REDIRECT" description="JS_EMPLOYER_DEFAULT_LOGIN_REDIRECT" state="1" />
+			</fieldset>
+		</fields>
+	</config>
+	<files>
+		<filename plugin="jsjobsloginredirect">jsjobsloginredirect.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_user_jsjobsloginredirect.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_user_jsjobsloginredirect.sys.ini</language>
+	</languages>
+</extension>

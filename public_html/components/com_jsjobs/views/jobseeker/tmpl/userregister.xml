@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_jstickets/views/menu">
+
+			<field name="userrole" type="list" default="1" label="JS_USER_ROLE" description="JS_USER_REGISTARATION">
+				<option value="1">JS_BOTH</option>
+				<option value="2">JS_JOBSEEKER</option>
+				<option value="3">JS_EMPLOYER</option>
+			</field>
+		</fieldset>
+	</fields>
+
+	<!-- Add fields to the parameters object for the layout. -->
+	<layout title="User Registration">
+		<message>
+			<![CDATA[JS_USER_REGISTARATION]]>
+		</message>
+	</layout>
+	<state>
+		<name>JS_USER_REGISTARATION</name>
+		<description>JS_USER_REGISTARATION</description>
+	</state>
+</metadata>

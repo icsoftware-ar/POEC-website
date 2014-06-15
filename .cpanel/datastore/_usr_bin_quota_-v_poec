@@ -1,0 +1,9 @@
+Disk quotas for user poec (uid 31309): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+      /dev/sda2       4  1023998976 1023998976               3       0       0        
+      /dev/sda1       0  1023998976 1023998976               0       0       0        
+      /dev/sda6       4  1023998976 1023998976               2       0       0        
+      /dev/sdb1       0  1023998976 1023998976               0       0       0        
+      /dev/sdc1       0  1023998976 1023998976               0       0       0        
+      /dev/sdd1  165928  1023998976 1023998976           14982       0       0        
+      /dev/sde1       0  1023998976 1023998976               0       0       0        

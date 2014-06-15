@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade"> 
+	<name>JS Jobs BY State</name>
+	<author>Joom Sky</author>
+	<creationDate>jun 23, 2011</creationDate>
+	<copyright>(C) 2010. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>ahmad@joomsky.com</authorEmail>
+	<authorUrl>www.joomsky.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Usage {jsjobsstates}.Show job by States from js jobs database. </description>
+
+
+	<params>
+		<param name="noofjobs" type="text" default="10" label="JS_DISPLAY_MAXIMUM_JOBS_BY_STATES" description="JS_MAX_RECORD_100" />
+		<param name="theme" type="list" default="1" label="JS_THEME" description="Select theme of this module">
+			<option value="1">JS Jobs Theme</option>
+			<option value="2">Template Theme</option>
+			<option value="0">No Theme</option>
+		</param>
+		<param name="title" type="text" default="Jobs By States " label="JS_TITLE" description="Title" />
+		<param name="shtitle" type="radio" default="1" label="JS_TITLE" description="Show/Hide the title">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="ssthj" type="radio" default="1" label="JS_SHOW_ONLY_STATE_HAVE_JOBS" description="JS_SHOW_ONLY_STATE_HAVE_JOBS">
+                        <option value="0">No</option>
+                        <option value="1">Yes</option>
+		</param>
+		<param name="colperrow" type="text" label="JS_COLUMN_PER_ROW" description="Column Per Row" />
+		<param name="sliding" type="radio" default="1" label="JS_SLIDING" description="Yes/No the sliding">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="slidingdirection" type="radio" default="1" label="JS_SLIDING_DIRECTION" description="Yes/No the sliding direction">
+			<option value="0">Left</option>
+			<option value="1">Up</option>
+		</param>
+
+		<param name="consecutivesliding" type="text" default="3" label="JS_CONSECTIVE_SLIDE" description="Consective Slid" />
+				<param name="Itemid" type="text" default="" label="ITEMID" description="ITEMID_FOR_NAVIGATION" />
+
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="noofjobs" type="text" default="10" label="JS_DISPLAY_MAXIMUM_JOBS_BY_STATES" description="JS_MAX_RECORD_100" />
+				<field name="theme" type="list" default="1" label="JS_THEME" description="Select theme of this module">
+					<option value="1">JS Jobs Theme</option>
+					<option value="2">Template Theme</option>
+					<option value="0">No Theme</option>
+				</field>
+				<field name="title" type="text" default="Jobs By States " label="JS_TITLE" description="Title" />
+				<field name="shtitle" type="radio" default="1" label="JS_TITLE" description="Show/Hide the title">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="ssthj" type="radio" default="1" label="JS_SHOW_ONLY_STATE_HAVE_JOBS" description="JS_SHOW_ONLY_STATE_HAVE_JOBS">
+                                        <option value="0">No</option>
+                                        <option value="1">Yes</option>
+				</field>
+				<field name="colperrow" type="text" label="JS_COLUMN_PER_ROW" description="Column Per Row" />
+				<field name="sliding" type="radio" default="1" label="JS_SLIDING" description="Yes/No the sliding">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="slidingdirection" type="radio" default="1" label="JS_SLIDING_DIRECTION" description="Yes/No the sliding direction">
+					<option value="0">Left</option>
+					<option value="1">Up</option>
+				</field>
+
+				<field name="consecutivesliding" type="text" default="3" label="JS_CONSECTIVE_SLIDE" description="Consective Slid" />
+				<field name="Itemid" type="text" default="" label="ITEMID" description="ITEMID_FOR_NAVIGATION" />
+
+			</fieldset>
+		</fields>
+	</config>
+	<files>
+		<filename plugin="jsjobsstates">jsjobsstates.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_jsjobsstates.ini</language>
+	</languages>
+</extension>

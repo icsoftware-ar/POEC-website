@@ -1,0 +1,1435 @@
+.invalid { border-color: #ff0000; }
+label.invalid { color: #ff0000; }
+span#formjobemailtext{margin:5px 8px; display:block} 
+span#jobsapplyalertsettingheading{
+	background:url(../images/headline.png);
+	color:white;
+	font-weight:bold;
+	text-shadow:0px 1px 2px #000;
+	height: 20px;
+	padding:0px 8px;
+	font-size:14px;
+	display:block;
+	padding-top:4px;
+}
+
+/*--------------------------NEW CSS-------------------------------*/
+/*--------------------------My Applied Jobs-------------------------------*/
+span.apply_job_resume_status{
+position:relative;
+float:left;
+min-width:32px;
+padding:0px 20px;
+height:20px;
+margin-left:-5%;
+text-align:left;
+line-height:20px;
+font-size:10px;
+background:#ffffff;
+}
+span.apply_job_resume_status.rejected{color:#ff3333;border:1px solid #ff3333;}
+span.apply_job_resume_status.hired{color:#519ade;border:1px solid #519ade;}
+span.apply_job_resume_status.shortlist{color:#5cba2e;border:1px solid #5cba2e;}
+span.apply_job_resume_status.spam{color:#df9639;border:1px solid #df9639;}
+span#apply_job_resume_status_spam{
+position:absolute;
+width:13px;
+height:18px;
+top:1px;
+left:-2px;
+ background:url(../images/a_j_spam.png) no-repeat !important;
+}
+span#apply_job_resume_status_reject{
+position:absolute;
+width:13px;
+height:18px;
+top:1px;
+left:-2px;
+ background:url(../images/a_j_rejecte.png)  no-repeat !important;
+}
+span#apply_job_resume_status_shortlist{
+position:absolute;
+width:13px;
+height:18px;
+top:1px;
+left:-2px;
+ background:url(../images/a_j_shotlist.png) no-repeat !important;
+}
+span#apply_job_resume_status_hired{
+position:absolute;
+width:13px;
+height:18px;
+top:1px;
+left:-2px;
+ background:url(../images/a_j_hired.png) no-repeat !important;
+}
+div#jsjobs_appliedresume_action_allexport{float:right;height:24px;}
+div#jsjobs_appliedresume_action_allexport a:hover, div#jsjobs_appliedresume_action_allexport a:link {list-style:none;background:#fff;text-decoration:none;color: #000000;font-size:9px;}
+span#jsjobs_appliedresume_action_allexport_text{
+float:right;
+color:#000000;
+line-height:24px;
+font-size:10px;
+padding-left:3px;
+}
+
+
+/*------------------------------------Stats--------------------------------*/
+#stats_maindiv{
+	width:100%;
+	min-width:370px;
+	float:left;
+	position:relative;
+	border:1px solid #91AF83;
+	margin-bottom:5px;
+}
+div#stats_maindiv div.stats_mystats {
+	float:left;
+	width:100%;
+	padding-bottom:5px;
+
+}
+div.stats_sectiontitle{
+	font-weight:bold;
+	padding:4px 0px 0px 0px;	
+	text-align:center;	
+}
+div#stats_maindiv div.stats_mystats span.stats_data_title{
+	float:left;
+	font-weight:bold;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:5px;
+	width:46%;
+	color:#377344;
+	display:block;
+
+}
+div#stats_maindiv div.stats_mystats span.stats_data_value{
+	float:left;
+	text-align: center;
+	width:47%;
+	margin-top:5px;
+	color:#29578f;
+	display:block;
+	margin-left:1%;
+}
+div#stats_package_message{
+	float:left;
+	display:block;
+	color:#377344;
+	width:47%;
+}
+div#stats_mystats_left{
+	float:left;
+	display:block;
+	width:47%;
+	margin-left:2%;
+	margin-top:2%;
+	margin-bottom:2%;
+	border:1px solid  #91AF83;
+}
+div#stats_mystats_right{
+	float:left;
+	display:block;
+	width:47%;
+	margin-left:2%;
+	margin-top:2%;
+	margin-bottom:2%;
+	border:1px solid  #91AF83;
+	
+}
+div.stats_mystats_left_right_top{
+background:url(../images/stats_l_r_bar.png) repeat top left;
+height:16px;
+color: #FFFFFF;
+font-size: 12px;
+ text-shadow: 0 0.5px 3px #000000;
+}
+div.stats_mystats div#stats_mystats_left span.stats_mystats_left_right_title{
+border:none !important;
+ border-bottom: 1px solid  #91AF83 !important;
+ border-right: 1px solid  #91AF83 !important;
+ float: left;
+ padding: 2px 0px;
+ padding-left:1%;
+ width: 68.5%;
+ color: #377344;
+display: block;
+font-weight: bold!important;
+}
+div.stats_mystats div#stats_mystats_left span.stats_mystats_left_right_title_last{
+border:none !important;
+ border-right: 1px solid  #91AF83 !important;
+ float: left;
+ padding: 2px 0px;
+ padding-left:1%;
+ width: 68.5%;
+ color: #377344;
+display: block;
+font-weight: bold!important;
+}
+div.stats_mystats div#stats_mystats_left span.stats_mystats_left_right_value{
+border:none;
+ border-bottom: 1px solid  #91AF83 ;
+ float: left;
+ width: 30.1%;
+ padding:2px 0px;
+ color: #377344;
+display: block;
+text-align:center;
+}
+div.stats_mystats div#stats_mystats_left span.stats_mystats_left_right_value_last{
+border:none;
+ float: left;
+ width: 30.1%;
+ padding:2px 0px;
+ color: #377344;
+display: block;
+text-align:center;
+}
+
+/*----------------Payment Method -----------------*/
+table#jsjobs_paymentmethodstable, table#jsjobs_paymentmethodstable tr, table#jsjobs_paymentmethodstable tr td ,
+table#jsjobs_paymentmethodstable tr th{border: none;}
+table#jsjobs_paymentmethodstable tr th{width:100%;text-align: center;height:18px;vertical-align: text-top;background: url(../images/paymentmethodheadingbar.png);border: 1px solid #91AF83;color: #000;line-height:18px;}
+table#jsjobs_paymentmethodstable tr td div#jsjobs_paymentmethodstd_div{width:80%;float:left;padding: 8px;margin: 0px 10%;text-align: center;border-bottom: 1px solid #91AF83;}
+table#jsjobs_paymentmethodstable tr td div#jsjobs_paymentmethodstd_div span#jsjobs_paymentmehtodtd_div_span
+{float:left;padding-left: 8px;color: #000000;background: url(../images/paymentmethodarrow.png) no-repeat left 3px;}
+table#jsjobs_paymentmethodstable tr td div#jsjobs_paymentmethodstd_div input#jsjobs_button 
+{
+	float:right;
+	background:url("../images/flt_btn.png") repeat scroll 0 0 / 100% 100% transparent;
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:3px 10px;
+	text-decoration:none;
+	color:#ffffff !important; 
+	font-size:10px;
+	/*margin-right: 5px;height: 18px;vertical-align: text-top;border-radius: 4px;color: #000000 !important;background: url(../images/paymentmethodbutton.png) !important;padding: 0px 8px 2px 8px;border: 1px solid #91AF83 !important;*/
+}
+table#jsjobs_paymentmethodstable tr td div#jsjobs_paymentmethodstd_div input#jsjobs_button:hover{
+	background:url(../images/red_btn_hover.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	border: medium none;
+	color: white !important;
+	padding: 2px 6px;
+
+}
+input[rel="button"],button,a[rel="button"],#coordinatebutton .button,input#jsjobs_button.button{background:url(../images/flt_btn.png);background-size:100% 100%;border:none;color:#ffffff !important;font-weight:normal;font-size:12px;}
+
+
+
+
+/*----------------listing-----------------*/
+
+.tellafriend{
+	border:2px solid #91AF83;
+	border-radius:20px 20px 20px 20px;
+	background:url(../images/listbackground.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+}
+#tellafriend{
+	padding:26px 26px 10px 26px;
+	position:fixed;
+	top:230px;
+	left:24%;
+	z-index:1;
+	display:none;
+}
+#tellafriend_headline{
+	border-radius: 20px 20px 0 0;
+	float: left;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: -2px;
+	width: 100%;
+}
+input#button.close_button{
+	background:url(../images/red_btn.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	border: medium none;
+	color: white;
+	padding: 2px 6px;
+}
+input#button.close_button:hover{
+	background:url(../images/red_btn_hover.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	border: medium none;
+	color: white;
+	padding: 2px 6px;
+}
+#jl_maindiv,#rl_maindiv{
+	width:97%;
+	min-width:370px;
+	float:left;
+	position:relative;
+	padding:1.5%;
+	border:1px solid #91AF83;
+	margin-bottom:5px;
+}
+div.even{
+	background:url(../images/listbackground.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+}
+div.odd{
+	background:url(../images/listbackground.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+}
+#jl_leftdiv{
+	width:32%;	
+	color:#377344;
+	float: left;
+	
+}
+
+#jl_title,#rl_title{
+	font-size:13px;
+	font-weight:bold;
+	color:#377344;
+	display:block;
+	min-height:1.8em;
+}
+span#jl_title a,span#rl_title a{
+	color:#374E6A;
+	text-decoration:none;
+}
+span#jl_title a:hover,span#rl_title a:hover{
+	color:#29384E;
+	text-decoration:underline;
+	background:none;
+}
+td#rl_tdpadding{ padding:0px 0px 0px 20px;}
+#jl_jobposted{
+	font-size:10px;
+	display:block;
+	margin-top:10px;
+}
+#jl_applieddate{
+	font-size:10px;
+	display:block;
+	margin-top:10px;
+	position:absolute;
+	bottom:16px;
+}
+span#jobstatusmsg,span#jobstatusmsgapproval,span#jobstatusmsgforrejected{
+	float:left;
+}
+span#jobstatusmsg{
+	margin-right:3px;
+}
+#jl_rightdiv{
+	width:68%;
+	float:left;
+	position:relative;
+}
+#jl_rightinnerdiv{
+	width:100%;
+}
+#jl_data{
+	border-left:2px solid #91AF83;
+	padding-left:10px;
+	float:left;
+	width:41%;
+	min-height:35px;	
+}
+.jl_data_text,.rl_data_text{
+	color:#000000;
+	cursor:default;
+	padding-right:5px;
+}
+.jl_data_value,.rl_data_value{
+	color:#377344;
+	display:block;
+	font-size:11px;
+	line-height:18px;
+	overflow:hidden;
+	cursor:default;
+}
+#jl_lowerdiv .jl_data_value,#jl_lowerdiv .rl_data_value{
+	color:#377344;
+	font-size:11px;
+	display:inline;
+	line-height:18px;
+}
+.jl_no_of_jobs .jl_data_value{
+	font-size:10px;
+}
+#jl_image_gold{
+	background:url(../../../images/goldjob.png) no-repeat right top;
+	width:78px;
+	height:78px;
+	top:0;
+	right:0;
+	position:absolute;
+}
+#jl_image_featured{
+	background:url(../../../images/featuredjob.png) no-repeat right top;
+	width:78px;
+	height:78px;
+	top:0;
+	right:0;
+	position:absolute;
+}
+#jl_image_gold_featured{
+	background:url(../../../images/goldfeaturedjob.png) no-repeat right top;
+	width:78px;
+	height:78px;
+	top:0;
+	right:0;
+	position:absolute;
+}
+#jl_image_new{
+	background:url(../../../images/newjob.png) no-repeat right top;
+	width:78px;
+	height:78px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+#jl_lowerdiv{
+	border-top:2px solid #91AF83;
+	padding-top: 12px;
+	width:95%;
+	margin-top:30px;
+	float:left;
+}
+.jl_no_of_jobs{
+	float:right;
+}
+#jl_button{
+	margin:22px 0 0 0px;
+	text-align:center;
+	white-space:nowrap;
+}
+#jl_button .employer:hover{
+	background:none;
+}
+#jl_button .employer{
+	padding:0 0.7%;
+}
+div#jl_button a.jl_button{
+	background:url(../images/btn_black.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:3px 10px;
+	text-decoration:none;
+	color:#000000;
+	font-size:10px;
+}
+div#jl_button a.jl_button:hover{
+	background:url(../images/btn_black_hover.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:3px 10px;
+	text-decoration:none;
+	color:white;
+	font-size:10px;
+}
+div#jl_data a{
+	text-decoration:none;
+	color:#377344 !important;
+}
+div#jl_data a:focus, div#jl_data a:hover, div#jl_data a:active{
+	text-decoration:underline;
+	background:none !important;
+	color:#377345 !important;
+}
+
+#rl_imagediv{
+	float: left;
+	min-height: 150px;
+	min-width: 150px;
+	overflow: hidden;
+	width: 23%;
+}
+div#rl_imagediv img{
+	max-height: 150px;
+	max-width: 150px;
+	overflow: hidden;
+}
+#rl_datadiv{
+	position:relative;
+	float:left;
+	width: 77%;
+}
+#rl_title{
+	margin-bottom:4px;
+}
+#rl_title_span{
+	float:left;
+}
+#rl_title_application{
+	float:left;
+	color:black;
+	font-size: 0.7em;
+	padding-left: 9px;
+	padding-top: 3px;
+}
+#rl_buttondatediv{
+	display:block;
+	margin-bottom:10px;
+	width:100%;
+	float:left;
+}
+#rl_emaildiv{
+	float:right;
+	color:#377344;
+}
+#rl_button{
+	float:left;
+}
+#rl_button a{
+	padding-right:5px;
+}
+span#resumestatusmsg{
+	font-weight:bold;
+	color:#000000;
+}
+span#resumestatusmsgapprove{
+	font-weight:bold;
+	color:#FFA500;
+}
+span#resumestatusmsgreject{
+	font-weight:bold;
+	color:#FF0A0A;
+}
+
+#mjl_txt{
+	position:absolute;
+	min-width:50px;
+	min-height:15px;
+	left:36%;
+	top:40%;
+}
+
+div#jsjobs_share_content{display:inline-block;display:inline-table;padding:2px 8px 2px 8px;margin-top:2px;background:url(../images/share_barseparator.png) no-repeat left;}
+div#jsjobs_share_content.jsjobs_sharelast{background:url(../images/share_barseparator.png) no-repeat top right ,url(../images/share_barseparator.png) no-repeat top left;}
+div#jsjobs_share_pannel{background:url(../images/share_bar.png) repeat-x top left;height:26px;border:1px solid #91AF83;text-align:center;margin-bottom:1px;margin-top:1px;}
+div#jsjobs_fbcommentparent{float:left;width:100%;display:block;}
+span#jsjobs_fbcommentheading{display:block;text-align:center;color:#377344;background:#9ED37E;font-size:15px;float:left;width:100%;}
+div#share_content{float:left;width:50%;padding-top:2px;}
+
+
+
+
+/*------------------------------------------------*/
+/*-----------------Top Panel----------------------*/
+#toppanel{
+	width:100%;
+	min-width:370px;
+	position:relative;
+}
+#tp_header{
+	background:url(../images/tp_header_background.png) no-repeat;
+	width:97%;
+	height:60px;
+	padding:0px 1.7%;
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	color:#374E6A;
+}
+#tp_title{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	height: 66%;
+	padding-top: 6px;
+}
+#tp_curloc{
+	display:block;
+	font-size:10px;
+}
+/*-------------------------------------------------*/
+/*------------------Top links----------------------*/
+div#tp_links{
+	width:97%;
+	background:url(../images/top_menu.png);
+	font-family:Trebuchet MS, Helvetica, sans-serif;
+	border-top:1px solid #91AF83;
+	overflow:hidden;
+	padding:0px 1.7%;
+	text-align:center;
+}
+div#tp_links a.first{
+	line-height: 19px;
+	background:url(../images/top_menu_separator.png) top left no-repeat,url(../images/top_menu_separator.png) top right no-repeat;
+	padding:2px 12px;
+}
+div#tp_links a.last {
+	line-height: 19px;
+	background:url(../images/top_menu_separator.png) top right no-repeat;
+	padding:2px 12px;
+}
+div#tp_links a{
+	font-size:12px;
+	color:black;
+	text-decoration:none;
+	line-height:19px;
+	margin-left: -4px;
+	padding:2px 12px;
+}
+div#tp_links a{
+	line-height: 19px;
+	background:url(../images/top_menu_separator.png) top right no-repeat;
+}
+div#tp_links a:hover {
+	color:white;
+	background:url(../images/top_menu_hover.png);
+}	
+/*------------------------------------------------*/
+/*----------------Top Filter----------------------*/
+div#tp_filter_in{display:block;width:100%;}
+div#tp_filter_in_div select{margin-right:10px;}
+
+#tp_filter{
+	width:97%;
+	min-width:370px;
+	padding:1.5%;
+	border:1px solid #91AF83;
+	margin-top:2px;
+}
+#tp_filter_in_div{
+	display:block;
+	width:100%;
+	padding-bottom:3px;
+}
+#tp_filter_button{
+	background:url(../images/flt_btn.png) no-repeat center center;
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:1px 7px;
+	border:none;
+	color:white;
+	text-shadow:none;
+	margin-top:15px;
+}
+#tp_filter_button:hover{
+	background:url(../images/flt_btn_hover.png) no-repeat center center;
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:1px 7px;
+	border:none;
+	color:white;
+	text-shadow:none;
+}
+/*------------------------------------------------*/
+/*----------------Top Heading---------------------*/
+#tp_heading{
+	width:97%;
+	background:url(../images/headline.png);
+	background-size:100% 100%;
+	color:white;
+	padding:0px 1.6%;
+	text-align:center;
+	margin-bottom:5px;
+	margin-top:2px;
+	border-left:1px solid #91AF83;
+	border-right:1px solid #91AF83;
+	height:24px;
+	position:relative;
+}
+#tp_headingtext{
+	color:white;
+	font-size:15px;
+	font-weight:bold;
+	text-shadow: 2px 2px 3px #000;
+	display:block;
+	padding-top:2px;
+	line-height:1;
+}
+/*------------------------------------------------*/
+/*-----------------Paginations--------------------*/
+div#jl_pagination{
+	border:1px solid #91AF83;
+	display:block;
+	float:left;
+	width:97%;
+	padding:1.5%;
+	margin:5px 0px;
+}
+div#jl_pagination_pageslink{
+	text-align:center;
+	display:block;
+	width:100%;
+}
+div#jl_pagination_pageslink ul{
+	padding:0px;
+}
+div#jl_pagination_pageslink ul li{
+	padding:0px 8px;
+	background:none;
+}
+div#jl_pagination_pageslink ul li a{
+	background:none;
+	color:#374E6A;
+}
+div#jl_pagination_pageslink ul li a:hover{
+	background:none;
+	color:#377344;
+}
+div#jl_pagination_box{
+	float:left;
+}
+div#jl_pagination_counter{
+	float:right;
+}
+div#jl_pagination div#jl_pagination_pageslink ul li.pagination-start,
+div#jl_pagination div#jl_pagination_pageslink ul li.pagination-next{
+	border-right:1px solid #91AF83;
+	color:#377344;
+	padding:8px;
+}
+div#jl_pagination div#jl_pagination_pageslink ul li.pagination-start a,
+div#jl_pagination div#jl_pagination_pageslink ul li.pagination-next a{
+	color:#374E6A;
+	font-weight:bold;
+	text-decoration:none;
+}
+div#jl_pagination div#jl_pagination_pageslink ul li.pagination-prev,
+div#jl_pagination div#jl_pagination_pageslink ul li.pagination-end{
+	color:#377344;
+}
+div#jl_pagination div#jl_pagination_pageslink ul li.pagination-prev a,
+div#jl_pagination div#jl_pagination_pageslink ul li.pagination-end a{
+	color:#374E6A;
+	font-weight:bold;
+	text-decoration:none;
+}
+div#jl_pagination div#jl_pagination_pageslink ul li.pagenav{
+	padding:0px 8px !important;
+	color:#377344;
+}
+div#jl_pagination div#jl_pagination_pageslink .jl_pagination{
+	clear:both;
+}
+/*------------------------------------------------*/
+/*-----------------Sort Links---------------------*/
+#sortbylinks{
+	background:url(../images/sort_image.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	text-align:center;
+	margin: 5px 0;
+	border: 1px solid #91AF83;
+	height:17px;
+}
+#sbl_title{
+	font-size:.75em;
+	font-weight:bold;
+}
+#sbl_links{
+	font-size:.75em;
+	font-weight:bold;
+	margin-right:.2em;
+}
+#sbl_links a{
+	text-decoration:none;
+	color:#374E6A;
+}
+span#sbl_links a:hover{
+	text-decoration:none;
+	background:none;
+	color:#377344;
+}
+/*------------------------------------------------*/
+/*-----------------Company Info-------------------*/
+div#comp_info_outer{
+	float:left;
+	min-width:370px;
+	width:100%;
+	background:url(../images/company_background.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:0px 0px 20px 0px;
+}
+div#comp_btn_img{
+	float:right;
+	margin:15px 15px 0 0;
+	padding:3px;
+}
+div#comp_btn{
+	text-align:center;
+	margin:10px 0 15px 0;
+}
+div#comp_image{
+	max-width:200px;
+	height:auto;
+}
+div#comp_detail{
+	float:left;
+	width:50%;
+	margin:10px 5px 0 30px;
+}
+div#data_diff_bar{
+	background:url(../images/listrowg.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	width:100%;
+	height:20px;
+}
+/*------------------------------------------------*/
+/*-----My Company And Listing Similar to it-------*/
+#mc_title_row{
+	background:#D9E8F6;
+	border-bottom:1px solid #91AF83;
+	color:black;
+	line-height:1em;
+}
+tr#mc_field_row.odd,span.odd{
+	background:url(../images/listrowg.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	border:1px solid #91AF83;
+	font-weight:normal;
+	font-size:10px;
+}
+tr#mc_field_row.even,span.even{
+	background:url(../images/listrowg.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	border:1px solid #91AF83;
+	font-weight:normal;
+	font-size:10px;
+}
+tr#mc_field_row.rs_border{
+	border:none;
+	background:none;
+}
+span#mc_title_anchor a.mc_title_anchor{
+	color:#000000;
+	font-weight:normal;
+	font-size:12px;
+	text-decoration:none
+}
+span#mc_title_anchor a.mc_title_anchor:hover{
+	color:#000000;
+	font-weight:normal;
+	font-size:12px;
+	background:none;
+	text-decoration:underline;
+}
+/*------------------------------------------------*/
+/*-----------------Search Job---------------------*/
+#savesearch_form{
+	display:none;
+}
+#jsjobs_savesearch{
+	text-align:right;
+}
+/*------------------------------------------------*/
+/*-----------------Package Job---------------------*/
+div#pkg_price_list{
+	width:50%;
+	height:22px;
+	margin: 0 auto;
+	background:url(../images/pkg_bar.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	margin-top:6px;
+}
+span#price_title{
+	float:left;
+	color:white;
+	font-weight:bold;
+	margin-left:8px;
+	margin-top:3px;
+}
+span#price_data{
+	float:right;
+	color:yellow;
+	font-weight:bold;
+	font-size:13px;
+	padding-right:5px;
+	margin-top: 3px;
+}
+div#pkg_bn_btn{
+	width:100%;
+	text-align:center;
+	margin:9px 0px;
+}
+td#btn_gap_td{
+	text-align:center;
+}
+td#btn_gap_td a#button.button.minpad{
+	margin:0px 5px;
+}
+input#button.button.minpad{ padding:2px 4px;}
+input#button.button.minpad:hover{ padding:2px 4px;}
+/*------------------------------------------------*/
+/*-----------------Job Information----------------*/
+td.ji_title{
+	font-weight:bold;
+	width:20%;
+	padding-left:4px;
+}
+td.ji_data{
+	width:30%;
+}
+td.ji_title2{
+	font-weight:bold;
+	width:50%;
+	padding-left:4px;
+}
+td.ji_data2{
+	width:50%;
+}
+/*------------------------------------------------*/
+/*-----------------Resume-------------------------*/
+div.idTabs span a:hover,
+div.idTabs span a.selected{/* Refer to open tab */
+	background:url(../images/btn_open_tab.png) !important;
+
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:3px 10px;
+	margin:3px 1.5px;
+	color:black !important;
+	border:none;
+
+}
+div.idTabs span a{/* Refer to open tab */
+	background:url(../images/btn_closed_tab.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:3px 10px;
+	margin:3px 1.5px;
+	color:white;
+	border:none;
+
+}
+
+/*
+dl#myPane{
+	margin:0px;
+}
+dl#myPane dt.open{/* Refer to open tab 
+	float:left;
+	background:url(../images/btn_open_tab.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:3px 10px;
+	margin:3px 1.5px;
+	color:black;
+	border:none;
+}
+dl#myPane dt.closed{/* Refer to closed tab 
+	float:left;
+	background:url(../images/btn_closed_tab.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	padding:3px 10px;
+	margin:3px 1.5px;
+	color:white;
+	border:none;
+}*/
+td.rs_sectionheadline{
+	line-height:1em;
+}
+div.current{
+	padding:0px !important;
+	max-width:100% !important;
+	min-width:370px !important;
+	border:none !important;
+}
+div.current dd{
+	margin-left:0px!important;
+}
+/*------------------------------------------------*/
+/*-----------------Job Applied Resume-------------*/
+div#job_appliedresume{
+	background:url('../images/listbackground.png');
+	border:1px solid #91AF83;
+	padding:10px;
+	margin:5px 0px 0px 0px;
+}
+div#resumedetail{
+	border:1px solid #91AF83;
+	position:relative;
+}
+div#resumedetail div#resumedetailclose{
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+div#resumedetail table tr td{
+	padding:0px 5px;
+}
+
+
+
+
+div#jsjobs_appliedapplication_container{ width:100%;float:left;border:1px solid #91AF83;margin-bottom: 1%; }
+
+div#jsjobs_appliedresume_top,
+div#jsjobs_appliedresume_data,
+div#jsjobs_appliedresume_data_detail,
+div#jsjobs_appliedresume_data_comments_bottom{float:left; width:100%;}
+
+div#jsjobs_appliedresume_container{ width:100%;float:left; }
+span#jsjobs_appliedresume_applicantname{font-size:14px;color:#374E6A;font-weight:bold;padding-left:5px}
+span#jsjobs_appliedresume_applicantname.bold{font-weight:bold;}
+span#jsjobs_appliedresume_applicanttitle{font-weight:bold;color:#000000;font-size:10px;}
+span#jsjobs_appliedresume_applieddate{color:#377344;font-size:10px;}
+span#jsjobs_appliedresume_applicantsummery{border-left:1px solid #DBDBDA; padding-left:4px;color:#606062;font-size:10px;}
+
+span#jsjobs_appliedresume_data_detail_applicantlocation_value,
+span#jsjobs_appliedresume_applieddate_value,
+span#jsjobs_appliedresume_applicantsummery_value{color:#377344;font-size:10px;}
+
+span#jsjobs_appliedresume_data_comments_title{float:left;color:#000000;font-weight:bold;margin-left:2%;}
+span#jsjobs_appliedresume_data_comments{display:block;color:#377344;width:70%;float:left;}
+span#jsjobs_appliedresime_data_comments_link{float:right;width:14%;margin-top:3px;margin-bottom:3px;}
+span#jsjobs_appliedresime_data_comments_location{float:left;border-left:1px solid #91AF83;padding-left:5px;margin-left:2%;}
+span#jsjobs_appliedresime_data_comments_location_title{float:left;color:#A9ABAE;margin-right:2px;}
+div#jsjobs_appliedresume_actioncontainer{padding:5px 0px ;width:100%;float:left;background-color:#DAEAC1;border-top:1px solid #A2BF74;}
+div#jsjobs_appliedresume_action{float:left;padding-left:1%;}
+div#jsjobs_appliedresume_top table{border:none !important;}
+div#jsjobs_appliedresume_data table{border:none !important;}
+span#resume_action_style{color:#000000 !important;font-size:9px;line-height:18px;overflow:hidden;cursor:pointer;}
+span#resume_action_style a:link,
+span#resume_action_style a:visited,
+span#resume_action_style a:hover{color:#000000 !important;text-decoration:none;font-size:9px;background-color: transparent ;}
+
+div#jsjobs_appliedresume_top{background-color:#DAEAC1;border-bottom:1px solid #A2BF74;}
+div#jsjobs_appliedresume_data_detail{padding:3px 0px;position:relative;}
+
+span#resumedetail_data_title,
+span#jsjobs_appliedresume_data_detail_applicantsummery{border-left:2px solid #91AF83; padding-left:4px;color:#000000;font-size:10px;margin-left:3%;float:left;width:45%;margin-bottom:7px;}
+
+span#jsjobs_appliedresume_data_detail_applicantsummery_value,
+span#resumedetail_data_value,
+span#jsjobs_appliedresume_data_detail_applicantsummery_value{color:#377344;font-size:10px;}
+
+div#jsjobs_appliedresume_data_comments_bottom div.jsjobs_appliedresume_data_action_message{ background-color:#A9C480;border-radius: 4px 4px 4px 4px; border: 1px solid #698D48;color: #000000; float: left;text-align: center;width:50%;margin-left:25%;padding:3px 3px;margin-bottom:1%;margin-top:1%;font-size:10px; }
+div#job_appliedresume{border:1px solid #91AF83;padding:10px;margin:5px 0px 0px 0px;}
+div#resumedetail{position:relative;width:100%;}
+div#resumedetail_data{float:left;width:50%;margin-top: 1%;}
+
+div#resumeactioncandidate,
+div#resumeactioncandidatecomments{border-top:1px solid #91AF83;float:left;width:50%;}
+
+div#resumeactioncomments,
+div#resumeactionfolder{float:left;width:100%;border-top:1px solid #91AF83;}
+
+table#resumeactionfoldertable,
+table#resumeactioncommentstable,
+table#resumeactioncandidatetable, 
+table#resumeactioncandidatecommentstable {border:none !important;}
+
+
+
+
+div#resumedetail div#resumedetailclose{ position:relative;float:left;width:100%; }
+div#resumeactioncandidate table tr td{padding:3px 5px;}
+div#jsjobs_appliedresume_data table tr td img{border: 2px solid #91AF83;margin-right: 15%; margin-top: 3%;}
+div#resumeactioncomments table tr td input
+,div#resumeactionfolder table tr td input
+,div#resumeactioncandidatecomments table tr td input { background: url("../images/flt_btn.png") repeat scroll 0 0 / 100% 100% transparent;border: medium none;color: white;font-size: 12px;padding: 5px 16px;text-decoration: none;}
+
+/*-----------Tabs---------------------*/
+div#jsjobs_appliedapplication_tab_container{ 
+    border-bottom: 2px solid #91AF83;
+    padding: 5px 0 6px;
+    position: relative;
+    z-index: 100;
+   float:left;
+   width:100%;		
+	margin-bottom:1%;
+/*background: #fff; border: solid #666 1px;width:100%*/
+
+}; 
+ul#jsjobs_appliedapplication_tabs{ margin: 0; padding: 0;float:left;position:relative; }
+ul#jsjobs_appliedapplication_tab li{position:relative;width:20%;display: inline-block; background: #eee; border: solid 1px #999;border-bottom: none; }
+span#jsjobs_appliedapplication_tab{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background:url(../images/applied_resume_tab_no_selected.png);
+    border-color: #529958 #529958 -moz-use-text-color;
+    border-image: none;
+    border-radius: 4px 4px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    padding: 5px 5px;
+    position: relative;
+    z-index: 101;
+    float:left;
+    width:11.8%;
+    text-align:center;		
+    margin-left:0.3%;	
+    border-bottom: 1px solid #D9D9D9;
+    display:inline-block;	
+    white-space:nowrap; 
+    overflow:hidden; 
+    font-size:91%;	
+    cursor:pointer;
+	color:#000000 !important;
+    
+}
+
+span#jsjobs_appliedapplication_tab.jsjobs_appliedapplication_tab_selected{
+    background:url(../images/applied_resume_tab_selected.png);
+    border:1px solid #529958 ;
+}
+
+span#jsjobs_appliedapplication_tab a:link,
+span#jsjobs_appliedapplication_tab a:visited,
+span#jsjobs_appliedapplication_tab a:hover{color:#000000;text-decoration:none;background-color: transparent ;}
+
+/*-----------Tabs search ---------------------*/
+div#jsjobs_appliedresume_tab_search{float:left; width:100%;}
+span#jsjobs_appliedresume_tab_search_title{text-decoration:underline;font-size:14px;color:#606062;padding-left:1%;float:left;width:100%;}
+div#jsjobs_appliedresume_tab_search_data{float:left; width:100%;border-bottom:1px solid #D9D9D9;margin-bottom: 1%;margin-top: 1%;}
+span.jsjobs_appliedresume_tab_search_data_text{float:left; width:26%;border:2px solid #D9D9D9;margin-bottom:1%;margin-left:1%;padding-bottom: 4px;}
+span.jsjobs_appliedresume_tab_search_data{float:left; width:22%;border:2px solid #D9D9D9;margin-bottom:1%;margin-left:1%;padding-bottom: 4px;}
+span.jsjobs_appliedresume_tab_search_data_title{float:left; width:100%;margin-top:5%;font-size:11px;color:#606062;padding-left: 4px;}
+span.jsjobs_appliedresume_tab_search_data_value{float:left; width:100%;padding-left: 4px;}
+span.jsjobs_appliedresume_tab_search_data_value select{width:97%}
+span.jsjobs_appliedresume_tab_search_data_value select#currency{width:28%}
+span.jsjobs_appliedresume_tab_search_data_value select#jobsalaryrange{width:68%}
+
+span#jsjobs_appliedresume_tab_search_close_button input{background:url(../images/jartscb_btn.png) repeat scroll 0 0 / 100% 100% transparent !important; margin-left: 23%; margin-top: 3%;border:medium none;border-radius:4px 4px;} /* job applied resume tab search close button */
+
+/*------------------------------------------------*/
+/*---------------Control Panel--------------------*/
+div#cp_main{
+/*	background:url(../images/cp_background.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;*/
+	min-width:370px;
+	width:100%;
+	float:left;
+	position:relative;
+}
+div#cp_icon_row{
+	width:99.7%;
+	float:left;
+	border-bottom:1px solid #91AF83;
+	border-left:1px solid #91AF83;
+	border-right:1px solid #91AF83;
+	margin-bottom:10px;
+}
+div#cp_icon_heading{
+	text-align:center;
+	background:url(../images/cp_heading_background.png);
+	height:16px;
+	letter-spacing:1px;
+	font-size:10px;
+}
+span#cp_heading_text{
+	background:url(../images/cp_headline_text.png);
+	background-size:100% 100%;
+	padding:2px 8px;
+}
+div#cp_icon{
+	height: 66px;
+	margin: 5px 4%;
+	padding: 6px;
+	width: 105px;
+	background:url(../../../images/cp_icon_box.png);
+	float:left;
+	position:relative;
+}
+div#cp_icon:hover{
+	height: 66px;
+	margin: 5px 4%;
+	padding: 6px;
+	width: 105px;
+	background:url(../../../images/cp_icon_box_hover.png);
+	float:left;
+}
+div#cp_icon div.cpicon{
+	position:absolute;
+	top:10px;
+	left:50px;
+	height: 24px;
+	width: 24px;
+}
+div#cp_icon div.cpicon div.cpimage{
+	margin: 0 auto;
+	padding: 8px 0 0;
+	width: 24px;
+	float:left;
+}
+div#cp_icon div.cpicon div.cpimage img{
+	border-style: none;
+	border-width: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+div#cp_icon_portion{
+	width:100%;
+	float:left;
+	padding-bottom:5px;
+}
+div#cptext{
+	bottom: 10px;
+	font-size: 10px;
+	left: 10px;
+	position: absolute;
+	text-align: center;
+	width: 87%;
+}
+div#cp_icon_row a#cp_anchor{
+	background:none;
+	text-decoration:none;
+	color:#374E6A;
+}
+div#cp_icon_row a#cp_anchor:hover{
+	background:none;
+	text-decoration:none;
+	color:#377344;
+}
+div#bottom_image{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	z-index:0;
+}
+/*------------------------------------------------*/
+/*----------------Extra Fix-----------------------*/
+span#icon a.icon{
+	background:none;
+	text-decoration:none;
+}
+span#icon a.icon:hover{
+	background:none;
+	text-decoration:none;
+}
+div#folder_resume{
+	padding:5px;
+	background:url(../images/listbackground.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	border:1px solid #91AF83;
+}
+tr#msg_sender_name{
+	background:url(../images/msg_sender_bar.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+}
+span#msg_sender_name{
+	color:#374E6A;
+	font-weight:bold;
+}
+
+span#anchor a.anchor,span#tp_curloc a.curloclnk{
+	color:#374E6A;
+	text-decoration:none;
+}
+span#anchor a.anchor:hover,span#tp_curloc a.curloclnk:hover{
+	color:#377344;
+	text-decoration:underline;
+	background:none;
+}
+span#themeanchor a.anchor{
+	color:#377344;
+	text-decoration:none;
+}
+span#themeanchor a.anchor:hover{
+	color:#377345;
+	text-decoration:underline;
+	background:none;
+}
+div#closetag a{
+	padding:2px 6px;
+	background:url(../images/red_btn.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	color:white;
+	float:right;
+	text-decoration:none;
+}
+div#closetag a:hover{
+	padding:2px 6px;
+	background:url(../images/red_btn_hover.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	color:white;
+	float:right;
+	text-decoration:none;
+}
+
+#jsjobs_footer{
+	width:97%;
+	padding:1.5%;
+	float:left;
+}
+div#jsjobs_footer table tr,div#jsjobs_footer table tr td{
+	text-align:center;
+	background:none;
+	border:none;
+}
+#rss{
+	text-align:right;
+	float:left;
+	width:100%;
+	margin-bottom:5px;
+}
+#errormessage{
+	background:url(../images/listbackground.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	border: 2px solid #91AF83;
+	border-radius: 0 20px 0 20px;
+}
+
+.errormessage{
+	left: 24%;
+	padding: 15px;
+	top: 40%;
+	z-index: 1;
+}
+div#errormessage a{
+	background:none;
+	color:#374E6A;
+	text-decoration:none;
+}
+div#errormessage a:hover{
+	background:none;
+	color:#377344;
+	text-decoration:underline;
+}
+a#button.button, input#button.button,#coordinatebutton input.cbutton{
+	background:url(../images/flt_btn.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	color:white;
+	padding:5px 16px;
+	font-size:12px;
+	text-decoration:none;
+	border:none;
+}
+a#button.button:hover, input#button.button:hover,#coordinatebutton input.cbutton:hover{
+	background:url(../images/flt_btn_hover.png);
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	font-size:12px;
+	padding:5px 16px;
+	border:none;
+	color:white;
+}
+a#button.minpad{padding:2px 12px;line-height: 22px;}
+a#button.minpad:hover{padding:2px 12px;line-height: 22px;}
+#main ul li{
+	display:inline;
+}
+ul{
+list-style-type:none;
+}
+ul li{
+display:inline;
+margin:3px;
+}
+td.sectionheadline, td.rs_sectionheadline,
+ tr#mc_title_row td.sectionheadline,div.sectionheadline{
+	color:black;
+	background:url(../images/sectionheadline_background.png);
+	border-bottom:1px solid #91AF83;
+	font-size:12px;
+}
+td.rs_sectionheadline{
+	background:url(../images/resume_sectionheadline.png);
+	height:20px;
+	padding:0px;
+}
+span#sectionheadline_text{
+	position:relative;
+}
+span#sectionheadline_left{
+	width:40px;
+	height:17px;
+	background:url(../images/subheadline_left.png);
+	background-size:100% 100%;
+	left:-39px;
+	top:-2px;
+	position:absolute;
+}
+span#sectionheadline_right{
+	width:40px;
+	height:17px;
+	background:url(../images/subheadline_right.png);
+	background-size:100% 100%;
+	right:-34px;
+	top:-2px;
+	position:absolute;
+}
+table tr, table tr td{
+	border:none;
+}
+table tr td{nowrap:nowrap;}
+div#jsjobs_footer a.img,div#jsjobs_footer a.img:hover{
+	background:none;
+	text-decoration:none;
+}
+/*------------------------------------------------*/

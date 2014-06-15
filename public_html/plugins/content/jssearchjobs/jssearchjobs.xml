@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+	<name>JS Search Jobs</name>
+	<author>Joom Sky</author>
+	<creationDate>Nov 28, 2010</creationDate>
+	<copyright>Copyright (C) 2009 - 2010. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>ahmad@joomsky.com</authorEmail>
+	<authorUrl>www.joomsky.com</authorUrl>
+	<version>1.0.1</version>
+	<description>Usage {jssearchjobs}. Jobs search from JS Jobs database. </description>
+	<params>
+		<param name="title" type="text" default="Search Jobs" label="JS_TITLE" description="Title" />
+		<param name="shtitle" type="radio" default="1" label="JS_TITLE" description="Show/Hide the title">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="category" type="radio" default="1" label="JS_CATEGORY" description="Show/Hide the category">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="subcategory" type="radio" default="1" label="JS_SUB_CATEGORY" description="Show/Hide the subcategory">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="jobtype" type="radio" default="1" label="JS_JOB_TYPE" description="Show/Hide the job type">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="jobstatus" type="radio" default="1" label="JS_JOB_STATUS" description="Show/Hide the job status">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="salaryrange" type="radio" default="1" label="JS_SALARY_RANGE" description="Show/Hide the salary range">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="shift" type="radio" default="1" label="JS_SHIFT" description="Show/Hide the job shift">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="durration" type="radio" default="1" label="JS_DURATION" description="Show/Hide the duration">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="startpublishing" type="radio" default="1" label="JS_START_PUBLISHING_DATE" description="Show/Hide the start publishing date">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="stoppublishing" type="radio" default="1" label="JS_STOP_PUBLISHING_DATE" description="Show/Hide the stop publishing date">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="company" type="radio" default="1" label="JS_COMPANY" description="Show/Hide the company">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="colperrow" type="text" default="" label="JS_COLUMN_PER_ROW" description="Column per row" />
+                        <param name="Itemid" type="text" default="" label="ITEMID" description="ITEMID_FOR_NAVIGATION" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="title" type="text" default="Search Jobs" label="JS_TITLE" description="Title" />
+				<field name="shtitle" type="radio" default="1" label="JS_TITLE" description="Show/Hide the title">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="category" type="radio" default="1" label="JS_CATEGORY" description="Show/Hide the category">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="subcategory" type="radio" default="1" label="JS_SUB_CATEGORY" description="Show/Hide the subcategory">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="jobtype" type="radio" default="1" label="JS_JOB_TYPE" description="Show/Hide the job type">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="jobstatus" type="radio" default="1" label="JS_JOB_STATUS" description="Show/Hide the job status">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="salaryrange" type="radio" default="1" label="JS_SALARY_RANGE" description="Show/Hide the salary range">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="shift" type="radio" default="1" label="JS_SHIFT" description="Show/Hide the job shift">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="durration" type="radio" default="1" label="JS_DURATION" description="Show/Hide the duration">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="startpublishing" type="radio" default="1" label="JS_START_PUBLISHING_DATE" description="Show/Hide the start publishing date">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="stoppublishing" type="radio" default="1" label="JS_STOP_PUBLISHING_DATE" description="Show/Hide the stop publishing date">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="company" type="radio" default="1" label="JS_COMPANY" description="Show/Hide the company">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+			<field name="colperrow" type="text" default="" label="JS_COLUMN_PER_ROW" description="Column per row" />
+                        <field name="Itemid" type="text" default="" label="ITEMID" description="ITEMID_FOR_NAVIGATION" />
+			</fieldset>
+		</fields>
+	</config>
+	<files>
+		<filename plugin="jssearchjobs">jssearchjobs.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_jssearchjobs.ini</language>
+	</languages>
+</extension>

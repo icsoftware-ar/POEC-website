@@ -1,0 +1,27 @@
+Return-path: <info@poec.org>
+Envelope-to: admin@poec.org
+Delivery-date: Mon, 02 Jun 2014 04:55:57 -0500
+Received: from poec by gator4031.hostgator.com with local (Exim 4.82)
+	(envelope-from <info@poec.org>)
+	id 1WrOyD-0004lM-Dp
+	for admin@poec.org; Mon, 02 Jun 2014 04:55:57 -0500
+To: admin@poec.org
+Subject: POEC Jobs Portal: Jobseeker Buy Package Free Package
+X-PHP-Script: poec.org/index.php/login for 222.127.232.120
+Date: Mon, 2 Jun 2014 04:55:57 -0500
+From: POEC Jobs Portal <info@poec.org>
+Message-ID: <367bd8c24d6b64db1339f71936f416a7@poec.org>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.6 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<div style="background: #6DC6DD; height: 20px;">&nbsp;</div>
+<p style="color: #2191ad;">Hello Admin ,</p>
+<p style="color: #4f4f4f;">Nelmar J. Mullanida has bought a package - Free Package for 0</p>
+<p style="color: #4f4f4f;">Login and view details at <a href="http://www.poec.org">www.poec.org</a></p>
+<div style="margin-top: 10px; padding: 10px 20px; color: #000000; background: #FAF2F2; border: 1px solid #F7C1C1;">
+<p><span style="color: red;"><strong>*DO NOT REPLY TO THIS E-MAIL*</strong></span><br /> It is automatically generated and is for information purposes only.</p>
+</div>
+

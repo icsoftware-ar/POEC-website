@@ -1,0 +1,941 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201310 will be lost/reset.
+# Last config file used to build this data file was /home3/poec/tmp/awstats/awstats.poec.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2683                
+POS_VISITOR 28143               
+POS_DAY 30778               
+POS_DOMAIN 3657                
+POS_LOGIN 4102                
+POS_ROBOT 4257                
+POS_WORMS 4777                
+POS_EMAILSENDER 4908                
+POS_EMAILRECEIVER 5051                
+POS_SESSION 31307               
+POS_SIDER 31515               
+POS_FILETYPES 5186                
+POS_DOWNLOADS 5515                
+POS_OS 5609                
+POS_BROWSER 5748                
+POS_SCREENSIZE 6132                
+POS_UNKNOWNREFERER 6206                
+POS_UNKNOWNREFERERBROWSER 6333                
+POS_ORIGIN 6415                
+POS_SEREFERRALS 6560                
+POS_PAGEREFS 6727                
+POS_SEARCHWORDS 7126                
+POS_KEYWORDS 7314                
+POS_MISC 2345                
+POS_ERRORS 7411                
+POS_CLUSTER 3958                
+POS_SIDER_404 7618                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131101000806 352 70226 12473870279416
+FirstTime 20131014113939
+LastTime 20131031223745
+LastUpdate 20131101130045 352 0 351 0 0
+TotalVisits 113                 
+TotalUnique 45                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 70                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 132 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 340 1942 25062155 145 275 2791077
+1 308 1851 32416318 128 226 2075635
+2 261 2402 13603182 147 270 2696743
+3 211 2433 16601646 436 596 17818449
+4 119 1392 8178248 134 197 1938341
+5 327 2648 27662335 179 286 3869780
+6 381 3269 36803278 249 442 5153673
+7 212 2181 15663115 174 270 3555807
+8 66 708 7731681 91 120 2092154
+9 78 669 10686480 391 471 7622700
+10 219 1058 15043172 148 225 2027226
+11 269 962 16955234 169 246 1866653
+12 264 1528 23051076 173 305 2493542
+13 389 2195 24285575 240 364 2802170
+14 325 2623 20665821 201 346 2580043
+15 623 2336 39279486 342 588 4166360
+16 83 477 5961156 139 168 1671567
+17 10 88 649129 173 267 3300447
+18 14 25 1507149 122 133 2336689
+19 19 145 2824298 96 111 2047172
+20 20 119 1699515 94 110 1985848
+21 121 589 12285540 116 160 2379096
+22 43 227 3171996 111 141 1996892
+23 196 1569 24043462 117 205 2214154
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+qa 3783 25101 271330629
+ph 651 5406 74746559
+de 207 1019 10758828
+us 150 574 12160942
+pk 82 1145 11255561
+es 10 92 1861441
+tr 5 5 423962
+cn 5 70 2429924
+za 4 4 284758
+il 1 1 4124
+zz 0 6 362504
+ng 0 1 1443
+hr 0 6 105186
+th 0 6 105186
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 692 29346977 20131031234856 36
+crawl 290 13724267 20131029041230 4
+spider 235 6120205 20131031090717 6
+bot[\s_+:,\.\;\/\\-] 40 404278 20131031235614 34
+[\s_+:,\.\;\/\\-]bot 24 20760 20131031143346 24
+unknown 15 12110 20131031172647 15
+no_user_agent 14 654527 20131031015242 2
+slurp 12 725008 20131018061439 0
+robot 5 4325 20131031152517 5
+msnbot\-media 2 1730 20131031070610 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+eot 6 187025 0 0
+css 6227 17038965 0 0
+png 8267 10928379 0 0
+ttf 55 4270104 0 0
+htm 2 7916 0 0
+woff 94 3558140 0 0
+txt 1 4358 0 0
+php 3030 145693971 0 0
+html 875 60965817 0 0
+js 10981 49701904 0 0
+jpg 2214 44918992 0 0
+Unknown 836 46414015 0 0
+gif 848 2141461 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 128 0 108125
+/README.txt 1 0 4358
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+linuxandroid 24
+winlong 6
+winxp 188
+winnt 4
+linux 353
+winvista 26907
+win7 5850
+macosx 103
+Unknown 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 21
+chrome29.0.1547.76 1
+android 12
+chrome30.0.1599.92 6
+samsung 6
+safari6.0 102
+firefox18.0 5
+msie5.5 4
+chrome30.0.1599.69 139
+firefox24.0 25452
+firefox3.6.15 66
+msie8.0 92
+firefox25.0 779
+mozilla 293
+chrome11.0.678.0 1
+firefox14.0.1 58
+msie7.0 6
+msie10.0 186
+firefox3.6.10 5
+msie9.0 55
+chrome30.0.1599.101 5815
+chrome30.0.1599.114 353
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible) 20131014113939
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 228 263
+From1 0 0
+From2 26 63
+From3 10 10
+From4 4634 33100
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 22 58
+baidu 4 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://au-mg6.mail.yahoo.com/neo/launch 4 4
+https://www.facebook.com 2 2
+http://www.facebook.com/l.php 1 1
+http://www.tk-tek.com/account/my-tickets/tickets/view/tickets/180 1 1
+http://domainsigma.com/whois/poec.org 1 1
+http://urlm.co/www.poec.org 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+parentsofexceptionalchildren+poec 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+parentsofexceptionalchildren 2
+poec 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+503 1298 4093478
+206 18 607235
+999 6 94981
+303 1212 3758
+400 1 11
+406 8 1808
+302 54 0
+500 121 217860
+301 19 3254
+404 2324 26740940
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 387
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911Look_Up.jpg-330x2592.jpg 2 -
+/pdfs/POEC_Membership_Form_04_2008.pdf 1 -
+/\xe5\xae\x89\xe8\xa3\x85\xe8\xaf\xb4\xe6\x98\x8e.txt 1 http://www.baidu.com
+/downloads/agrep/example.named.global.dns 2 -
+/admin.php 2 -
+/index.php/featured/10-news/latest/23-s5-tab-show 1 -
+/pdfs/POEC_Bylaws_(non-stock_with_members)_v__Final_2008.pdf 1 -
+/downloads/squirrelmail/old-1.2.0-rc2/ 1 -
+/index.php/our-privacy-policy/10-news/latest/30-search-engine-optimized 1 -
+/downloads/apache/old/devel-2.0.XX/options/ 1 -
+/index.php/extensions/s5-frontpage-display 7 -
+/admin/list.html 1 http://www.baidu.com
+/supernews.css 1 http://www.baidu.com
+/fckeditor/fckeditor.js 1 http://www.baidu.com
+/downloads/gd/svg_playing_cards/ 1 -
+/downloads/SpamAssassin/sa-compile/ 1 -
+/downloads/gd/examples/original-g2withcp10.jpg 1 -
+/admin/kindeditor/kindeditor.js 1 http://www.baidu.com
+/downloads/POEC_Donor_Form.doc 1 -
+/downloads/ldap/INSTALL 1 -
+/images/edit/edit.js 1 http://www.baidu.com
+/index.php/our-privacy-policy/10-news/latest/32-stock-photography 1 -
+/media/system/js/s 12 -
+/components/com_jsjobs/data/jobseeker/resume_1/photo/ressie.jpg 5 http://poec.org/index.php/job-seekers/jsjobs/jobseeker/formresume/1/1
+/public/themes/newstyle/layout.css 1 http://www.baidu.com
+/downloads/sendmail/old/stable-8.11.3/untarred/poprelayd-KAM.pl 1 -
+/downloads/sendmail/sendmail-8.12.X/untarred/old/ 1 -
+/downloads/dovecot/ 1 -
+/wp-content/themes/twentyten/style.css 1 http://www.baidu.com
+/plugins/autolinks_plugin/definitions.default.txt 1 http://www.baidu.com
+/agent/templates/Smarty/utf-8/footer.html 1 http://www.baidu.com
+/th1s_1s_a_4o4.html 17 http://www.google.com/url
+/downloads/sendmail/sendmail-8.12.X/sendmail-source/ 2 -
+/downloads/mailman 1 -
+/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/index.php/site-terms/10-news/latest/21-s5-flex-menu-menu-system 1 -
+/ThinkPHP/README.txt 1 http://www.baidu.com
+/admin/jscripts/imodal.js 1 http://www.baidu.com
+//wp-login.php 2 -
+/downloads/apache/current/old/suexec.c 1 -
+/index.php/non-profit-project/2-uncategorised/29-sample-content-3 1 -
+/downloads/perl/ 2 -
+/downloads/SpamAssassin/contrib/test-stub-for-spam.pl 1 -
+/install/templates/default/footer.php 1 http://www.baidu.com
+/\xe6\xb3\xa8\xe6\x84\x8f\xe4\xba\x8b\xe9\xa1\xb9-\xe5\xbf\x85\xe7\x9c\x8b.txt 1 http://www.baidu.com
+/downloads/apache/current/INSTALL-last-rh7.3 2 -
+/userapi_readme.txt 1 http://www.baidu.com
+/downloads/apache/ 1 -
+/wp-login.php 1 -
+/downloads/SpamAssassin/old/INSTALL-pre2.53 1 -
+/index.php/features-mainmenu-47/continued-vertex-features/typography 1 -
+/index.php/our-privacy-policy/10-news/latest/21-s5-flex-menu-menu-system 1 -
+/icons/compressed.gif 4 -
+/downloads/ldap/test-ldap-gen.pl 2 -
+/downloads/gd/examples/IMLanczos-g2withcp10.jpg 1 -
+/opec_web/static_files_project/media/ 1 -
+/downloads/SpamAssassin/contrib/php-sa-exim-enhancements/ 1 -
+/readme.txt 1 http://www.baidu.com
+/downloads/dovecot/INSTALL 1 -
+/pub/guiedit/guiedit.js 1 http://www.baidu.com
+/cached_files/10282e330555293583ac45c94867b569399d6c1bword_logo.gif-40x40.gif 1 -
+/extensions/jcms/info.xml 1 http://www.baidu.com
+/opec_web/static_files_project/media/downloads/general 1 -
+/data 1 http://www.baidu.com
+/cached_files/10282e330555293583ac45c94867b569399d6c1bfirefox_logo.gif-40x40.gif 1 -
+/cached_files/POEC_DavidEgan2.jpeg-330x2448.jpeg 4 -
+/downloads/gd/examples/ 1 -
+/index.htm 1 -
+/index.html 1 http://www.baidu.com
+/license.txt 1 http://www.baidu.com
+/index.php/features-mainmenu-47/template-features/responsive-layout 1 -
+/components/com_jsjobs/images/close.png 2 http://poec.org/components/com_jsjobs/js/style.css
+/themes/lazycms/home.html 1 http://www.baidu.com
+/downloads/SpamAssassin/old/INSTALL-spamassmilter 3 -
+/downloads/sendmail/sendmail-8.13.X/INSTALL 1 -
+/cached_files/4fdd639bd676502cf638b219ba3644e612c55aa3powerpoint_logo.gif-40x40.gif 1 -
+/index.php/featured/10-news/latest/30-search-engine-optimized 1 -
+/downloads/MIMEDefang/ 1 -
+/includes/js/common.js 1 http://www.baidu.com
+/downloads/gd/ 1 -
+/poec.cgim 84 -
+/a34647b0-bf76-44fb-8c92-8e7edcb23d24.ippi 1 -
+/virtuemart.xml 1 http://www.baidu.com
+/admin/javascript/typecho.js 1 http://www.baidu.com
+/downloads/SpamAssassin/INSTALL-spamassmilter 3 -
+/index.php/network-of-people/10-news/latest/21-s5-flex-menu-menu-system 1 -
+/downloads/sendmail/sendmail-8.12.X/untarred/ 1 -
+/downloads/SpamAssassin/contrib/old/ 1 -
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911DSC_4932.JPG-330x2592.jpg 2 -
+/downloads/sendmail/sendmail-8.13.X/sendmail.mc 2 -
+/lang/install_wind.sql 1 http://www.baidu.com
+/cached_files/4fdd639bd676502cf638b219ba3644e612c55aa3firefox_logo.gif-40x40.gif 1 -
+/install/oecms_v3.0.sql 1 http://www.baidu.com
+/downloads/apache/current/options/5.8.x-notes 2 -
+/index.php/10-news/latest/35-the-template-s-settings 3 -
+/media/blogs/index.html 1 http://www.baidu.com
+/public/style_css/ipb_rtl.css 1 http://www.baidu.com
+/system/language/zh-cn.xml 1 http://www.baidu.com
+/admin/tpl/showmessage.htm 1 http://www.baidu.com
+/downloads/apache/old/devel-2.0.XX/apachectl 3 -
+/index.php/network-of-people/10-news/latest/23-s5-tab-show 1 -
+/index.php/non-profit-project/10-news/latest/21-s5-flex-menu-menu-system 1 -
+/index.php/features-mainmenu-47/template-features/hide-content-and-modules 1 -
+/js/index.htm 1 http://www.baidu.com
+/index.php/our-privacy-policy/2-uncategorised/29-sample-content-3 1 -
+/downloads/SpamAssassin/contrib/php-sa-nl/ 1 -
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911POEC_DavidEgan2.jpeg-330x2448.jpeg 1 -
+/data/js/config.js 1 http://www.baidu.com
+/index.php/our-privacy-policy/10-news/latest/31-site-shapers 1 -
+/images/fd_box1_demo.png 215 http://www.poec.org/
+/system/skins/default/system.login.htm 1 http://www.baidu.com
+/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/admin/help/online_help_1.htm 1 http://www.baidu.com
+/robots.txt 2 -
+/do/reg.php 1 http://www.baidu.com
+/icons/folder.gif 1 -
+/archive/archive.css 1 http://www.baidu.com
+/index.php/network-of-people/2-uncategorised/29-sample-content-3 1 -
+/usermanager/ 1 -
+/dede/login.php 1 http://www.baidu.com
+/downloads/POEC_Bylaws_2009.DOC 1 -
+/downloads/apache/old/stable/ 1 -
+/version.txt 1 http://www.baidu.com
+/install/phpdisk.sql 1 http://www.baidu.com
+/downloads/gd/examples/PhotoShopBiCubic-g2withcp10.jpg 1 -
+/themes/default/style.css 1 http://www.baidu.com
+/99billdo.php 1 http://www.baidu.com
+/index.php/about-us/9-news 3 -
+/downloads/apache/current/old/INSTALL-02-21-2003 1 -
+/install/resources/mybb_theme.xml 1 http://www.baidu.com
+/filelister/file_view.cgi 3 -
+/downloads/SpamAssassin/contrib/php-sa-pop3-check/ 1 -
+/downloads/sendmail/sendmail-8.12.X/untarred/contrib/poprelay-RCPT_Throttle/ 1 -
+/index.php/10-news/latest/31-site-shapers 1 -
+/index.php/customer-satisfaction/10-news/latest/21-s5-flex-menu-menu-system 1 -
+/downloads/ldap/genaccessdb.pl 1 -
+/app/code/core/Mage/Admin/etc/config.xml 1 http://www.baidu.com
+/admin/template/foot.htm 1 http://www.baidu.com
+/downloads/SpamAssassin/contrib/php-sa-pop3-check/checkpop.c 1 -
+/downloads/SpamAssassin/contrib/procmailexamples/ 1 -
+/template/home.htm 1 http://www.baidu.com
+/themes/purple/info.xml 1 http://www.baidu.com
+/kindeditor/kindeditor.js 1 http://www.baidu.com
+/downloads/MIMEDefang/contrib/GREYLISTS_AND_DISABLING_PIPELINING 1 -
+/downloads/SpamAssassin/old/INSTALL-spamassmilter-0.1.2 1 -
+/downloads/sendmail/old/ 1 -
+/core/version.txt 1 http://www.baidu.com
+/downloads/sendmail/sendmail-8.12.X/untarred/contrib/poprelay-RCPT_Throttle/poprelayd-KAM.pl 1 -
+/eWebEditor/Include/Editor.js 1 http://www.baidu.com
+/index.php/network-of-people/10-news/latest/32-stock-photography 1 -
+/wp-content/plugins/all-video-gallery/allvideogallery.css 1 http://www.baidu.com
+/downloads/MIMEDefang/graphdefang-Makefile.PL 1 -
+/downloads/gd/old/php-4.2.3-gd-2.0.8.patch 1 -
+/Southidceditor/Dialog/about.htm 1 http://www.baidu.com
+/Southidceditor/js/buttons.js 1 http://www.baidu.com
+/downloads/agrep/old/ 1 -
+/downloads/agrep/webring-howto.html 1 -
+/downloads/agrep/webring-howto.doc 1 -
+/downloads/SpamAssassin/contrib/milterscripts/DESCRIPTION 2 -
+/downloads/MIMEDefang/old/ 1 -
+/index.php/aboutus/10-news/latest/22-s5-frontpage-display 1 -
+/index.php/features-mainmenu-47/style-and-layout-options/stock-photography 1 -
+/lll 1 http://www.poec.org/
+/downloads/sendmail/ 2 -
+/admin/static/css/style.css 1 http://www.baidu.com
+/downloads/Blank%20Page%202_ToBeDeleted.htm 1 -
+/template/default/styles.css 1 http://www.baidu.com
+/downloads/ 3 -
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911POEC_DavidEgan.jpeg-330x2448.jpeg 1 -
+/plugin/kindeditor/kindeditor.js 1 http://www.baidu.com
+/statics/js/ckeditor/plugins/capture/plugin.js 1 http://www.baidu.com
+/index.php/address-information/10-news/latest/23-s5-tab-show 1 -
+/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/downloads/MIMEDefang/INSTALL-MCAFEE 2 -
+/base.cgim 42 -
+/a_d/install/data.sql 1 http://www.baidu.com
+/docs/samples.txt 1 http://www.baidu.com
+/login.php 1 http://www.baidu.com
+/downloads/sendmail/old/stable-8.11.3/ 1 -
+/templates/business_pro/vertex/admin/df-images/vertex-plain-spacer.png 2 http://poec.org/administrator/index.php
+/installation/gpl.html 1 -
+/templates/default/images/style_css_1.css 1 http://www.baidu.com
+/index.php/get-to-know-us/10-news/latest/31-site-shapers 1 -
+/downloads/apache/current/INSTALL-CentOS6 1 -
+/downloads/ldap/adexport.pl 1 -
+/robots 1 http://www.baidu.com
+/downloads/dovecot/dovecot.conf.1.1 1 -
+/digg.php 1 http://www.baidu.com
+/administrator/templates/khepri/css/general.css 7 http://poec.org/administrator/index.php
+/index.php/our-privacy-policy/10-news/latest/33-template-specific-options 1 -
+/minica_down.php 1 http://www.baidu.com
+/index.php/featured/10-news/latest 1 -
+/templates/default/en/public/footer.html 1 http://www.baidu.com
+/public/home/js/main.js 1 http://www.baidu.com
+/install/en.sql 1 http://www.baidu.com
+/join-now.html 1 -
+/index.php/non-profit-project/10-news/latest/30-search-engine-optimized 2 -
+/themes/purple/theme.xml 1 http://www.baidu.com
+/wusage_screen_properties.gif 1 -
+/index.php/10-news/latest/32-stock-photography 1 -
+/index.php/featured/10-news/latest/22-s5-frontpage-display 1 -
+/downloads/sendmail/old/stable-8.11.3/untarred/ 1 -
+/ask 1 http://www.baidu.com
+/data/subscriptionmail.txt 1 http://www.baidu.com
+/downloads/MIMEDefang/UPGRADE-2.38_to_2.58 1 -
+/admin 1 http://www.baidu.com
+/static/js/common.js 1 http://www.baidu.com
+/cached_files/POEC_DavidEgan.jpeg-330x2448.jpeg 1 -
+/downloads/stunnel/old/ 1 -
+/index.php/about-us/10-news/latest/21-s5-flex-menu-menu-system 1 -
+/data/install.sql 1 http://www.baidu.com
+/index.php/aboutus/9-news 1 -
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911DSC_4942.JPG-330x2592.jpg 1 -
+/ThinkPHP/Extend/README.txt 1 http://www.baidu.com
+/downloads/sendmail/sendmail-8.12.X/untarred/popauth.m4 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/index.php/features-mainmenu-47/style-and-layout-options/file-compression 1 -
+/index.php/network-of-people/10-news/latest/33-template-specific-options 1 -
+/index.cgim 1 -
+/downloads/SpamAssassin/contrib/inflex/ 1 -
+/plugins/tinymce_plugin/tiny_mce/plugins/more/editor_plugin.js 1 http://www.baidu.com
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911Dad_and_Son.jpg-330x2592.jpg 2 -
+/downloads/SpamAssassin/INSTALL-3.0.X 1 -
+/member/space/commpany/info.txt 1 http://www.baidu.com
+/downloads/sendmail/sendmail-8.13.X/contrib/timeout_values 1 -
+/downloads/SpamAssassin/old/spamassassin.cf 2 -
+//includes/js/joomla.javascript.js 841 http://poec.org/index.php/topmenu-faq
+/index.php/extensions/s5-flex-menu-1360 1 -
+/downloads/squirrelmail/current-1.4.X/INSTALL 1 -
+/downloads/sendmail/old/stable-8.11.3/sendmail-source/ 1 -
+/index.php/customer-satisfaction/2-uncategorised/29-sample-content-3 1 -
+/admin/tpl/footer.htm 1 http://www.baidu.com
+/downloads/squirrelmail/ 1 -
+/images/fd_box3_demo.png 196 http://www.poec.org/
+/templates/classik/css/classik.css 1 http://www.baidu.com
+/FCK/fckeditor.js 1 http://www.baidu.com
+/administrator/components/com_jsjobs/include/jsjquery.js 15 http://poec.org/index.php/job-seekers/jsjobs/jobseeker/view_resume/1/1
+/install/data/sql/db_full.sql 1 http://www.baidu.com
+/downloads/agrep/redirector.txt 1 -
+/index.php/get-to-know-us/10-news/latest 1 -
+/admin/Southidceditor/Dialog/about.htm 1 http://www.baidu.com
+/downloads/agrep/ 1 -
+/data/config.js 1 http://www.baidu.com
+/index.php/aboutus/10-news/latest/32-stock-photography 1 -
+/templates/default/info.txt 1 http://www.baidu.com
+/newsmanager/images/getacro.gif 1 -
+/downloads/MIMEDefang/mimedefang-filter-KAM 2 -
+/README-VIRTUEMART.txt 1 http://www.baidu.com
+/member/template/homepage.htm 1 http://www.baidu.com
+/administrator//includes/js/joomla.javascript.js 200 http://poec.org/administrator/index.php
+/custom/README 1 http://www.baidu.com
+/plugins/tinymce_plugin/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css 1 http://www.baidu.com
+/cached_files/10282e330555293583ac45c94867b569399d6c1bpowerpoint_logo.gif-40x40.gif 1 -
+/Include/Editor.js 1 http://www.baidu.com
+/index.php/tutorials-mainmenu-48/site-shaper-setup 1 -
+/images/admin/admin.css 1 http://www.baidu.com
+/downloads/stunnel/stunnel.cnf 3 -
+/downloads/SpamAssassin/INSTALL 1 -
+/install/templates/step-1.html 1 http://www.baidu.com
+/downloads/MIMEDefang/INSTALL 1 -
+/dede/js/album.js 1 http://www.baidu.com
+/itrk3/files/pdfs/whatworksHypothesis.pdf 1 -
+/pdfs/POEC_Membership_Form_02_2008.doc 1 -
+/downloads/apache/current/INSTALL 1 -
+/index.php/network-of-people/10-news/latest/30-search-engine-optimized 1 -
+/downloads/SpamAssassin/admin-crash/email-compendium-notes.txt 1 -
+/wp-content/plugins/wp-property/readme.txt 1 http://www.baidu.com
+/downloads/apache/current/old/INSTALL-3-12-2003 2 -
+/common.js 1 http://www.baidu.com
+/index.php/10-news/latest/33-template-specific-options 1 -
+/downloads/apache/current/old/upgrade 1 -
+/downloads/sendmail/sendmail-8.12.X/ 1 -
+/data/admin/ver.txt 1 http://www.baidu.com
+/ThinkPHP/LICENSE.txt 1 http://www.baidu.com
+/downloads/apache/current/old/apachectl 1 -
+/pub/skins/pmwiki/pmwiki.css 1 http://www.baidu.com
+/index.php/aboutus/10-news/latest/30-search-engine-optimized 1 -
+/index.php/non-profit-project/10-news/latest/32-stock-photography 1 -
+/downloads/sendmail/sendmail-8.13.X/ 1 -
+/index.php/get-to-know-us/10-news/latest/30-search-engine-optimized 1 -
+/install/zcncms_default.sql 1 http://www.baidu.com
+/index.php/features-mainmenu-47/template-specific-features 8 http://www.poec.org/
+/index.php/about-us/10-news/latest/33-template-specific-options 1 -
+/downloads/sendmail/sendmail-8.13.X/contrib/ 1 -
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911Siblings.jpg-330x2592.jpg 1 -
+/downloads/stunnel/INSTALL 1 -
+/index.php/get-to-know-us/9-news 1 -
+/index.php/features-mainmenu-47/template-features/95-module-positions 1 -
+/index.php/get-to-know-us/10-news/latest/35-the-template-s-settings 1 -
+/admin/tpls/tpls/main/default/index.tpl 1 http://www.baidu.com
+/downloads/apache/current/old/INSTALL-devel-DSO 2 -
+/downloads/MIMEDefang/contrib/spamc/SpamassassinSpamcSpamd%20-%20Kwiki.pdf 1 -
+/downloads/golf/Sponsor%20Package.ppt 2 -
+/FCK/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/icons/unknown.gif 4 -
+/admin/js/command.js 1 http://www.baidu.com
+/lionsky_client/WebHtmlEditor/1_7_2006_1020/Theme/Office_Tinge/WebHtmlEditor.css 1 http://www.baidu.com
+/administrator/index.php 1 http://poec.org/administrator/index.php
+/index.php/get-to-know-us/10-news/latest/32-stock-photography 1 -
+/newsmanager/news_article.cgi 12 -
+/index.php/features-mainmenu-47/template-features/hide-divs-and-modules 1 -
+/fckeditor.js 1 http://www.baidu.com
+/components/com_jsjobs/css/jsjobsresumeform.css 5 http://poec.org/index.php/job-seekers/jsjobs/jobseeker/formresume/1/1
+/downloads/apache/old/devel-2.0.XX/ 1 -
+/templates/business_pro/css/font-awesome-ie7.min.css 2 http://www.poec.org/
+/docs/DOCUMENTATION.txt 1 http://www.baidu.com
+/downloads/gd/thumbnail-example.pl 1 -
+/opec_web/static_files_project/media/downloads/general/OPEC_Governors.pdf 1 -
+/index.php/10-news/latest/20-s5-drop-down-panel 1 -
+/mthemes/default/images/style.css 1 http://www.baidu.com
+/index.php/features-mainmenu-47/template-features/info-slide-enabled 8 http://www.poec.org/
+/downloads/gd/old/INSTALL-last-rh73 1 -
+/URLRewrite/Nginx.txt 1 http://www.baidu.com
+/downloads/apache/current/mysql-4.1.25-missing_sql_yacc_files/ 1 -
+/ueditor/editor_all.js 1 http://www.baidu.com
+/templates/default/cn/public/footer.html 1 http://www.baidu.com
+/install/templates/header.htm 1 http://www.baidu.com
+/template/default/refreshto.htm 1 http://www.baidu.com
+/downloads/subversion/svn-book.pdf 1 -
+/index.php/site-terms 1 -
+/phpldapadmin 1 http://www.baidu.com
+/downloads/gd/INSTALL 3 -
+/index.php/address-information/2-uncategorised/28-sample-content-2 1 -
+/5107/chat/js/chat.js 1 http://www.baidu.com
+/licence.txt 1 http://www.baidu.com
+/plugin/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/install/templates/default/errorinfo.php 1 http://www.baidu.com
+/changelog.txt 1 http://www.baidu.com
+/images/fd_box2_demo.png 202 http://www.poec.org/
+/admin/licence 1 http://www.baidu.com
+/eWebEditor/Dialog/about.htm 1 http://www.baidu.com
+/browserconfig.xml 5 -
+/downloads/drive-rotation-backup/PCCC_drive_rotation_backup_whitepaper.pdf 3 -
+/index.php/component/content/article 1 -
+/downloads/stunnel/stunneld 1 -
+/admin/jscripts/codepress/languages/codepress-mybb.css 1 http://www.baidu.com
+/admin/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/ueditor/editor_config.js 1 http://www.baidu.com
+/downloads/apache/old/stable/INSTALL 3 -
+/downloads/MIMEDefang/contrib/mcafee/ 1 -
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911Drawing.jpg-330x2592.jpg 2 -
+/downloads/dovecot/dovecot.conf.1.0 1 -
+/index.php/i 1 http://www.baidu.com
+/leiame.html 1 http://www.baidu.com
+/skin/frontend/default/spy/css/styles.css 1 http://www.baidu.com
+/downloads/SpamAssassin/INSTALL-3.1.X 1 -
+/Dialog/about.htm 1 http://www.baidu.com
+/URLRewrite/httpd.ini 1 http://www.baidu.com
+/index.php/non-profit-project/10-news/latest/35-the-template-s-settings 1 -
+/install/data.sql 1 http://www.baidu.com
+/usr/themes/default/sytle.css 1 http://www.baidu.com
+//templates/business_pro/css/template.css 2 http://poec.org/index.php/component/mailto/
+/index.php/Tags/jobs 2 -
+/downloads/SpamAssassin/contrib/milterscripts/ 1 -
+/index.php/aboutus/10-news/latest/23-s5-tab-show 1 -
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911DSC_4941.JPG-330x2592.jpg 3 -
+/pla 1 http://www.baidu.com
+/downloads/Power%20Soccer%20Flyer.doc 2 -
+/downloads/agrep/create_search.txt 1 -
+/cached_files/heading-arialbd.ttf-24-Welcome%20to%20the%20Website%20of%20POEC.gif 1 -
+/downloads/subversion/ 1 -
+/downloads/BMW/ 1 -
+/administrator/images/tick.png 4 http://poec.org/administrator/index.php
+/clientscript/vbulletin_ajax_htmlloader.js 1 http://www.baidu.com
+/admin/template/article_more/config.htm 1 http://www.baidu.com
+/templates/default/css/common.css 1 http://www.baidu.com
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911Anna_and_Miss_Lott.jpg-330x2592.jpg 2 -
+/install/zcncms.sql 1 http://www.baidu.com
+/index.php/address-information/10-news/latest/35-the-template-s-settings 1 -
+/downloads/gd/old/ 1 -
+/downloads/gd/examples/GDBiCubic-g2withcp10.jpg 1 -
+/downloads/ldap/old/adexport.pl 1 -
+/install/t_thinksns_com.sql 1 http://www.baidu.com
+/downloads/MIMEDefang/INSTALL-MCAFEE-DAEMON 2 -
+/system/templates/default12/images/js.js 1 http://www.baidu.com
+/wp-content/plugins/wp-property/js/wp-property-global.js 1 http://www.baidu.com
+/domainsigma_removal_468500da633a8322f094eb2915cf75d1e3f5c26a.html 1 -
+/downloads/apache/current/old/php-4.2.3-gd-2.0.8.patch 1 -
+/index.php/features-mainmenu-47/template-features/index.php 2 -
+/hack/gather/template/edit_title.htm 1 http://www.baidu.com
+/xml_language/lang[arabic].xml 1 http://www.baidu.com
+/special 1 http://www.baidu.com
+/index.php 6 http://poec.org/
+/downloads/squirrelmail/current-1.4.X/ 2 -
+/downloads/dovecot/old/dovecot.conf.0.99 1 -
+/downloads/sendmail/sendmail-8.12.X/untarred/poprelayd-KAM.pl 1 -
+/index.php/customer-satisfaction/10-news/latest/23-s5-tab-show 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 70
+176.202.122.11 2528 13511 180292580 20131031111903
+78.100.68.82 1211 11408 85402970 20131031070607
+112.209.145.243 244 600 19639075 20131028034650
+46.165.197.29 207 1019 10758828 20131028235137
+112.209.232.51 207 3249 21853300 20131030072025
+67.61.27.45 65 441 5751247 20131027202602
+182.187.39.111 45 336 5517280 20131030075917
+176.203.41.224 42 91 1995241 20131014152631
+112.209.134.189 34 135 3044031 20131026211218
+119.92.93.54 33 123 2901415 20131021041945
+112.198.82.146 31 137 3394433 20131019075159
+112.209.204.122 25 208 4599663 20131027075243
+112.209.173.131 23 169 1208240 20131031084301
+182.187.119.202 23 449 5430105 20131031020322
+122.54.181.121 19 111 2565818 20131018221035
+182.187.105.191 14 360 308176 20131030080918
+112.209.227.133 14 18 707633 20131028052805
+108.163.194.162 12 21 1091564 20131031090720
+195.55.86.197 10 92 1861441 20131022050616
+50.57.64.198 8 8 410856 20131030101806
+50.57.190.113 8 8 242897 20131029122521
+50.57.68.9 8 8 322833 20131030100609
+203.215.118.6 7 246 3765289 20131030235133
+50.57.104.33 7 7 307319 20131030100633
+50.57.190.90 6 6 345107 20131030100638
+61.135.190.105 0 6 176870 
+112.209.207.27 0 1 0 
+88.245.181.194 5 5 423962 20131028053002
+112.209.228.8 0 12 210372 
+192.114.71.13 1 1 4124 20131014113939
+183.60.244.44 3 4 147158 20131031172645
+112.198.82.205 1 1 84791 20131027073823
+61.135.190.223 0 13 370526 
+121.54.44.186 3 93 3617653 20131030060024
+69.175.20.162 2 17 1196013 20131026090348
+95.178.142.85 0 6 105186 
+203.215.118.184 0 6 362504 
+119.92.93.50 0 9 129851 
+61.135.190.100 0 3 88435 
+50.57.190.50 5 5 233985 20131031020143
+172.56.20.198 0 6 362504 
+173.236.29.218 0 3 236615 
+112.198.64.4 5 86 1897238 20131022001020
+112.209.233.77 0 7 127121 
+61.135.190.220 1 11 477189 20131030003704
+112.209.231.36 0 6 105186 
+110.55.0.207 0 3 37302 
+61.135.190.222 0 6 176870 
+50.57.190.97 5 5 146786 20131030095246
+50.56.58.47 6 6 214357 20131028154228
+184.154.132.90 0 9 652262 
+199.19.249.196 5 5 119243 20131022050602
+38.229.70.44 2 2 142473 20131031223745
+192.96.204.42 4 4 284758 20131030103012
+74.208.148.95 1 1 67524 20131031195620
+166.137.156.35 0 6 105186 
+112.198.82.145 0 6 362504 
+115.87.108.5 0 6 105186 
+50.57.68.14 5 5 173461 20131031012428
+121.54.13.36 0 6 105186 
+121.54.44.140 0 6 105186 
+61.135.190.104 1 13 625118 20131021113255
+41.203.69.5 0 1 1443 
+78.100.42.2 2 91 3639838 20131029082735
+112.209.210.238 5 140 3792917 20131030224553
+69.175.118.170 5 5 296028 20131030090750
+107.0.17.138 0 6 105186 
+110.55.4.151 0 28 129851 
+61.135.190.103 0 9 245920 
+61.135.190.224 0 5 121838 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20131014 47 96 2029648 6
+20131015 0 3 156535 0
+20131016 0 3 236615 0
+20131017 0 12 687554 0
+20131018 486 1941 43943112 11
+20131019 205 520 10195161 2
+20131020 0 6 325109 0
+20131021 319 1080 26646250 9
+20131022 39 296 6598865 5
+20131023 0 12 292455 0
+20131024 0 12 372594 0
+20131025 0 24 582966 0
+20131026 371 2057 34777886 5
+20131027 217 735 19281757 7
+20131028 1343 8073 78670470 23
+20131029 1169 11400 88418861 9
+20131030 620 6347 63472692 24
+20131031 82 819 9142517 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 19
+5mn-15mn 11
+15mn-30mn 9
+2mn-5mn 6
+0s-30s 51
+30s-2mn 8
+30mn-1h 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 151
+/administrator/index.php 2538 119389563 4 11
+/ 728 56876926 53 23
+/index.php 274 16835219 14 20
+/index.php/job-seekers 126 7475536 2 2
+/index.php/jobs 117 9280515 1 3
+/index.php/employer 79 4631140 1 1
+/templates/business_pro/css/font-awesome/font/fontawesome-webfont.woff 78 3267900 1 0
+/index.php/index.php 73 3737527 0 5
+/index.php/component/users/ 72 3473790 1 2
+/templates/business_pro/css/font-awesome/font/fontawesome-webfont.ttf 55 4270104 0 0
+/index.php/job-seekers/application 49 2284725 1 3
+/administrator/ 42 427016 10 1
+/index.php/component/users/profile 39 2082595 0 1
+/installation/index.php 38 298532 0 1
+/index.php/employer/jsjobs/employer/resume_searchresults 29 391521 1 2
+/administrator/components/com_extplorer/fetchscript.php 22 2929421 0 0
+/index.php/job-seekers/jobseeker/userregister/index.php 22 58721 1 1
+/index.php/contact-us 21 1221137 0 2
+/index.php/employer/jsjobs/employer/alljobsappliedapplications 20 968017 0 0
+/index.php/contact-us/loader/component/215/media/chosen/css 17 266832 1 1
+/index.php/contact-us/loader/component/215/media/bootstrap/css 17 225777 1 0
+/index.php/contact-us/loader/component/215/components/bootstrap/css 17 158457 1 1
+/index.php/contact-us/loader/component/215/components/jtext/js 17 23154 1 1
+/index.php/contact-us/loader/component/215/none/none/captcha 16 36181 1 0
+/media/jui/fonts/IcoMoon.woff 16 290240 1 1
+/index.php/contact-us/loader/component/280/media/chosen/css 4 62784 0 1
+/index.php/contact-us/loader/component/280/components/bootstrap/css 4 37284 0 0
+/index.php/job-seekers/jsjobs/jobseeker/package_buynow/2/index.php 1 47894 0 0
+/index.php/contact-us/loader/component/280/media/bootstrap/css 4 53124 1 0
+/index.php/jobs/jsjobs/employer/myjobs 1 49905 0 0
+/index.php/job-seekers/control-panel 2 184890 0 0
+/index.php/employer/jsjobs/jobseeker/packages 4 230381 1 1
+/index.php/job-seekers/jsjobs/employer/view_job/1/5 1 55179 0 0
+/index.php/employer/jsjobs/employer/myfolders 1 47555 0 0
+/index.php/topmenu-blog/17-installing-the-template 2 106537 0 0
+/index.php/topmenu-faq 4 195838 0 0
+/index.php/job-seekers/jobseeker/userregister/2 6 361157 1 1
+/index.php/job-seekers/jsjobs/jobseeker/view_resume/1/1 3 284620 0 0
+/index.php/component/search 1 678 0 0
+/index.php/faq 1 50625 0 0
+/index.php/employer/jsjobs/employer/resumesearch 12 674338 1 1
+/index.php/job-seekers/jsjobs/jobseeker/job_apply/1/3 1 51128 0 0
+/index.php/employer/jsjobs/jobseeker/view_resume/2/1/index.php 3 278311 0 0
+/index.php/features-mainmenu-47/template-features/tool-tips-enabled 1 98710 0 0
+/index.php/component/jsjobs/jsjobs/employer/index.php 1 96 0 0
+/index.php/employer/jsjobs/jobseeker/view_resume/3/0/1 1 92478 0 0
+/index.php/job-seekers/jsjobs/employer/alljobsappliedapplications 3 146957 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/5 1 85495 0 0
+/index.php/component/users 2 104792 2 1
+/index.php/job-seekers/index.php 7 363647 1 2
+/index.php/job-seekers/jsjobs/employer/view_company/1/5 1 50157 0 0
+/index.php/employer/jsjobs/jobseeker/controlpanel 1 55602 0 0
+/index.php/job-seekers/jsjobs/jobseeker/formresume/index.php 2 488 0 0
+/index.php/employer/jsjobs/employer/job_appliedapplications/1 8 466882 0 0
+/index.php/job-seekers/jsjobs/jobseeker/package_details/1 1 49917 0 0
+/index.php/employer/jobseeker/userregister/3 1 58791 0 0
+/index.php/component/content/ 1 90807 0 0
+/index.php/our-privacy-policy 3 164062 0 1
+/index.php/features-mainmenu-47/continued-vertex-features/typography 1 109199 0 0
+/index.php/jobs/jsjobs/employer/controlpanel 1 69048 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/13 11 973830 1 1
+/index.php/jobs/jsjobs/employer/formcompany 1 84621 0 0
+/index.php/employer/jsjobs/jobseeker/view_coverletter/1/1/1/1/index.php 15 723105 0 1
+/index.php/address-information/10-news/latest/36-tool-tips 1 68520 0 0
+/index.php/job-seekers/job 1 86164 0 0
+/index.php/topmenu-blog 5 255844 0 0
+/index.php/employer/jsjobs/employer/myjobs 2 98319 0 0
+/index.php/20-frontpage/index.php 4 285001 0 0
+/index.php/aboutus/23-site-info/40-under-construction 1 66275 0 0
+/index.php/component/jsjobs/jsjobs/employer/formjob 2 228123 0 0
+/index.php/employer/jsjobs/jobseeker/job_apply/1/3 1 50955 0 0
+/index.php/component/jsjobs/jsjobs/employer/mycompanies 2 104034 0 0
+/index.php/jobs/jsjobs/employer/formjob 4 452062 0 0
+/index.php/services/s5-box 1 96456 0 0
+/index.php/component/jsjobs/jsjobs/employer/alljobsappliedapplications 2 108480 0 0
+/index.php/topmenu-about-us/47-site-info 3 179922 0 0
+/index.php/employer/jsjobs/jobseeker/mycoverletters 1 47561 0 0
+/index.php/new 2 100887 0 0
+/index.php/aboutus/23-site-info 2 108550 0 1
+/index.php/job-seekers/jobseeker 1 68829 0 0
+/index.php/employer/jsjobs/employer/resume_bycategory 1 51271 0 0
+/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 3 213984 0 0
+/index.php/job-seekers/jsjobs/jobseeker/purchasehistory 1 55371 0 0
+/index.php/job-seekers/jsjobs/jobseeker/myresumes 12 638426 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/index.php 2 73952 1 1
+/index.php/employer/jsjobs/employer/formjob 3 310542 0 0
+/index.php/component/users/index.php 4 214968 1 2
+/index.php/registration 7 415776 1 1
+/index.php/employer/jsjobs/employer/package_buynow/2/2 1 50046 0 0
+/index.php/employer/jsjobs/employer/controlpanel 3 162385 0 0
+/index.php/non-profit-project 1 55208 0 0
+/index.php/employer/jsjobs/jobseeker/view_resume/2/1/1 6 556645 0 0
+/index.php/employer/jsjobs/jobseeker/view_coverletter/1/1/1/1/705 1 48201 0 0
+/index.php/site-terms 1 53162 0 0
+/index.php/employer/jsjobs/employer/formdepartment 2 102670 0 0
+/index.php/job-seekers/jsjobs/jobseeker/myappliedjobs 3 145229 0 0
+/index.php/employer/jsjobs/employer/package_details/2 1 49768 0 0
+/index.php/employer/jsjobs/employer/job_appliedapplications/index.php 2 49404 0 0
+/index.php/component/jsjobs/jsjobs/employer/formcompany 3 209107 0 0
+/index.php/component/jsjobs/jsjobs/employer/mydepartments 1 61109 0 0
+/index.php/component/jsjobs/jsjobs/employer/myfolders 1 47689 0 0
+/index.php/job-seekers/jsjobs/jobseeker/package_buynow/1/2 1 49866 0 0
+/index.php/10-news/latest/31-site-shapers 3 224805 0 1
+/index.php/employer/jobseeker 2 129077 0 0
+/index.php/address-information/10-news/latest/index.php 1 73802 0 1
+/index.php/jobs/jsjobs/jobseeker/list_jobs/1 1 96534 0 0
+/index.php/component/content/article 8 416020 0 0
+/index.php/jobs/jobs-list 2 246360 0 0
+/index.php/job-seekers/jsjobs/jobseeker/package_buynow/2/1 2 99886 0 0
+/index.php/job-seekers/jsjobs/jobseeker/controlpanel 2 111265 0 0
+/index.php/job-seekers/jsjobs/jobseeker/listnewestjobs 3 255104 0 1
+/index.php/employer/jsjobs/jobseeker/listnewestjobs 2 169868 0 0
+/index.php/job-seekers/jsjobs/jobseeker/packages 5 276040 0 1
+/index.php/employer/jsjobs/employer/index.php 1 269 0 0
+/index.php/topmenu-blog/2-uncategorised 1 51298 0 0
+/index.php/job-seekers/jsjobs/jobseeker/formresume/2 1 263295 0 0
+/index.php/employer/jsjobs/jobseeker/package_buynow/2/1 1 50047 0 0
+/index.php/blogs 1 50584 0 0
+/index.php/component/content/index.php 5 307645 0 1
+/index.php/job-seekers/category 1 5783 0 0
+/index.php/aboutus 12 757232 0 0
+/index.php/employer/jsjobs/employer/resumebycategory 3 172155 0 0
+/index.php/job-seekers/jsjobs/jobseeker/formcoverletter 2 100936 0 0
+/administrator/components/com_joomlaupdate/restore.php 9 26370 0 1
+/index.php/employer/jsjobs/jobseeker/formcoverletter 1 49763 0 0
+/index.php/jobs/jsjobs/jobseeker/listnewestjobs 2 175634 1 1
+/index.php/topmenu-news/2-uncategorised 3 161761 0 1
+/index.php/job-seekers/employer 3 210291 0 0
+/index.php/employer/jsjobs/employer/packages 4 231072 0 0
+/modules/mod_s5_register/captcha/validate.php 5 35 0 0
+/index.php/employer/jsjobs/jobseeker/package_buynow/1/1 1 50003 0 0
+/installation/gpl.html 2 40792 0 0
+/templates/business_pro/css/font-awesome/font/fontawesome-webfont.eot 6 187025 1 2
+/index.php/about/2-uncategorised 2 110525 0 2
+/index.php/employer/jsjobs/employer/mycompanies 1 48073 0 0
+/index.php/employer/jsjobs/employer/view_company/1/1 1 52124 0 0
+/installation/ 15 47815 1 0
+/index.php/jobs/newest-jobs/jsjobs/jobseeker/controlpanel 2 183183 0 0
+/index.php/job-seekers/jsjobs/jobseeker/index.php 1 1 0 0
+/index.php/jobs/jsjobs/jobseeker/job_apply/1/3 2 98278 0 0
+/index.php/address-information 2 131203 0 0
+/index.php/employer/jsjobs/employer/mydepartments 5 237192 0 0
+/index.php/10-news/latest/32-stock-photography 3 221068 1 1
+/index.php/job-seekers/jsjobs/jobseeker/jobsearch 2 144326 0 0
+/index.php/component/search/ 15 8671 0 1
+/index.php/job-seekers/jsjobs/jobseeker/formresume/1/1 4 1055276 0 0
+/index.php/job-seekers/jsjobs/employer/controlpanel 1 55079 0 0
+/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/image.htm 2 7916 0 0
+/index.php/contact-us/loader/component/280/none/none/captcha 4 9057 1 1
+/index.php/jobs/newest-jobs 2 208783 0 0
+/index.php/contact-us/loader/component/280/components/jtext/js 4 5448 1 1
+END_SIDER

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+	<name>COM_JSJOBS</name>
+	<creationDate>Nov 15th, 2013</creationDate>
+	<author>Joom Sky</author>
+	<authorEmail>ahmad@burujsolutions.com</authorEmail>
+	<authorURL>www.burujsolutions.com</authorURL>
+	<copyright>Copyright (c) 2014. All rights reserved.</copyright>
+	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+	<version>1.0.9.0</version>
+	<description>Jobs Board Component.</description>>
+	
+ 	<!-- Runs on install/uninstall/update;  -->
+	<scriptfile>script.php</scriptfile>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf.sql</file>
+		</sql>
+	</uninstall>
+
+	<update> <!-- Runs on update; New in 2.5 -->
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+
+	<administration>
+		<menu img="../administrator/components/com_jsjobs/include/images/js.png" link="option=com_jsjobs&amp;task=view&amp;layout=controlpanel">JS_JOBS</menu>
+		<menu  link="option=com_jsjobs&amp;task=view&amp;layout=controlpanel">JS_JOBS</menu>
+		<files folder="admin">
+			<filename>controller.php</filename>
+			<filename>jsjobs.php</filename>
+			<filename>index.html</filename>
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>include</folder>
+			<folder>views</folder>
+			<folder>sql</folder>
+		</files>
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB.com_jsjobs.ini</language>
+			<language tag="en-GB">en-GB.com_jsjobs.sys.ini</language>
+		</languages>
+	</administration>
+</extension>

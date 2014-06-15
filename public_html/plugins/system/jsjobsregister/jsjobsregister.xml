@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade"> 
+	<name>JSJobs Register</name>
+	<author>Joom Sky</author>
+	<creationDate>Dec 19, 2010</creationDate>
+	<copyright>Copyright (C) 2010. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>ahmad@joomsky.com</authorEmail>
+	<authorUrl>www.joomsky.com</authorUrl>
+	<version>1.0</version>
+	<description>Ask user role at register form. </description>
+	<params>
+		<param name="userregisterinrole" type="list" default="1" label="User Register in Role" description="User Register in Role">
+			<option value="1">Any </option>
+			<option value="2">Employer</option>
+			<option value="3">Job Seeker</option>
+		</param>
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="userregisterinrole" type="list" default="1" label="User Register in Role" description="User Register in Role">
+					<option value="1">Any </option>
+					<option value="2">Employer</option>
+					<option value="3">Job Seeker</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<files>
+		<filename plugin="jsjobsregister">jsjobsregister.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_jsjobsregister.ini</language>
+	</languages>
+</extension>		
+

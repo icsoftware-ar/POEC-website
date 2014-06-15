@@ -1,0 +1,54 @@
+head	1.3;
+access;
+symbols;
+locks
+	poec:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2013.10.28.19.16.54;	author poec;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.10.14.16.30.39;	author poec;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.10.14.16.30.39;	author poec;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@info:x:31309:31309::/home3/poec/mail/poec.org/info:/home3/poec
+admin:x:31309:31309::/home3/poec/mail/poec.org/admin:/home3/poec
+@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

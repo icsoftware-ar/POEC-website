@@ -1,0 +1,1312 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201312 will be lost/reset.
+# Last config file used to build this data file was /home3/poec/tmp/awstats/awstats.poec.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2682                
+POS_VISITOR 19808               
+POS_DAY 30666               
+POS_DOMAIN 3678                
+POS_LOGIN 4277                
+POS_ROBOT 4432                
+POS_WORMS 4970                
+POS_EMAILSENDER 5101                
+POS_EMAILRECEIVER 5244                
+POS_SESSION 31575               
+POS_SIDER 31787               
+POS_FILETYPES 5379                
+POS_DOWNLOADS 5718                
+POS_OS 5857                
+POS_BROWSER 6075                
+POS_SCREENSIZE 7423                
+POS_UNKNOWNREFERER 7497                
+POS_UNKNOWNREFERERBROWSER 8313                
+POS_ORIGIN 8893                
+POS_SEREFERRALS 9042                
+POS_PAGEREFS 9232                
+POS_SEARCHWORDS 10036               
+POS_KEYWORDS 10257               
+POS_MISC 2344                
+POS_ERRORS 10385               
+POS_CLUSTER 4133                
+POS_SIDER_404 10615               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140101000420 245 55550 9301846568027
+FirstTime 20131201010114
+LastTime 20131231221155
+LastUpdate 20140101091933 245 0 244 0 0
+TotalVisits 396                 
+TotalUnique 259                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 271                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 123 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 904 4725 76894347 392 967 27619594
+1 589 2864 50633298 483 656 9006556
+2 437 3414 54574727 587 783 27223812
+3 454 3257 48564282 826 1138 38768371
+4 642 5859 52876874 276 617 12568032
+5 597 5095 65336430 540 830 25760948
+6 389 2249 21629733 224 422 10505591
+7 374 952 19143194 174 332 8106868
+8 306 1486 29317459 268 414 13529129
+9 551 2416 35467911 1406 1660 58249381
+10 251 2302 21549685 375 472 19653847
+11 15 41 1514659 151 179 6980605
+12 53 538 18618934 404 447 21037315
+13 47 137 4294804 166 201 9959361
+14 20 134 5229442 206 229 13164426
+15 19 52 1777487 267 307 16364488
+16 15 43 1028726 247 274 13540134
+17 37 130 5263715 248 276 9634646
+18 92 414 11956022 221 322 10299464
+19 206 897 22957229 195 391 13637611
+20 142 971 15410763 190 318 9722820
+21 107 1154 35721659 144 269 7757873
+22 194 1469 34424976 153 337 7096227
+23 309 2091 43111478 291 590 18765635
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 24
+qa 3905 29488 316427893
+ph 1457 8600 198158398
+us 704 2260 84097775
+ru 199 199 13456283
+ua 116 116 7748989
+cn 111 808 23960726
+pk 109 793 14664468
+sg 50 162 6642755
+ro 45 53 2509086
+gb 19 19 963219
+tw 8 108 4066581
+de 6 6 405326
+za 3 3 0
+lt 3 3 145523
+tr 2 2 133642
+at 2 59 2496010
+ca 2 2 94727
+pl 2 2 98378
+fi 2 2 139174
+jp 1 1 63059
+co 1 1 68117
+th 1 1 66745
+it 1 1 66994
+nl 1 1 66747
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 1652 100219306 20131231233950 60
+bot[\s_+:,\.\;\/\\-] 1582 91262424 20131231185706 172
+spider 1412 63393776 20131231220331 49
+crawl 1214 62083569 20131230032540 10
+unknown 92 79580 20131230235702 92
+msnbot 20 1070547 20131206185608 1
+no_user_agent 11 1262838 20131231203747 2
+robot 10 205312 20131215114022 6
+[\s_+:,\.\;\/\\-]bot 7 143260 20131230030200 5
+msnbot\-media 6 71070 20131231001436 5
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+eot 4 149620 0 0
+htc 5 203365 0 0
+css 8716 44190111 0 0
+png 9594 21026986 0 0
+ttf 3 237228 0 0
+pdf 1 1514438 0 0
+woff 128 1775664 0 0
+php 3115 133373869 0 0
+html 1148 65530518 0 0
+js 14599 101237640 0 0
+jpg 1597 169299825 0 0
+Unknown 2347 136205944 0 0
+gif 1433 1795407 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 402 0 346000
+/jsjobsdata/data/jobseeker/resume_1/resume/resume.pdf 1 3 1514438
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 15
+linuxsuse 2
+blackberry 1
+linuxandroid 242
+winlong 505
+winxp 1319
+unix 3
+java 120
+linuxubuntu 7
+winvista 29751
+linux 293
+win7 9096
+macosx 1291
+linuxgentoo 3
+win2003 16
+Unknown 44
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 80
+msie6.0 53
+chrome5.0.381 4
+firefox3.6 5
+firefox26.0 316
+chrome31.0.1650.57 3808
+chrome31.0.1650.63 4176
+curl 2
+lynx 3
+chrome23.0.1271.95 1
+safari5.0.2 1
+ecatch 3
+chrome9.0.597.94 1
+firefox3.6.15 457
+msie8.0 525
+msie7.0 318
+chrome11.0.652.0 3
+chrome31.0.1650.59 89
+chrome10.0.638.0 1
+firefox3.0 3
+chrome10.0.648.133 1
+safari6.0 194
+firefox10.0.1 2
+firefox3.5.2 2
+firefox3.6.4 2
+firefox7.0.1 2
+firefox12.0 488
+chrome14.0.801.0 1
+firefox3.6.23 1
+mozilla 189
+firefox25.0 29131
+firefox14.0.1 234
+chrome27.0.1453.65 232
+firefox3.6.22 1
+safari5.1.9 1
+firefox3.0.10 3
+firefox3.1 3
+firefox15.0.1 1
+safari 199
+firefox3.0.15 108
+chrome21.0.1180.89 2
+safari7.0 158
+firefox5.0 2
+firefox20.0 1
+firefox15.0 4
+chrome23.0.1271.64 10
+android 153
+chrome12.0.742.91 1
+firefox24.0 521
+opera9.80 4
+iphone 3
+firefox6.0.2 6
+chrome24.0.1312.57 10
+firefox16.0 70
+msie9.0 594
+chrome18.0.1025.1634 4
+chrome24.0.1312.52 1
+Unknown 151
+firefox3.0.8 5
+chrome14.0.813.0 2
+firefox3.0.2 2
+blackberry 1
+firefox3.5.6 3
+chrome22.0.1207.1 273
+firefox3.0.11 1
+chrome27.0.1453.110 1
+chrome28.0.1500.71 2
+chrome13.0.782.215 1
+safari5.1.7 4
+firefox3.0.3 6
+firefox3.0.6 1
+firefox5.0.1 14
+chrome25.0.1364.172 1
+msie10.0 5
+firefox6.0 10
+safari5.1 93
+chrome13.0.782.43 3
+chrome31.0.1650.16 3
+chrome14.0.835.187 1
+firefox3.6.8 1
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+SEOstats_2.1.0 20131223231748
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20131224013644
+Python-urllib/2.7 20131203055214
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20131205143735
+WhatWeb/0.4.7 20131222104535
+Mediapartners-Google 20131219122108
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20131218215630
+Mozilla/5.0_(compatible;_Ezooms/1.0;_help@moz.com) 20131228070615
+SEOstats_2.1.0__________https://github.com/eyecatchup/SEOstats 20131214061851
+wscheck.com/1.0.0_(_http://wscheck.com/) 20131214061851
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20131204002654
+Mozilla/3.0_(compatible;_Indy_Library) 20131220050636
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+SEOstats_2.1.0 20131223231748
+Java/1.7.0_25 20131222064128
+Python-urllib/2.7 20131203055214
+Java/1.6.0_33 20131205084215
+Apache-HttpClient/4.3_(java_1.5) 20131207164839
+WhatWeb/0.4.7 20131222104535
+Mediapartners-Google 20131219122108
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20131218215630
+wscheck.com/1.0.0_(_http://wscheck.com/) 20131214061851
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20131204002654
+Java/1.6.0_30 20131212053926
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1032 1247
+From1 0 0
+From2 237 270
+From3 29 29
+From4 5452 41147
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 214 247
+baidu 21 21
+bing 1 1
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://chineseretireesfoundation.org/company_profile/ 5 5
+http://ddlmega.net 4 4
+http://chineseretireesfoundation.org/contact-us-%e8%81%af%e7%b9%ab%e6%88%91%e5%80%91/ 3 3
+http://domainsigma.com/whois/poec.org 3 3
+http://www.registered-domains-list.com 2 2
+http://www.mysearchresults.com/search.php 2 2
+http://www.specialneedskidsinfo.com/fairfaxcountysupportgroups4.html 2 2
+http://www.searchmobileonline.com/search 2 2
+http://ph-mg61.mail.yahoo.com/neo/launch 2 2
+http://www.facebook.com/l.php 1 1
+http://sameid.net/domain/www.poec.org/ 1 1
+http://au-mg6.mail.yahoo.com/neo/launch 1 1
+http://specialneedskidsinfo.com/fairfaxcountysupportgroups4.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+welcometophilippineoverseasemploymentcenter 21
+poec 2
+www.poec.org 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+welcometophilippineoverseasemploymentcenter 21
+poec 2
+www.poec.org 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+403 21 363120
+503 112 566147
+206 250 43265403
+999 8 69260
+303 1684 1799
+400 13 11
+406 114 25538
+302 357 3036
+500 234 409742
+301 25 4802
+404 3484 41000025
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 158
+/index.php/modules/mod_s5_box/images/internet_explorer/borderMiddleRight.png 2 http://www.poec.org/index.php/jobs
+/index.php/about-us/10-news/latest/31-site-shapers 2 -
+/index.php/address-information/2-uncategorised/29-sample-content-3 3 -
+/index.php/about-us/10-news/latest/22-s5-frontpage-display 1 -
+/admin.php 2 -
+/modules/mod_ya/mod_ya.php 1 -
+/downloads/POEC_Bylaws_(non-stock_with_members)_v._Final%202008.DOC 1 -
+/index.php/network-of-people/10-news/latest 2 -
+/modules/mod_xsystem/mod_xsystem.php 1 -
+/index.php/extensions/s5-flex-menu-1360 36 http://www.poec.org/
+//includes/js/joomla.javascript.js 2383 http://www.poec.org/index.php/job-seekers
+/index.php/modules/mod_s5_box/images/internet_explorer/borderBottomCenter.png 3 -
+/includes/js/joomla.javascript.js 10 http://poec.org/
+/downloads/POEC_Donor_Form.doc 1 -
+//data/jobseeker/resume_1/photo/ressie.jpg 2 http://poec.org/administrator/index.php
+/index.php/8-news/ 1 -
+/media/system/js/s 1 -
+/index.php/about-us 1 -
+/index.php/about/8-news/ 3 -
+/index.php/non-profit-project/10-news/latest/22-s5-frontpage-display 2 -
+/editor/editor/filemanager/connectors/test.html 1 -
+/index.php/jobs/jsjobs/jobseeker/jobcat 1 -
+/administrator/components/com_jsjobs/include/jsjquery.js 33 http://www.poec.org/index.php/job-seekers/jsjobs/jobseeker/formresume/2
+//fonts.googleapis.com/css 2 -
+/index.php/our-privacy-policy/2-uncategorised 3 -
+/index.php/our-privacy-policy/10-news/latest/35-the-template-s-settings 1 -
+/th1s_1s_a_4o4.html 31 http://www.google.com/url
+/components/com_jsjobs/js/jquery-1.2.6.pack.js 74 http://www.poec.org/index.php/jobs/jsjobs/newestjobs
+/index.php/customer-satisfaction/10-news/latest/22-s5-frontpage-display 2 -
+/index.php/network-of-people/2-uncategorised 4 -
+/index.php/address-information/2-uncategorised 4 -
+/administrator/components/com_jsjobs/include/css/jsjobsadmin.css 1 http://poec.org/administrator/index.php
+/index.php/non-profit-project/10-news/latest/23-s5-tab-show 2 -
+/index.php/modules/mod_s5_box/images/internet_explorer/borderBottomLeft.png 4 -
+/index.php/network-of-people/10-news/latest/22-s5-frontpage-display 2 -
+/index.php/non-profit-project/2-uncategorised 3 -
+/administrator//includes/js/joomla.javascript.js 383 http://poec.org/administrator/index.php
+/index.php/10-news/latest/23-s5-tab-show 1 -
+/administrator/jsjobsdata/data/jobseeker/resume_1/photo/ressie.jpg 1 http://poec.org/administrator/index.php
+/index.php/non-profit-project/10-news/latest/33-template-specific-options 4 -
+/index.php/site-terms/9-news 2 -
+/index.php/news 1 -
+/wp-login.php 3 -
+/index.php/our-privacy-policy 1 -
+/administrator/components/com_jsjobs/include/installer.css 2 http://poec.org/administrator/index.php
+/itrk3/files/pdfs/whatworksHypothesis.pdf 23 -
+/index.php/20-frontpage/index.php/20-frontpage/index.php 1 http://poec.org/index.php
+/index.php/join-now.html 1 -
+/pdfs/POEC_Membership_Form_02_2008.doc 1 -
+/icons/compressed.gif 9 -
+/index.php/10-news/latest/33-template-specific-options 1 -
+/index.php/customer-satisfaction/10-news/latest/30-search-engine-optimized 3 -
+/index.php/non-profit-project/10-news/latest/32-stock-photography 2 http://www.poec.org/
+/index.php/about-us/2-uncategorised/29-sample-content-3 1 -
+/components/com_jsjobs/data/jobseeker/resume_2/photo/faust.jpg 2 http://www.poec.org/index.php/job-seekers/jsjobs/jobseeker/formresume/1/2
+/templates/new_vision/vertex/admin/df-images/vertex-plain-spacer.png 30 http://poec.org/administrator/index.php
+/index.php/topmenu-blog 2 -
+/index.php/customer-satisfaction/2-uncategorised 4 -
+/index.php/customer-satisfaction 1 -
+/cached_files/POEC_DavidEgan2.jpeg-330x2448.jpeg 5 -
+/index.htm 1 -
+/index.php/10-news/latest/30-search-engine-optimized 3 -
+/index.php/address-information/10-news/latest/33-template-specific-options 2 -
+/index.php/address-information/10-news/latest/32-stock-photography 1 -
+/index.php/features-mainmenu-47/template-features/responsive-layout 19 -
+/index.php/features-mainmenu-47/template-specific-features 20 -
+/admin/FCKeditor/editor/filemanager/upload/test.html 1 -
+/index.php/modules/mod_s5_box/images/internet_explorer/borderTopLeft.png 3 -
+/index.php/get-to-know-us/10-news/latest/35-the-template-s-settings 2 -
+/index.php/features-mainmenu-47/template-features/95-module-positions 7 -
+/poec.cgim 47 -
+/modules/mod_seolinks/mod_seolinks.php 1 -
+/cached_files/4fdd639bd676502cf638b219ba3644e612c55aa3firefox_logo.gif-40x40.gif 5 -
+/icons/unknown.gif 9 -
+/index.php/10-news/latest/35-the-template-s-settings 1 -
+/templates/new_vision/css/font-awesome-ie7.min.css 3 http://poec.org/
+/index.php/about-us/10-news/latest/32-stock-photography 1 -
+/wordpress/wp-admin/ 1 -
+/index.php/features-mainmenu-47/template-features/hide-divs-and-modules 6 -
+/index.php/network-of-people/10-news/latest/23-s5-tab-show 1 -
+/components/com_jsjobs/css/jsjobsresumeform.css 20 http://www.poec.org/index.php/job-seekers/jsjobs/jobseeker/formresume/2
+/OPEC_WEB/EN/ABOUT_US/25.HTM 3 -
+/index.php/modules/mod_s5_box/images/internet_explorer/borderMiddleLeft.png 4 -
+/index.php/modules/mod_s5_box/images/internet_explorer/borderBottomRight.png 3 -
+/index.php/network-of-people/10-news/latest/31-site-shapers 2 -
+/media/jui/js/jquery-1.10.2.min.map 1 http://www.poec.org/index.php/component/jsjobs/jsjobs/formresume/2
+/administrator/components/com_jsjobs/include/css/background.png 29 http://poec.org/administrator/components/com_jsjobs/include/css/graph.css
+/index.php/about-us/10-news/latest/35-the-template-s-settings 1 -
+/index.php/network-of-people/10-news/latest/35-the-template-s-settings 2 -
+/index.php/registration 1 -
+/index.php/aboutus/10-news/latest/35-the-template-s-settings 1 -
+/index.php/non-profit-project 1 -
+/index.php/site-terms 1 -
+/index.php/address-information/10-news/latest/31-site-shapers 1 -
+//index.php/Contact.us 1 -
+/index.php/aboutus/10-news/latest/33-template-specific-options 1 -
+/downloads/POEC_Bylaws_2009.DOC 3 -
+/index.php/get-to-know-us/2-uncategorised/29-sample-content-3 1 -
+/index.php/blogs/8-news/ 3 -
+/wp-admin/ 1 -
+/index.php/our-privacy-policy/10-news/latest 2 -
+//modules/mod_s5_frontpage_display3/s5_frontpage_display_3/s5_fd_jquery.js 1 -
+/index.php/featured/9-news 2 -
+/index.php/new/8-news/ 1 -
+/index.php/10-news/latest/31-site-shapers 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/index.php/network-of-people 2 -
+/index.php/8-frontpage/38-homepage-article-2 2 -
+/index.php/get-to-know-us/2-uncategorised 4 -
+/index.php/component/content/article 27 http://www.poec.org/index.php/component/content/article
+//modules/mod_s5_tabshow/s5_tabshow/icarousel_jquery.js 1 -
+/cache/sok/sok.php 1 -
+/index.php/our-privacy-policy/9-news 2 -
+/index.php/customer-satisfaction/9-news 2 -
+/index.php/faq/8-news/ 3 -
+/apple-touch-icon-120x120.png 1 -
+/index.php/employer 1 -
+/index.php/10-news/latest/22-s5-frontpage-display 1 -
+/index.php/jobs 1 -
+/components/com_jsjobs/js/jquery.marquee.js 4 http://www.poec.org/
+/blog/wp-admin/ 1 -
+/index.php/non-profit-project/10-news/latest/31-site-shapers 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/components/com_jooomlas/xyxz.php 1 -
+/a 2 -
+/index.php/aboutus 1 -
+/index.php/, 1 -
+/index.php/site-terms/10-news/latest/33-template-specific-options 1 -
+/index.php/customer-satisfaction/10-news/latest 2 -
+/apple-touch-icon.png 7 -
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911DSC_4941.JPG-330x2592.jpg 9 -
+/downloads/Power%20Soccer%20Flyer.doc 1 http://www.poec.org/downloads/Power%20Soccer%20Flyer.doc
+/jom32/installation/index.php 6 http://www.poec.org/jom32/installation/index.php
+/index.php/get-to-know-us 1 -
+/index.php/modules/mod_s5_box/images/internet_explorer/borderTopCenter.png 3 -
+/index.php/non-profit-project/10-news/latest 2 -
+/blog/ 2 -
+/index.php/get-to-know-us/10-news/latest/33-template-specific-options 4 -
+/index.php/about-us/10-news/latest/30-search-engine-optimized 2 -
+/index.php/togiduerfnst:dpan%0D%0A31h__ 1 -
+/administrator/images/tick.png 1 http://poec.org/administrator/index.php
+/index.php/featured/10-news/latest 1 -
+/index.php/10-news/latest/21-s5-flex-menu-menu-system 1 -
+/apple-touch-icon-precomposed.png 6 -
+/index.php/address-information 1 -
+/index.php/our-privacy-policy/10-news/latest/22-s5-frontpage-display 2 -
+/index.php/10-news/latest/32-stock-photography 1 -
+/index.php/address-information/10-news/latest/35-the-template-s-settings 2 -
+/index.php/modules/mod_s5_box/images/internet_explorer/borderTopRight.png 3 -
+/index.php/our-privacy-policy/10-news/latest/23-s5-tab-show 2 -
+/administrator/jsjobsdata/data/jobseeker/resume_1/resume/resume.pdf 2 http://poec.org/administrator/index.php
+/index.php/8-frontpage/34-homepage-article-1 2 -
+/media/kunena/js/%7Bx%7D 1 -
+/wp 1 http://poec.org/wp
+/images/j.php 2 -
+/index.php/non-profit-project/9-news 2 -
+/index.php/aboutus/10-news/latest/31-site-shapers 1 -
+/index.php 20 http://poec.org/index.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 271
+78.100.68.82 3098 23370 243685506 20131226021721
+37.208.203.183 766 5342 55249761 20131217221503
+112.209.154.60 407 2311 42995931 20131204074819
+119.92.93.54 319 1553 37791477 20131217055358
+49.147.76.220 297 1252 23206943 20131217045515
+188.143.232.189 198 198 13389532 20131205003758
+193.105.210.174 109 109 7275730 20131231003247
+182.187.49.28 102 786 14664468 20131212015005
+38.99.82.254 94 126 5137360 20131212054058
+69.175.118.170 75 102 4241977 20131229090510
+119.92.93.50 51 337 9850549 20131217190518
+121.54.54.145 47 59 2753009 20131220005132
+112.200.112.188 47 276 5664638 20131202163031
+38.99.82.205 45 56 2576858 20131205063344
+173.236.29.218 45 51 1243223 20131226090601
+86.123.244.234 44 52 2442339 20131222064124
+69.175.20.162 42 42 2341475 20131230090738
+49.147.90.105 41 139 2396517 20131219024131
+112.209.238.81 38 168 6221290 20131209080255
+38.99.82.191 38 48 2186891 20131205084501
+213.130.119.245 36 589 10165848 20131217055331
+108.163.194.162 32 32 1764782 20131221090801
+119.95.246.82 31 194 5947940 20131221035329
+38.99.82.239 31 39 1551280 20131212034804
+183.90.41.21 28 134 5481702 20131208080012
+121.205.248.101 2 2 136230 20131231025917
+49.147.90.175 24 451 1089267 20131218023737
+182.187.87.177 7 7 0 20131210052434
+72.205.24.119 1 93 3568551 20131231221155
+24.248.74.225 7 100 3621287 20131223173138
+68.68.110.196 1 1 46220 20131229024444
+208.80.194.123 0 2 39830 
+69.162.128.40 1 1 50248 20131229024441
+121.205.198.142 1 1 73550 20131203054729
+120.43.7.228 1 1 68111 20131214094605
+121.54.54.52 2 95 3591739 20131209230900
+66.119.41.34 1 1 66752 20131225200032
+61.135.190.223 3 50 1743285 20131230125113
+192.199.243.235 1 1 66751 20131229024438
+84.200.73.232 1 1 72287 20131201093241
+98.137.206.219 1 65 1066083 20131219052320
+192.227.165.34 1 1 68553 20131202081206
+61.135.190.100 2 55 1711763 20131221123107
+199.19.73.177 1 1 49647 20131229024440
+222.77.207.33 1 1 73550 20131202201919
+61.135.190.220 1 45 1009235 20131228122035
+61.135.190.219 2 33 1188973 20131218122018
+173.252.112.118 1 1 66986 20131217044924
+54.221.107.65 1 1 72394 20131203200017
+184.154.132.90 27 27 1463700 20131231090529
+69.171.242.114 0 1 430980 
+158.58.168.248 1 1 66994 20131216050340
+199.195.130.75 1 1 66752 20131229205339
+192.96.204.42 3 3 0 20131229141727
+38.100.21.62 2 7 136367 20131220073402
+95.173.163.157 2 2 133642 20131212043533
+110.89.11.95 4 4 177222 20131225075127
+162.223.28.241 1 1 45607 20131229024441
+23.239.130.37 2 2 106431 20131216213734
+63.88.40.2 4 88 3615415 20131230122812
+220.181.51.80 1 1 66994 20131231065944
+69.162.130.198 1 1 66741 20131223075639
+192.241.191.244 1 1 66751 20131217234804
+120.37.230.81 1 1 0 20131210112556
+202.46.50.52 1 1 4130 20131212185417
+70.180.96.62 0 15 343292 
+149.210.156.134 1 1 66747 20131226061245
+59.58.156.158 9 9 420100 20131230041112
+121.205.240.243 1 1 68111 20131223083459
+69.197.138.42 2 2 126124 20131229181205
+72.30.198.81 1 96 3577198 20131219084835
+162.223.28.220 1 1 45867 20131229024447
+65.52.246.161 2 2 132868 20131205174706
+199.195.129.170 1 1 52554 20131229024442
+61.135.190.224 1 19 460087 20131215122108
+23.238.225.82 13 13 862486 20131207085521
+117.26.84.203 1 1 73527 20131202120035
+72.30.198.15 0 3 44421 
+220.181.51.74 1 1 66751 20131231065944
+208.80.194.121 0 2 46881 
+122.3.113.71 27 273 6738094 20131208224044
+69.162.143.66 1 1 46387 20131229205344
+50.57.190.113 5 5 262219 20131212083853
+91.108.182.135 1 1 66999 20131225104452
+121.205.196.171 1 1 68045 20131213113205
+208.43.255.30 1 1 73823 20131222204008
+220.181.132.215 4 4 255934 20131223235146
+172.245.214.237 2 2 94727 20131203202557
+178.217.200.9 1 1 66399 20131205084858
+131.253.24.54 1 53 1099509 20131209182520
+162.216.103.60 1 1 66752 20131229024450
+110.55.2.58 22 232 8739842 20131212040727
+46.229.170.197 1 1 66747 20131212164921
+217.40.152.139 18 18 896467 20131203055214
+192.99.9.228 1 1 66751 20131221181316
+38.64.138.112 1 1 68231 20131201193729
+220.181.132.193 2 101 2168892 20131205071323
+5.9.113.7 1 1 66387 20131207164839
+184.72.163.77 1 1 66399 20131204005404
+121.54.44.154 1 95 3643817 20131204095721
+183.90.41.20 14 20 656530 20131208085328
+222.77.215.198 1 1 68117 20131212103600
+112.209.161.103 15 138 3809705 20131215223658
+121.205.204.241 4 4 177224 20131227050346
+119.81.4.132 1 1 62889 20131217032703
+50.57.190.50 8 8 317419 20131211055603
+38.99.82.204 17 19 1043708 20131205024758
+78.158.11.226 3 3 145523 20131205143735
+72.8.155.86 1 1 52769 20131229205346
+203.116.251.237 1 1 66816 20131210004119
+110.55.157.24 18 397 15325865 20131204211847
+106.84.48.168 2 2 136364 20131210010710
+110.78.161.99 1 1 66745 20131220050636
+121.54.54.38 28 173 5600378 20131219230610
+66.39.199.83 1 1 74499 20131229205339
+180.194.30.74 1 1 66150 20131206031353
+121.205.202.140 1 1 68041 20131221112838
+74.208.148.95 1 1 63065 20131215100659
+199.19.73.129 1 1 66680 20131229024440
+64.34.169.244 1 1 66747 20131225223509
+65.52.242.216 1 1 72513 20131203194246
+110.85.115.136 1 1 68280 20131212030823
+69.162.129.172 1 1 69424 20131229205339
+199.101.95.233 1 1 69423 20131229205340
+208.115.111.73 1 1 66751 20131220114918
+173.252.112.114 1 1 67046 20131217044923
+208.115.113.89 4 4 133745 20131228070615
+193.192.58.164 1 1 66751 20131213012132
+91.200.14.88 1 1 72184 20131203180830
+95.67.80.226 1 1 67522 20131208232453
+65.55.215.254 1 46 1010526 20131206232840
+183.90.41.24 2 2 132168 20131208075803
+216.152.251.83 2 2 105171 20131201213838
+117.26.248.142 1 1 73550 20131203000921
+218.30.103.42 0 51 573891 
+46.4.48.68 1 1 66751 20131217050536
+208.80.194.125 0 11 310267 
+208.43.255.27 6 6 333836 20131222231406
+193.111.141.116 1 1 66752 20131223185326
+131.253.24.51 1 52 1076789 20131227030410
+175.42.93.32 2 2 94727 20131203035744
+69.162.156.89 1 1 54862 20131229024441
+50.57.68.9 2 2 127769 20131205223310
+66.220.152.115 1 1 72417 20131203235431
+192.99.9.164 1 1 72423 20131203024738
+61.135.190.103 1 24 827077 20131217122124
+66.249.93.160 1 6 87089 20131210032036
+50.57.64.198 2 2 75929 20131212083931
+123.125.244.210 3 3 204351 20131227142006
+27.153.206.215 9 9 452225 20131230143859
+61.135.190.105 3 50 1700002 20131227123046
+38.99.82.252 5 5 137337 20131211210633
+208.43.255.29 4 4 250431 20131222093614
+69.162.152.176 1 1 45774 20131229205347
+192.199.252.181 1 1 45603 20131229024442
+91.119.119.117 1 58 2429011 20131208130132
+112.198.82.103 2 45 1107830 20131207011204
+27.159.204.31 3 3 220638 20131203012612
+67.202.89.237 1 1 55029 20131229205348
+183.90.41.169 1 1 49051 20131208075714
+162.216.102.221 1 1 49434 20131229205346
+49.144.10.142 2 2 0 20131210063353
+59.58.159.245 4 4 177230 20131228122236
+56.0.84.25 9 103 3714160 20131205120410
+68.191.93.12 1 94 3639429 20131207233647
+119.63.193.195 1 1 63059 20131216065203
+183.90.41.178 1 1 45239 20131208075617
+162.213.223.78 1 1 74592 20131229205340
+124.105.255.13 1 14 317982 20131204025053
+61.135.190.221 3 64 2138107 20131231122018
+208.43.255.24 9 9 550348 20131221171819
+66.249.73.201 1 1 66990 20131219122108
+68.71.158.55 1 1 637 20131229024446
+112.209.181.158 10 171 4669109 20131211214619
+202.116.5.37 1 1 66745 20131222104535
+199.19.72.102 1 1 73440 20131229205340
+199.19.72.237 1 1 66995 20131229205343
+202.46.52.27 1 1 63065 20131216065141
+121.54.54.60 1 19 2552213 20131204092457
+208.43.255.31 2 2 121017 20131222232311
+101.199.108.55 1 50 1070340 20131223235228
+72.8.170.15 1 1 50542 20131229205345
+72.8.148.39 1 1 45770 20131229205349
+23.22.170.173 1 1 62744 20131219023212
+50.57.190.97 6 6 262550 20131211095848
+121.205.215.160 4 4 177230 20131227044908
+119.147.146.189 1 16 517345 20131204190602
+72.30.198.97 1 97 3578062 20131219042926
+27.159.228.154 1 1 68176 20131210002533
+67.215.249.246 1 1 2436 20131229024441
+68.71.140.67 1 1 57648 20131229205340
+63.250.204.22 1 1 66751 20131220110738
+109.200.159.118 4 4 267154 20131224124907
+199.217.119.4 3 3 200739 20131214061851
+66.220.152.113 0 1 430980 
+61.135.190.104 1 36 1010956 20131202230550
+72.8.170.91 1 1 66752 20131229024446
+66.220.152.114 1 1 72406 20131203194230
+72.8.185.199 1 1 60262 20131229205340
+69.162.157.67 1 1 66989 20131229024446
+61.135.190.102 2 17 510109 20131210120632
+110.89.10.233 1 1 68111 20131223000758
+208.43.225.84 1 1 73672 20131224013644
+119.147.146.194 1 1 68111 20131218071628
+69.58.178.57 12 12 668009 20131208174331
+64.120.214.178 1 1 66994 20131214124622
+157.55.252.30 1 1 67462 20131204003435
+5.9.113.4 1 1 66156 20131207075716
+50.23.254.99 1 1 62984 20131215125424
+121.1.55.87 1 1 1355 20131218221057
+208.43.255.28 8 8 388947 20131222231422
+110.85.115.177 1 1 68117 20131217112035
+54.227.101.88 0 1 15508 
+38.99.82.230 2 5 167123 20131209131159
+67.195.61.152 6 70 1051815 20131219065112
+162.216.103.241 1 1 69429 20131229205339
+72.20.63.63 1 1 60360 20131229205345
+72.20.59.106 1 1 49219 20131229024442
+23.27.38.158 2 2 98230 20131206171855
+120.37.242.79 4 4 177230 20131227040716
+191.234.39.86 1 1 68117 20131220043214
+69.162.140.131 1 1 45841 20131229024445
+38.99.82.194 9 9 518788 20131205001523
+120.43.10.212 1 1 73550 20131202085530
+199.167.148.197 1 1 0 20131203145845
+50.57.190.90 3 3 134830 20131211095635
+72.30.198.70 1 96 3577198 20131219021816
+1.200.63.160 8 108 4066581 20131206043442
+121.54.44.177 1 3 823649 20131204190756
+69.64.32.191 4 4 266780 20131223231748
+31.6.71.227 2 2 98378 20131204031112
+183.90.41.165 1 1 82210 20131208075543
+110.83.60.161 1 1 66387 20131208005247
+208.78.85.32 1 1 66150 20131204014415
+27.153.249.162 1 1 68235 20131217011053
+50.97.233.171 1 1 62825 20131218045518
+220.181.127.124 1 1 68231 20131202231631
+222.77.205.76 1 1 68117 20131213234542
+72.8.155.109 1 1 45855 20131229024444
+173.252.112.116 1 1 1355 20131218215630
+54.241.110.110 1 1 62825 20131228080858
+192.199.247.104 1 1 45841 20131229024443
+68.71.158.68 1 1 60200 20131229024438
+101.199.112.50 1 48 1062618 20131212201723
+216.244.95.3 10 10 667486 20131228025300
+222.77.226.49 4 4 177230 20131223151958
+192.185.1.20 4 4 146 20131211052938
+98.137.206.90 1 96 3577198 20131219084845
+72.20.59.158 1 1 69439 20131229205340
+61.135.190.222 2 26 961096 20131226122002
+50.56.58.47 4 4 174830 20131211095920
+202.46.62.160 1 1 674 20131212191027
+61.135.190.101 0 38 666629 
+173.0.54.161 2 2 127326 20131227140158
+50.57.104.33 5 5 236664 20131212152145
+50.57.68.14 3 3 50106 20131209193352
+54.193.38.139 1 1 68117 20131218025609
+199.30.25.225 0 92 3501557 
+199.30.25.28 0 90 3484824 
+72.30.198.111 2 67 1141046 20131219052246
+37.208.232.186 5 187 7326778 20131225144822
+68.234.20.165 1 1 1673 20131229024442
+68.233.249.182 1 1 66815 20131217022852
+120.43.5.165 1 1 68110 20131209140115
+144.76.42.76 1 1 66994 20131228084049
+183.90.41.177 1 1 66150 20131208075634
+65.55.215.242 1 52 1076783 20131226024718
+91.239.15.173 1 1 66751 20131222010420
+68.234.29.252 1 1 50331 20131229024442
+112.209.229.52 18 199 3253109 20131213194716
+112.209.226.194 5 5 0 20131210225319
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20131201 187 187 12691802 5
+20131202 62 386 9037203 13
+20131203 504 3184 58323915 18
+20131204 591 3334 83057967 33
+20131205 174 399 15347947 22
+20131206 17 164 5510662 7
+20131207 22 179 6628299 7
+20131208 153 849 20273865 14
+20131209 1059 5442 78063114 19
+20131210 131 250 3627959 16
+20131211 748 4934 48940306 14
+20131212 792 5072 73799329 20
+20131213 70 311 7036000 6
+20131214 12 23 981738 5
+20131215 38 412 13198351 8
+20131216 89 438 11814771 11
+20131217 1490 14065 130385787 18
+20131218 45 448 3141025 10
+20131219 65 814 25368716 16
+20131220 80 218 8964186 11
+20131221 40 308 10588276 8
+20131222 66 74 3692155 12
+20131223 46 280 10564567 11
+20131224 12 37 1419729 4
+20131225 35 125 5675603 7
+20131226 18 230 6491874 6
+20131227 50 126 4685052 10
+20131228 19 40 1760508 7
+20131229 70 74 4053158 45
+20131230 30 135 5608599 6
+20131231 35 152 6565371 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 34
+5mn-15mn 18
+30s-2mn 38
+15mn-30mn 10
+2mn-5mn 8
+0s-30s 275
+30mn-1h 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 427
+/administrator/index.php 2420 100266177 3 5
+/ 947 59283858 246 183
+/index.php 496 21042009 25 37
+/index.php/login 231 10135134 8 12
+/index.php/job-seekers 200 10359840 0 1
+/index.php/employer 134 6923549 0 0
+/index.php/jobs 127 8926745 6 8
+/templates/new_vision/css/font-awesome/font/fontawesome-webfont.woff 113 1394304 1 3
+/index.php/login/profile 105 4824101 1 0
+/index.php/forum/recent 80 4409148 4 4
+/index.php/component/users/ 75 3917160 1 5
+/index.php/index.php 63 2556286 2 3
+/index.php/component/search/ 59 1248682 2 5
+/administrator/components/com_extplorer/fetchscript.php 52 6924086 0 0
+/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 48 3211773 23 14
+/index.php/new 43 1959685 7 6
+/administrator/ 43 416891 7 3
+/index.php/job-seekers/jsjobs/myresumes 43 2099522 0 0
+/index.php/register 34 1804748 0 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-office-receptionist-1 29 2492637 0 0
+/index.php/component/jsjobs/jsjobs/formresume/2 28 3827467 0 0
+/index.php/employer/jsjobs/controlpannel 27 1414124 0 1
+/index.php/topmenu-about-us/47-site-info 26 1517821 0 1
+/index.php/topmenu-news/2-uncategorised 25 1274524 0 19
+/index.php/employer/jsjobs/appliedresume 25 1164749 0 0
+/index.php/contact-us/loader/component/280/media/chosen/css 10 156960 1 1
+/index.php/job-seekers/jsjobs/employersendmessages/jobseekersendmessage-planning-manager-1/3/1 2 101927 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/9 1 74249 0 1
+/index.php/job-seekers/jsjobs/jobsearches 1 44476 0 0
+/index.php/job-seekers/jsjobs/jobseeker/formresume/1/2 2 515473 0 0
+/index.php/component/jsjobs/jsjobs/formjob 3 202413 0 0
+/index.php/login/index.php 2 91417 0 0
+/index.php/contact-us/loader/component/280/components/bootstrap/css 10 93210 1 1
+/index.php/employer/jsjobs/viewjob/vjob-office-receptionist-1/1 1 57251 0 0
+/index.php/new/20-frontpage 2 97710 1 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-0/1 1 78461 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/47 1 74216 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/24 1 74223 0 0
+/index.php/employer/jsjobs/jobseeker/jobcat 1 85247 0 0
+/index.php/employer/jsjobs/resumecategory/resumecategory-administrative-2 2 100430 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/17 1 74235 0 0
+/index.php/employer/jsjobs/employer/myfolders 3 136362 0 0
+/index.php/employer/jsjobs/employer/package_buynow/2/index.php 1 44488 0 0
+/index.php/job-seekers/jsjobs/mycompanies 1 48133 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/51 1 74239 0 0
+/index.php/jobs/jsjobs/jobseeker/controlpanel 6 326980 0 0
+/index.php/employer/jsjobs/jobseeker/myresumes 3 145881 0 0
+/index.php/job-seekers/jsjobs/rssjobs/jobsrssformat-rss 9 10685 2 2
+/index.php/jobs/jsjobs/listjobs/jobcategory-legal-32 1 68155 0 0
+/index.php/job-seekers/jsjobs/viewresume/viewresume-planning-manager-1/1 6 507458 0 0
+/index.php/employer/jsjobs/viewresume/vresumecategory-administrative-3/1/10 1 84466 0 0
+/index.php/employer/jsjobs/jobseeker/formresume/2 1 260712 0 0
+/index.php/component/jsjobs/jsjobs/jobseeker/listnewestjobs 1 81712 0 0
+/index.php/faq/2-uncategorised 1 46109 0 0
+/index.php/topmenu-about-us 16 676537 3 3
+/index.php/jobs/jsjobs/listjobs/jobcategory-construction-14 1 68267 0 0
+/index.php/employer/jsjobs/jobcategory 3 178503 0 0
+/index.php/employer/jsjobs/viewjob/categoryjob-office-receptionist-1/2 1 57805 0 0
+/index.php/new/8-news/latest-news/291-stock-photography 1 51755 0 0
+/index.php/job-seekers/jsjobs/employersendmessages/jobseekersendmessage-administrative-3/3/1 2 106644 0 0
+/20-frontpage/index.php/20-frontpage/index.php 1 66521 0 0
+/index.php/jobs/jsjobs/jobseeker/index.php 5 1293 0 0
+/index.php/component/jsjobs/jsjobs/employer/index.php 2 54890 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/2 2 156462 0 0
+/index.php/employer/jsjobs/mycompanies 13 633766 0 0
+/index.php/blogs/20-frontpage/296-beautiful-design-and-flexbile-features 1 51618 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/5 1 74228 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/49 1 74194 0 0
+/index.php/employer/jsjobs/resumebycategory 2 119994 0 0
+/index.php/forum/statistics 1 51804 0 0
+/index.php/employer/jsjobs/jobseeker/controlpanel 5 279238 0 0
+/index.php/employer/jsjobs/mydepartments 1 44545 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-consultant-contractual-15 1 68326 1 0
+/index.php/job-seekers/jsjobs/rss/rssjobs/rss 5 1645 0 0
+/index.php/job-seekers/jsjobs/jobseeker/formresume/index.php 6 318069 0 0
+/index.php/employer/jsjobs/employer/job_appliedapplications/1 4 218866 0 0
+/index.php/component/content/ 4 179374 2 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/8 1 74354 0 1
+/index.php/job-seekers/jsjobs/formcoverletter 2 91016 0 0
+/index.php/register/jsjobs/jobseeker/listnewestjobs 1 77802 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/13 3 230776 1 0
+/index.php/forum/profile 2 115136 0 0
+/index.php/employer/jsjobs/companyjobs/companyjobs-ferrand-human-resources-1 1 51860 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-biotechnology-8 1 68431 0 0
+/index.php/employer/jsjobs/employersendmessages/employersendmessage-3/2/1 1 53549 0 0
+/templates/new_vision/css/font-awesome/font/fontawesome-webfont.eot 4 149620 0 0
+/index.php/job-seekers/jsjobs/jobseeker/jobcat 12 994729 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/55 1 74196 0 1
+/index.php/jobs/jsjobs/jobseeker/list_jobs/16 1 74247 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/28 1 74238 0 0
+/index.php/topmenu-blog 22 728312 2 3
+/index.php/employer/jsjobs/jobalert 2 111282 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/31 2 151041 1 0
+/index.php/component/jsjobs/jsjobs/employer/formjob 1 100414 0 0
+/index.php/employer/jsjobs/jobapply/newapply-office-receptionist-1/3 1 48099 0 0
+/index.php/jobs/jsjobs/employer/job_appliedapplications/1 2 118066 0 0
+/index.php/employer/jsjobs/employersendmessages/jobseekersendmessage-administrative-3/3/1 1 50868 0 0
+/templates/new_vision/css/font-awesome/font/fontawesome-webfont.ttf 3 237228 0 1
+/index.php/jobs/jsjobs/mycompanies 1 49602 0 0
+/index.php/job-seekers/jsjobs/controlpanel 19 1000746 0 0
+/index.php/jobs/jsjobs/jobcategory 9 540973 3 4
+/index.php/jobs/jsjobs/jobseeker/list_jobs/25 1 74210 0 0
+/index.php/employer/jsjobs/employer/resume_bycategory 4 196742 0 0
+/index.php/about/38-sample-content/279-sample-content-3 1 51042 0 0
+/index.php/employer/jsjobs/formfolder 2 97357 0 0
+/index.php/employer/jsjobs/formdepartment 2 96952 0 0
+/index.php/component/jsjobs/jsjobs/appliedresume 3 133184 0 0
+/index.php/component/jsjobs/jsjobs/mycompanies 2 89433 0 0
+/index.php/job-seekers/jsjobs/viewjob/appliedjob-office-receptionist-1/4 1 57362 0 0
+/index.php/blogs/2-uncategorised 3 142141 0 0
+/jom32/ 3 219 1 1
+/index.php/job-seekers/jsjobs/formresume/eresume-graphic-artist-2/1 2 292808 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-public-relations-45 1 68289 0 0
+/index.php/employer/jsjobs/formcoverletter 1 47019 0 0
+/index.php/contact-us 21 923832 3 7
+/index.php/jobs/jsjobs/jobseeker/view_resume/2/1/1 1 94044 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/35 1 74204 0 0
+/index.php/employer/jsjobs/formcompany/ecompany-qatar-airways-4 1 61367 0 0
+/index.php/employer/jsjobs/employer/empmessages 1 47522 0 0
+/index.php/new/38-sample-content 4 233874 0 2
+/index.php/20-frontpage 6 397081 0 2
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-1/3 1 78523 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-automotive-Nl%2031gtebive-Nl%2031gte%20%20%20%20%200= 1 69738 1 0
+/index.php/employer/jsjobs/jobseeker/view_coverletter/1/1/1/1/705 1 44323 0 0
+/index.php/employer/jsjobs/resumesubcategory/resumesubcategory-administrative-communes-8 1 48802 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-mechanical-engineering-39 1 68370 0 0
+/index.php/component/search/index.php/component/search/ 1 47347 0 0
+/index.php/job-seekers/jsjobs/myappliedjobs/sortby-jobstatusdesc 1 47325 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-communications-12 1 68265 0 0
+/index.php/job-seekers/jsjobs/jobseeker/myappliedjobs 5 230214 0 0
+/index.php/employer/jsjobs/employer/resume_bycategory/jobtypedesc 1 48477 0 0
+/index.php/blogs/7-news 2 80751 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/10 1 74321 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/23 1 74220 0 0
+/index.php/employer/jsjobs/viewcompany/2 1 44451 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/29 1 74209 1 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 1 66120 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-homeland-security-27 1 68326 0 0
+/index.php/job-seekers/jsjobs/formresume/index.php 3 938 0 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-1/1 6 499894 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-engineering-10 1 68326 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/1 1 74273 0 0
+/index.php/job-seekers/jsjobs/jobalert 3 166818 0 0
+/index.php/job-seekers/jsjobs/jobseeker/jsmessages 4 178715 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/4 1 74269 0 0
+/index.php/job-seekers/jsjobs/jobseeker/listnewestjobs 2 163513 0 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 1 66212 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/50 1 74226 0 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php 1 66544 0 0
+/index.php/job-seekers/jsjobs/jobseeker/job_searchresults 1 58513 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-internships-trainees-31 1 68261 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-retail-48 1 68274 0 0
+/index.php/component/jsjobs/jsjobs/jobseekerpackages 3 148606 0 1
+/index.php/about/8-news/latest-news 4 408003 0 0
+/index.php/job-seekers/jsjobs/jobseeker/packages 7 382474 0 1
+/index.php/employer/jsjobs/employer/index.php 1 295 0 0
+/index.php/employer/jsjobs/employersendmessages/employersendmessage-1/1/1 2 100494 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-trades-53 1 68254 0 1
+/index.php/faq/38-sample-content/277-sample-content 1 9859 0 0
+/index.php/job-seekers/jsjobs/jobseekerstats 2 92300 0 0
+/index.php/blogs 7 272737 1 2
+/index.php/jobs/jsjobs/myresumes 1 49715 0 0
+/index.php/component/content/index.php 5 243773 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/46 1 74187 0 0
+/index.php/job-seekers/jsjobs/searchjob 11 623387 0 0
+/index.php/jobs/jsjobs/jobseeker/job_searchresults 1 56728 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-advertising-3 3 207534 1 1
+/index.php/about/38-sample-content 2 114762 0 0
+/index.php/employer/jsjobs/employer/package_buynow/2/1 2 92458 0 1
+/index.php/employer/jsjobs/jobsearchresults 5 281993 0 0
+/index.php/job-seekers/jsjobs/jobseeker/formcoverletter 2 92730 0 0
+/index.php/employer/jsjobs/myjobs 8 389588 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-civil-construction-9 1 68309 0 0
+/index.php/jobs/jsjobs/jobseeker/listnewestjobs 2 156783 0 0
+/index.php/forum/topics 2 104938 0 0
+/index.php/jobs/jsjobs/viewjob/categoryjob-security-agent-2/2 2 117253 0 0
+/index.php/employer/jsjobs/jobsearches 2 92910 0 0
+/index.php/job-seekers/jsjobs/jobseeker/my_jobsearches 1 43752 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/42 1 74225 0 0
+/index.php/employer/jsjobs/formcompany/ecompany-ferrand-human-resource-1 1 61591 0 0
+/index.php/employer/jsjobs/employer/packages 6 339992 0 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 1 66166 0 0
+/index.php/employer/jsjobs/index.php 9 2112 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-banking-finance-7 1 68339 0 0
+/index.php/component/jsjobs/jsjobs/formresume/index.php 1 244 0 0
+/index.php/employer/jsjobs/employer/mycompanies 6 302156 0 0
+/index.php/component/jsjobs/jsjobs/jobseekerbuynow/p-1/2 1 47737 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/54 1 74223 0 0
+/index.php/jobs/jsjobs/newestjobs 12 873752 3 4
+/index.php/forum/index 9 497573 0 0
+/index.php/job-seekers/jsjobs/jobseeker/view_resume/1/2 1 92220 0 0
+/index.php/job-seekers/jsjobs/jobseeker/index.php 10 491508 0 0
+/index.php/job-seekers/jsjobs/index.php 3 962 0 0
+/index.php/job-seekers/jsjobs/listjobs/jobcategory-administrative-2 3 224090 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-cleared-jobs-11 1 68310 0 0
+/index.php/faq/8-news/latest-news 3 306972 0 0
+/index.php/employer/jsjobs/rss/rssresumes/rss 2 3574 0 0
+/index.php/jobs/jsjobs/formjob 4 436977 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-management-35 1 68277 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-logistics-transportation-33 1 68264 0 0
+/index.php/employer/jsjobs/employersendmessages/employersendmessage-planning-manager-1/2/1 1 50984 0 0
+/index.php/job-seekers/jsjobs/formresume/eresume-planning-manager-1/1 24 3487307 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/14 1 74191 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-marketing-37 1 68222 0 0
+/index.php/employer/jsjobs/viewresume/appliedresume-planning-manager-1/2/1 3 251952 0 0
+/media/jui/fonts/IcoMoon.woff 15 381360 0 0
+/index.php/about/20-frontpage 2 93908 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-energy-22 1 68295 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-education-19 1 68301 0 0
+/index.php/8-news/latest-news/287-responsive-layout 1 77638 0 0
+/index.php/employer/jsjobs/employer/formcompany 2 93293 0 0
+/index.php/component/jsjobs/jsjobs/myjobs 1 45598 0 0
+/index.php/new/2-uncategorised 2 95372 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-materials-management-38 1 68308 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/38 1 74246 0 0
+/index.php/component/jsjobs/jsjobs/controlpannel 5 263131 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/52 1 74224 0 0
+/index.php/contact-us/loader/component/280/components/jtext/js 10 13620 0 1
+/index.php/jobs/jsjobs/listjobs/jobcategory-architectural-5 3 207460 1 1
+/index.php/job-seekers/jsjobs/jobseeker/package_buynow/1/1 1 50038 0 0
+/index.php/employer/jsjobs/employer/my_resumesearches 1 47569 0 0
+/index.php/employer/jsjobs/searchjob 5 283784 0 0
+/index.php/job-seekers/jsjobs/jobseeker/package_buynow/2/index.php 1 44499 0 0
+/index.php/jobs/jsjobs/jobseeker/formresume/2 2 523990 0 0
+/index.php/employer/jsjobs/employerbuynow/p-1/1 1 47906 0 0
+/index.php/contact-us/loader/component/280/media/bootstrap/css 10 132810 1 2
+/index.php/jobs/jsjobs/listjobs/jobcategory-transportation-54 1 68301 0 0
+/index.php/job-seekers/jsjobs/formresume/eresume-administrative-3/index.php 1 309 0 0
+/index.php/about/8-news/latest-news/233-s5-drop-down-panel 1 52784 0 0
+/index.php/job-seekers/jsjobs/formresume/eresume-graphic-artist-2/index.php 1 309 0 0
+/index.php/employer/jsjobs/resumesearchresults 4 209132 0 0
+/index.php/topmenu-blog/17-installing-the-template 6 227419 0 0
+/index.php/38-sample-content/277-sample-content 2 71760 0 0
+/index.php/employer/jsjobs/resumesearch 1 61698 0 0
+/index.php/topmenu-faq 18 734947 4 2
+/index.php/employer/jsjobs/employer/purchasehistory 1 50414 0 0
+/index.php/forum/user/720-pixxelsis 5 249215 0 1
+/index.php/job-seekers/jsjobs/jobseekermessages 9 407793 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/26 1 74229 0 0
+/index.php/faq 7 272647 1 1
+/index.php/jobs/jsjobs/jobseeker/jobcat 7 600938 0 0
+/index.php/employer/jsjobs/employer/resumesearch 3 189147 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-health-medicine-26 1 68308 0 0
+/index.php/employer/jsjobs/myappliedjobs 3 142547 0 0
+/index.php/job-seekers/jsjobs/jobsearchresults 6 333036 0 0
+/index.php/faq/7-news 2 80721 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/53 1 74248 0 0
+/index.php/employer/jsjobs/employersendmessages/employersendmessage-3/1/1 2 100758 0 0
+/index.php/job-seekers/jsjobs/newestjobs 3 216786 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-shipping-distribution-51 1 68254 0 0
+/index.php/38-sample-content/278-sample-content-2 2 129424 0 1
+/index.php/new/38-sample-content/278-sample-content-2 1 51095 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/45 1 74209 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/3 1 74319 0 0
+/index.php/employer/jsjobs/formjob 12 1296913 0 0
+/index.php/employer/jsjobs/jobseeker/view_resume/3/0/1 1 89338 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/41 1 74227 0 0
+/index.php/component/users 1 45137 1 1
+/index.php/employer/jsjobs/controlpanel 11 579004 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-transportation-engineering-55 1 68286 0 0
+/index.php/new/20-frontpage/296-beautiful-design-and-flexbile-features 1 10619 0 0
+/index.php/topmenu-news 15 604404 3 2
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-1/2 1 92933 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-administrative-2 22 1652641 1 1
+/index.php/jobs/jsjobs/listjobs/jobcategory-public-safety-46 1 68200 0 0
+/index.php/faq/47-site-info 2 105682 1 0
+/index.php/jobs/jsjobs/employer/controlpanel 1 56460 0 0
+/index.php/register/jsjobs/jobseeker/jobsearch 1 68430 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-computer-it-13 1 68324 0 0
+/index.php/blogs/38-sample-content/279-sample-content-3 1 51008 0 0
+/index.php/jobs/jsjobs/searchjob 12 688560 1 2
+/index.php/8-news/latest-news 1 122294 0 0
+/index.php/employer/jsjobs/employer/my_stats 1 49544 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-accounting-finance-1 4 277266 2 2
+/index.php/jobs/jsjobs/listjobs/jobcategory-customer-service-16 2 141360 0 0
+/index.php/job-seekers/jsjobs/jobapply/jobcatapply-office-receptionist-1/1/2 2 96214 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-human-resources-28 1 68247 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/34 1 74228 0 0
+/index.php/blogs/8-news/latest-news 3 307369 0 0
+/index.php/jobs/jsjobs/employer/alljobsappliedapplications 1 51182 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-intelligence-jobs-30 1 68320 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-manufacturing-warehouse-36 1 68317 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/7 1 74260 0 1
+/index.php/jobs/jsjobs/jobseeker/list_jobs/22 1 74247 0 0
+/index.php/employer/jsjobs/rssjobs/jobsrssformat-rss 4 3030 0 0
+/index.php/employer/jsjobs/employer/myjobs 4 210652 0 0
+/index.php/employer/jsjobs/formresume/eresume-planning-manager-1/1 2 293387 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-design-18 1 68256 0 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 1 66189 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-airlines-avionics-aerospace-4 7 516379 1 1
+/index.php/employer/jsjobs/resumecategory/resumecategory-accounting-finance-1 1 50238 0 0
+/index.php/new/8-news/latest-news 2 206659 1 0
+/index.php/component/jsjobs/jsjobs/employer/mycompanies 3 140493 0 0
+/index.php/blogs/20-frontpage 2 93800 0 0
+/index.php/employer/jsjobs/employer/resume_searchresults 1 51593 0 0
+/templates/new_vision/css/PIE.htc 5 203365 0 1
+/index.php/employer/jsjobs/mycoverletters 1 44659 0 0
+/index.php/component/jsjobs/jsjobs/searchjob 12 708120 1 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php 1 66636 0 1
+/index.php/jobs/jsjobs/jobseeker/list_jobs/44 1 74213 0 0
+/index.php/job-seekers/jsjobs/jobcategory 6 357891 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-technicians-52 1 68241 0 0
+/index.php/job-seekers/jsjobs/jobseeker/myresumes 17 848068 0 0
+/index.php/employer/jsjobs/employer/resume_bycategory/Array%5B 1 45467 0 0
+/index.php/jobs/jsjobs/jobseeker/formcoverletter 1 46156 0 0
+/index.php/employer/jsjobs/employer/formjob 24 2453837 0 0
+/index.php/blogs/47-site-info 2 105807 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-national-security-41 1 68238 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-printing-43 1 68297 0 0
+/index.php/jobs/jsjobs/jobseeker/jsmessages 1 44964 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/40 1 74233 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/30 1 74240 0 0
+/index.php/component/users/index.php 1 51048 0 0
+/index.php/jobs/jsjobs/jobapply/jobcatapply-security-agent-2/1/4 1 48055 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/11 1 74250 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/39 1 74284 0 0
+/index.php/employer/jsjobs/jobseekermessages 1 46929 0 0
+/index.php/faq/8-news/latest-news/291-stock-photography 1 10487 0 0
+/index.php/job-seekers/jsjobs/formresume/eresume-administrative-3/1 3 435630 0 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php 1 66567 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-sales-49 1 68275 0 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-1/5 1 78480 0 0
+/index.php/employer/jsjobs/employer/controlpanel 11 600044 0 0
+/index.php/jobs/jsjobs/formcompany 1 62503 0 0
+/index.php/employer/jsjobs/jobseeker/view_resume/2/1/1 4 355600 0 0
+/index.php/employer/jsjobs/myresumes 2 95281 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-product-design-44 1 68296 0 0
+/index.php/faq/20-frontpage 3 145694 0 0
+/index.php/employer/jsjobs/employer/formdepartment 4 194293 0 0
+/index.php/new/47-site-info 1 53229 0 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-1/index.php 2 112 0 0
+/index.php/employer/jsjobs/jobapply/jobcatapply-security-agent-2/1/4 1 48026 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-part-time-freelance-42 1 68308 0 0
+/index.php/employer/jsjobs/formcompany 6 354732 0 1
+/index.php/component/jsjobs/jsjobs/jobseekerpackagedetails/p-1 1 47333 0 0
+/index.php/job-seekers/jsjobs/formresume/2 23 2784192 0 0
+/index.php/component/jsjobs/jsjobs/employer/formcompany 2 110439 0 0
+/index.php/employer/jsjobs/employerjobmessages/employerjobmessage-office-receptionist-1 6 281538 0 0
+/index.php/employer/jsjobs/jobapply/jobcatapply-office-receptionist-1/1/2 1 48111 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/12 1 74187 0 0
+/index.php/forum/topics/index.php 2 104958 0 0
+/index.php/blogs/8-news/latest-news/291-stock-photography 1 10513 0 0
+/index.php/component/content/article 14 705722 3 3
+/index.php/employer/jsjobs/employersendmessages/employersendmessage-administrative-3/2/1 5 263653 0 0
+/index.php/forum/newtopic 8 641750 0 0
+/index.php/job-seekers/jsjobs/jobseeker/package_buynow/2/1 2 92452 0 0
+/index.php/forum/profile/edit/705-ressiefos 5 431813 0 0
+/index.php/job-seekers/jsjobs/jobseeker/controlpanel 10 529096 0 0
+/index.php/employer/jsjobs/packages 1 50139 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/20 2 148538 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/32 1 74156 0 0
+/index.php/employer/jsjobs/jobseeker/listnewestjobs 1 81716 0 0
+/index.php/employer/jsjobs/listjobs/jobcategory-maintenance-34 1 71722 0 0
+/index.php/employer/jsjobs/formcompany/ecompany-santarli-(phils)-training-and-testing-centre-5 1 61604 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-maintenance-34 2 136536 0 1
+/index.php/employer/jsjobs/newestjobs 2 141956 0 0
+/index.php/employer/jsjobs/jobseeker/view_resume/3/0/2 1 92555 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-research-47 1 68288 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/36 1 74230 0 0
+/index.php/employer/jsjobs/tk/exportallresume 1 3922 0 0
+/index.php/job-seekers/jsjobs/jobseeker/formresume/2 18 2133642 0 0
+/index.php/job-seekers/jsjobs/jobseeker/jobalertsetting 2 124970 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-electrical-engineering-20 1 68291 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-automotive-6 3 207465 2 1
+/index.php/employer/jsjobs/employermessages 7 325588 0 0
+/index.php/about/47-site-info 2 105766 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/6 1 74270 0 0
+/index.php/component/users/profile 7 330401 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-fundraising-25 1 68285 0 0
+/index.php/jobs/jsjobs/index.php 2 625 0 0
+/index.php/employer/jsjobs/employer/resumebycategory 5 302583 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-defense-17 1 68312 0 0
+/index.php/jobs/jsjobs/jobseeker/jobsearch 9 642924 1 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-mortgage-real%20estate-40 1 68261 0 0
+/index.php/jobs/jsjobs/jobsearchresults 5 277667 0 0
+/index.php/ 6 395943 0 1
+/index.php/38-sample-content 1 71302 0 0
+/index.php/component/mailto/ 10 41044 1 1
+/index.php/employer/jsjobs/jobseeker/formcoverletter 1 50018 0 0
+/index.php/employer/jsjobs/jobseeker/formresume/index.php 2 521420 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/56 1 74315 0 0
+/index.php/forum/profile/705-ressiefos 6 346913 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-environmental-safety-24 1 68249 0 0
+/index.php/about/20-frontpage/296-beautiful-design-and-flexbile-features 1 10659 0 0
+/jom32/installation/index.php 16 211488 1 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/33 1 74240 0 1
+/index.php/employer/jsjobs/employer/alljobsappliedapplications 6 280284 0 0
+/index.php/jobs/jsjobs/controlpannel 1 53764 0 0
+/index.php/contact-us/foxcontact 4 177498 1 0
+/index.php/about 8 318233 1 2
+/index.php/about/2-uncategorised 5 265558 0 3
+/index.php/jobs/jsjobs/jobseeker/list_jobs/43 1 74225 0 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php 1 66613 0 0
+/index.php/20-frontpage/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 1 66101 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-electronics-engineering-21 1 68308 0 0
+/index.php/component/jsjobs/jsjobs/myresumes 5 232395 0 0
+/index.php/employer/jsjobs/jobappliedapplications/index.php 2 1083 0 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications- 1 78468 0 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 1 66143 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/27 1 74239 0 0
+/index.php/employer/jsjobs/employer/mydepartments 1 46376 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-web-site-development-56 1 68398 0 0
+/index.php/forum/topics/mode-topics 9 7541 0 6
+/index.php/jobs/jsjobs/viewjob/categoryjob-office-receptionist-1/2 5 289014 0 0
+/index.php/component/jsjobs/jsjobs/jobseekerpurchasehistory 1 47783 0 0
+/index.php/job-seekers/jsjobs/jobseeker/jobsearch 7 483791 0 0
+/index.php/component/jsjobs/jsjobs/controlpanel 3 158889 1 0
+/index.php/blogs/38-sample-content 2 114630 0 0
+/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php/20-frontpage/index.php 1 66590 0 0
+/index.php/about/7-news 2 80614 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/15 1 74241 0 0
+/index.php/topmenu-faq/47-site-info 3 163569 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/48 1 74198 0 0
+/index.php/jobs/jsjobs/jobseeker/list_jobs/21 1 74221 0 0
+/index.php/employer/jsjobs/resumepdf/pdfresume-planning-manager-1/1/2/pdf 1 20385 0 0
+/index.php/contact-us/loader/component/280/none/none/captcha 8 18233 1 1
+/index.php/employer/jsjobs/employersendmessages/jobseekersendmessage-3/3/1 2 104470 0 0
+/index.php/faq/38-sample-content 2 114635 0 0
+/index.php/component/jsjobs/jsjobs/formcompany 1 61187 0 0
+/index.php/job-seekers/jsjobs/myappliedjobs 5 233616 0 1
+/index.php/jobs/jsjobs/jobseeker/myresumes 1 46065 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-scientific-50 1 68236 0 0
+/index.php/forum/search 4 213798 0 2
+/index.php/faq/20-frontpage/296-beautiful-design-and-flexbile-features 1 10619 0 0
+/index.php/employer/jsjobs/viewcompany/vcompany-ferrand-human-resources-1/1 2 94582 0 0
+/index.php/job-seekers/jsjobs/jobseeker/list_jobs/1 1 77092 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-insurance-29 1 68212 0 0
+END_SIDER

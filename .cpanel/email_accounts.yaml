@@ -1,0 +1,15 @@
+--- 
+__version: '2.1'
+poec.org: 
+  account_count: 2
+  accounts: 
+    admin: 
+      disk_mtime: '1382987814'
+      diskquota: 0
+      diskused: 0
+    info: 
+      disk_mtime: '1381768239'
+      diskquota: 0
+      diskused: 0
+  passwd_mtime: '1402205834'
+  quota_mtime: '1402205834'

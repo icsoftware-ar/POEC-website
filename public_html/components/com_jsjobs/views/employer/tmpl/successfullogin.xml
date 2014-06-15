@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Successful Login">
+		<message>
+			<![CDATA[Successful login.]]>
+		</message>
+	</layout>
+	<state>
+		<name>Successful Login</name>
+		<description>Auto redirect on successful login.</description>
+	</state>
+</metadata>

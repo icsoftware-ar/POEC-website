@@ -1,0 +1,116 @@
+Return-path: <>
+Envelope-to: info@poec.org
+Delivery-date: Wed, 02 Apr 2014 23:56:16 -0500
+Received: from gateway10.websitewelcome.com ([69.93.147.6]:37553)
+	by gator4031.hostgator.com with esmtp (Exim 4.80.1)
+	id 1WVZhI-0005oy-Sc
+	for info@poec.org; Wed, 02 Apr 2014 23:56:16 -0500
+Received: by gateway10.websitewelcome.com (Postfix)
+	id 491B170FDB6AA; Wed,  2 Apr 2014 23:56:16 -0500 (CDT)
+Date: Wed,  2 Apr 2014 23:56:16 -0500 (CDT)
+From: MAILER-DAEMON@gateway10.websitewelcome.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: info@poec.org
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="22ABF70D5818F.1396500976/gateway10.websitewelcome.com"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20140403045616.491B170FDB6AA@gateway10.websitewelcome.com>
+
+This is a MIME-encapsulated message.
+
+--22ABF70D5818F.1396500976/gateway10.websitewelcome.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host gateway10.websitewelcome.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<poec0010@yahoo.com>: delivery temporarily suspended: lost connection with
+    mta5.am0.yahoodns.net[98.138.112.37] while sending RCPT TO
+
+--22ABF70D5818F.1396500976/gateway10.websitewelcome.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gateway10.websitewelcome.com
+X-Postfix-Queue-ID: 22ABF70D5818F
+X-Postfix-Sender: rfc822; info@poec.org
+Arrival-Date: Wed,  2 Apr 2014 21:31:18 -0500 (CDT)
+
+Final-Recipient: rfc822; poec0010@yahoo.com
+Action: failed
+Status: 4.4.2
+Diagnostic-Code: X-Postfix; delivery temporarily suspended: lost connection
+    with mta5.am0.yahoodns.net[98.138.112.37] while sending RCPT TO
+
+--22ABF70D5818F.1396500976/gateway10.websitewelcome.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <info@poec.org>
+Received: by gateway10.websitewelcome.com (Postfix, from userid 666)
+	id 22ABF70D5818F; Wed,  2 Apr 2014 21:31:18 -0500 (CDT)
+Received: from gator4031.hostgator.com (gator4031.hostgator.com [192.185.4.42])
+	by gateway10.websitewelcome.com (Postfix) with ESMTP id 123DF70D5814A
+	for <poec0010@yahoo.com>; Wed,  2 Apr 2014 21:31:18 -0500 (CDT)
+Received: from poec by gator4031.hostgator.com with local (Exim 4.80.1)
+	(envelope-from <info@poec.org>)
+	id 1WVXQz-00065a-S6
+	for poec0010@yahoo.com; Wed, 02 Apr 2014 21:31:17 -0500
+To: poec0010@yahoo.com
+Subject: [POEC Community Forum] I Would Like To Work Abroad! (Suggestion Box)
+X-PHP-Script: www.poec.org/index.php/forum for 119.92.93.54
+Date: Wed, 2 Apr 2014 21:31:17 -0500
+From: POEC Community Forum <info@poec.org>
+Message-ID: <3bdbbc2f5ed5430aa7731d64b6bfb6ec@www.poec.org>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.6 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gator4031.hostgator.com
+X-AntiAbuse: Original Domain - yahoo.com
+X-AntiAbuse: Originator/Caller UID/GID - [31309 33172] / [47 12]
+X-AntiAbuse: Sender Address Domain - poec.org
+X-BWhitelist: no
+X-Source-IP: 
+X-Source: /opt/php53/bin/php-cgi
+X-Source-Args: /opt/php53/bin/php-cgi /home3/poec/public_html/index.php 
+X-Source-Dir: poec.org:/public_html
+X-Source-Sender: 
+X-Source-Auth: poec
+X-Email-Count: 1
+X-Source-Cap: cG9lYztwb2VjO2dhdG9yNDAzMS5ob3N0Z2F0b3IuY29t
+
+A new reply has been posted on the POEC Community Forum
+
+Message Subject : I Would Like To Work Abroad!
+Category : Suggestion Box
+Posted by : poec06@yahoo.com
+
+URL : http://www.poec.org/index.php/forum/suggestion-box/2-i-would-like-to-work-abroad/3
+
+Message :
+-----
+Examine to find jobs overseas
+-----
+
+You can unsubscribe from this topic by visiting it and clicking the Unsubscribe button near the top or bottom of the page.
+
+Do not answer to this e-mail notification as it is a generated e-mail.
+
+
+--22ABF70D5818F.1396500976/gateway10.websitewelcome.com--

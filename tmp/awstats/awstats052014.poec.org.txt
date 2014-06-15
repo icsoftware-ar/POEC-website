@@ -1,0 +1,1352 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201405 will be lost/reset.
+# Last config file used to build this data file was /home3/poec/tmp/awstats/awstats.poec.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2683                
+POS_VISITOR 24253               
+POS_DAY 45306               
+POS_DOMAIN 3654                
+POS_LOGIN 4521                
+POS_ROBOT 4676                
+POS_WORMS 5225                
+POS_EMAILSENDER 5356                
+POS_EMAILRECEIVER 5499                
+POS_SESSION 46230               
+POS_SIDER 46442               
+POS_FILETYPES 5634                
+POS_DOWNLOADS 5947                
+POS_OS 6020                
+POS_BROWSER 6213                
+POS_SCREENSIZE 7605                
+POS_UNKNOWNREFERER 7679                
+POS_UNKNOWNREFERERBROWSER 8661                
+POS_ORIGIN 9027                
+POS_SEREFERRALS 9174                
+POS_PAGEREFS 9372                
+POS_SEARCHWORDS 9770                
+POS_KEYWORDS 10334               
+POS_MISC 2346                
+POS_ERRORS 10705               
+POS_CLUSTER 4377                
+POS_SIDER_404 10893               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140601000535 482 106838 12509236472212
+FirstTime 20140501001341
+LastTime 20140531234426
+LastUpdate 20140601083158 482 0 481 0 0
+TotalVisits 956                 
+TotalUnique 454                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 555                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 65 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 139 932 35124748 500 563 23846440
+1 132 504 13410638 466 547 22697325
+2 66 191 7591831 142 233 9367224
+3 134 641 25639619 537 592 26984468
+4 129 695 24576281 156 203 6686958
+5 95 563 20048659 206 260 7366589
+6 87 448 20574317 114 151 5329675
+7 96 537 21265386 129 185 6903364
+8 94 113 5543420 183 279 6268534
+9 267 924 31327896 1725 1852 70758546
+10 123 786 30021544 131 185 5217030
+11 79 402 18679853 179 205 6215818
+12 98 228 9609232 102 142 4909432
+13 76 477 19610901 122 241 9207062
+14 58 513 19974735 116 188 5437176
+15 92 184 8614141 137 163 5968985
+16 87 270 10833913 108 165 5619677
+17 42 311 13897471 171 215 7777291
+18 65 405 17111399 119 152 5500051
+19 43 288 14261709 136 166 6205698
+20 113 1127 34683187 130 219 6693422
+21 172 1132 34122134 162 279 9916034
+22 79 494 21446013 578 619 26387030
+23 116 834 35285064 138 176 7299210
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 40
+cn 686 1372 60902091
+us 565 1904 82535774
+ph 366 4087 120501512
+ua 194 194 9980726
+pl 132 290 9489199
+sg 106 2030 77411907
+ru 68 174 9204416
+de 45 45 2421564
+ng 41 253 6037676
+at 34 34 1869229
+ca 33 33 1708749
+se 32 32 1684615
+sa 24 507 19193004
+br 20 741 41195638
+fr 18 198 7650871
+lt 18 18 924408
+lv 12 12 271678
+fi 11 11 508633
+tr 10 10 394570
+gb 9 347 8174607
+jp 7 7 456334
+eu 7 115 3898748
+za 7 7 340852
+cz 6 6 399882
+lu 4 4 288465
+es 2 106 5973385
+kr 3 95 3601403
+ro 1 1 66668
+in 1 1 63708
+lb 1 64 2962261
+co 3 105 5410841
+hk 2 92 3527359
+ir 3 93 3528002
+cl 1 1 66668
+vn 1 1 63708
+zw 2 2 127152
+hu 2 2 102421
+nl 3 3 199986
+nz 1 1 56328
+ve 1 1 59053
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+spider 1857 90656258 20140531235446 85
+crawl 1650 90484191 20140531014646 7
+bot[\s_+:,\.\;\/\\-] 1230 48329759 20140531235743 359
+googlebot 606 33501593 20140531205232 45
+robot 224 7834739 20140531134302 61
+no_user_agent 16 990885 20140530182516 0
+slurp 8 223840 20140523020718 3
+msnbot\-media 7 6055 20140527074655 7
+unknown 2 1730 20140508080810 2
+msnbot 1 78424 20140511225722 0
+netcraft 1 66911 20140515103954 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 8 224430 0 0
+css 2707 34557306 0 0
+png 2891 10457421 0 0
+ttf 18 1423368 0 0
+woff 88 3093612 0 0
+php 159 8990928 0 0
+html 872 55135868 0 0
+js 3354 81244879 0 0
+jpg 1459 228531093 0 0
+Unknown 1337 67728243 0 0
+svg 5 989145 0 0
+gif 101 877798 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 569 0 492185
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 13
+blackberry 1
+linuxandroid 1054
+winlong 70
+winxp 1340
+unix 96
+win2000 1
+linuxubuntu 2
+linux 136
+winvista 730
+win7 7953
+macosx 1289
+win2003 25
+Unknown 302
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 78
+safari7.0.3 117
+chrome13.0.764.0 1
+firefox28.0 635
+msie6.0 199
+chrome5.0.381 26
+firefox3.6 2
+ibrowse 88
+chrome34.0.1847.137 155
+firefox10.0 2
+firefox26.0 542
+chrome22.0.1190.0 96
+firefox4.0 1
+lynx 2
+curl 4
+firefox3.6.15 516
+msie8.0 10
+msie7.0 41
+firefox9.0.1 8
+wget 1
+chrome31.0.1650.59 105
+netscape 1
+msie5.01 1
+chrome24.0.1312.70 6
+chrome28.0.1500.63 2
+chrome34.0.1847.131 1362
+firefox21.0 6
+firefox29.0 446
+firefox10.0.1 1
+chrome32.0.1700.107 1481
+chrome35.0.1916.114 296
+chrome14.0.794.0 85
+mozilla 710
+chrome24.0.1312.60 1
+chrome30.0.1599.12785 10
+chrome33.0.1750.117 45
+firefox14.0.1 13
+chrome32.0.1700.76 73
+chrome22.0.1229.94 9
+firefox3.6.3 1
+chrome17.0.963.12 2
+firefox4.2 1
+firefox15.0.1 74
+safari 463
+chrome21.0.1180.89 2
+safari7.0 612
+firefox5.0 2
+firefox20.0 4
+chrome18.0.1025.162 2
+android 480
+firefox7.0 253
+chrome33.0.1712.4 96
+firefox24.0 168
+opera9.80 217
+chrome15.0.874.121 2
+chrome32.0.1700.102 92
+chrome30.0.1599.13014 30
+chrome24.0.1312.57 4
+chrome34.0.1847.116 414
+firefox16.0 3
+chrome33.0.1750.154 94
+chrome33.0.1750.146 1522
+chrome28.0.1500.52 3
+msie9.0 564
+Unknown 51
+firefox27.0 63
+blackberry 1
+firefox17.0 35
+chrome34.0.1847.114 469
+chrome27.0.1453.110 1
+chrome9.0.597 61
+chrome28.0.1500.71 6
+chrome20.0.1132.57 2
+safari5.1.7 2
+firefox22.0 4
+msie10.0 91
+chrome31.0.1650.16 1
+chrome27.0.1453.116 6
+firefox3.0.19 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Mozilla 20140528215324
+SEOstats_2.1.0 20140509231731
+Ruby 20140513115554
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20140517141019
+HTTPClient/1.0_(2.3.4.1,_ruby_1.9.3_(2013-06-27)) 20140515154739
+Mozilla/5.0_(Series40;_Nokia501s/10.0.12;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/3.0.0.0.75 20140516145133
+Opera/9.80_(Android;_Opera_Mini/7.0.29759/34.2152;_U;_en)_Presto/2.8.119_Version/11.10 20140526073702
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20140527084457
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20140522062837
+Mozilla/5.0_(compatible;_WebMasterAid/1.0;__http://wmaid.com/explore/) 20140529022951
+wscheck.com/1.0.0_(_http://wscheck.com/) 20140509231731
+Mozilla/4.0_(compatible;_Synapse) 20140528225718
+NerdyBot 20140531102324
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+SEOstats_2.1.0 20140509231731
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20140527084457
+wscheck.com/1.0.0_(_http://wscheck.com/) 20140509231731
+Ruby 20140513115554
+HTTPClient/1.0_(2.3.4.1,_ruby_1.9.3_(2013-06-27)) 20140515154739
+NerdyBot 20140531102324
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 894 969
+From1 0 0
+From2 275 388
+From3 23 23
+From4 1290 11619
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 243 356
+baidu 25 25
+bing 2 2
+ask 1 1
+yahoo 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://semalt.semalt.com/crawler.php 13 13
+http://wmaid.com/explore/poec.org 6 6
+http://chineseretireesfoundation.org/company_profile/ 1 1
+http://www.secury-surf.com/web 1 1
+http://www.solvethepuzzle.org 1 1
+http://domainsigma.com/whois/poec.org 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 12
+philippineoverseasemploymentcenter-welcometophilippineoverseasemploymentcenter 25
+poec 4
+santarli+philippines+address 2
+overseas+testing+center+in+philippines+where+is+the+address+in+manila 1
+www.poec.org 1
+installerex+facebook 1
+overseas+testing+center+in+philippines 1
+santarli+job+hiring 1
+santarli+training+agency+in+philippines 1
+installerex+official+website 1
+poe%c3%a7 1
+training+center+in+mabini+phil 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 25
+philippineoverseasemploymentcenter-welcometophilippineoverseasemploymentcenter 25
+in 5
+philippines 5
+santarli 4
+poec 4
+center 3
+address 3
+testing 2
+training 2
+installerex 2
+overseas 2
+the 1
+website 1
+www.poec.org 1
+is 1
+phil 1
+facebook 1
+agency 1
+manila 1
+where 1
+job 1
+hiring 1
+poe%c3%a7 1
+official 1
+mabini 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 64 891800
+206 172 10906842
+999 8 20026
+303 571 32
+406 194 43844
+302 23 1848
+500 149 268096
+404 1132 11154625
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 170
+/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum 2 http://poec.org/index.php/forum
+/ 2 -
+/login/editors/fckeditor/editor/filemanager/upload/test.html 6 http://poec.org/login/editors/fckeditor/editor/filemanager/upload/test.html
+/admin/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/admin/editor/filemanager/connectors/uploadtest.html
+/admin.php 5 -
+/images/plagmain.php 1 -
+/downloads/POEC_Bylaws_(non-stock_with_members)_v._Final%202008.DOC 1 -
+/trackback/ 1 http://poec.org/
+/libraries/joomla/user/system.php 1 -
+/502.html 1 -
+/index.php/extensions/s5-flex-menu-1360 19 -
+//includes/js/joomla.javascript.js 430 http://poec.org/
+/js/fckeditor/editor/filemanager/browser/default/connectors/test.html 7 http://poec.org/js/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/includes/js/joomla.javascript.js 1 http://www.google.com/url
+/opec_web/en/2559.htm 2 -
+/index.php/8-news/ 7 -
+/fckeditor_ap/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/fckeditor_ap/editor/filemanager/connectors/uploadtest.html
+/components/com_weblinks/index.php 1 -
+/media/system/js/s 1 -
+/index.php/about/8-news/ 1 -
+/webmanage/fckeditor/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/webmanage/fckeditor/editor/filemanager/connectors/uploadtest.html
+/ps/index.php 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/test.html 7 http://poec.org/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/editor/editor/filemanager/connectors/test.html 7 http://poec.org/editor/editor/filemanager/connectors/test.html
+/nyet.gif 3 -
+/public/js/fckeditor/editor/filemanager/upload/test.html 6 http://poec.org/public/js/fckeditor/editor/filemanager/upload/test.html
+/th1s_1s_a_4o4.html 31 http://www.google.com/url
+/components/com_jsjobs/js/jquery-1.2.6.pack.js 16 http://www.poec.org/index.php/jobs/jsjobs/jobsearchresults
+/js/fckeditor/editor/filemanager/upload/test.html 6 http://poec.org/js/fckeditor/editor/filemanager/upload/test.html
+/plugins/user/confa.php 1 -
+/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 2 -
+/secretariacorte/index.php 1 -
+/components/com_oziogallery/imagin/scripts_ralcr/filesystem/writeToFile.php 5 -
+/modules/mod_s5_accordion_menu/js/e.target.parentNode.href 1 -
+/administrator/editors/fckeditor/editor/filemanager/upload/test.html 6 http://poec.org/administrator/editors/fckeditor/editor/filemanager/upload/test.html
+/libraries/openid/Auth/OpenIDOpenID.php 1 -
+/components/com_oziogallery2/imagin/scripts_ralcr/filesystem/writeToFile.php 5 -
+/components/com_content/joomla.php 1 -
+/content/bt_socialshare/assets/share.png 2 http://poec.org/
+/fckeditor/editor/filemanager/browser/default/browser.html 6 http://poec.org/fckeditor/editor/filemanager/browser/default/browser.html
+/editor/filemanager/browser/default/connectors/test.html 6 http://poec.org/editor/filemanager/browser/default/connectors/test.html
+/index.php/user/register 25 http://poec.org/
+/index.php/forum++++++++++++++++++++++++++++++++++++++++++++++++++Result:+%ED%E5+%ED%E0%F8%EB%EE%F1%FC+%F4%EE%F0%EC%FB+%E4%EB%FF+%EE%F2%EF%F0%E0%E2%EA%E8 1 http://poec.org/index.php/forum++++++++++++++++++++++++++++++++++++++++++++++++++Result:+%ED%E5+%ED%E0%F8%EB%EE%F1%FC+%F4%EE%F0%EC%FB+%E4%EB%FF+%EE%F2%EF%F0%E0%E2%EA%E8
+/js/fckeditor/editor/filemanager/browser/default/browser.html 6 http://poec.org/js/fckeditor/editor/filemanager/browser/default/browser.html
+/index.php/news 1 -
+/wp-login.php 6 -
+/itrk3/files/pdfs/whatworksHypothesis.pdf 1 -
+/libraries/joomla/system.php 1 -
+/index.php/forum/suggestion-box/trackback/ 4 http://poec.org/index.php/forum/suggestion-box
+/modules/mod_related_items/tmpl/clear.php 1 -
+/index.php/join-now.html 1 -
+/index.php/forum/trackback/ 2 http://poec.org/index.php/forum
+/administrator/fckeditor1/editor/filemanager/connectors/uploadtest.html 7 http://poec.org/administrator/fckeditor1/editor/filemanager/connectors/uploadtest.html
+/pdfs/POEC_Membership_Form_02_2008.doc 1 -
+/pdfs/Articles_of_Incorporation_(non-stock_with_members).pdf 1 -
+/cms/fckeditor/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/cms/fckeditor/editor/filemanager/connectors/uploadtest.html
+/components/com_community/index.html 8 -
+/modules/mod_fxprev/libraries/archives.php 3 -
+/images/smilies/smile.php 1 -
+/admin/system/editor/fckeditor/editor/fckeditor.html 7 http://poec.org/admin/system/editor/fckeditor/editor/fckeditor.html
+/plugins/user/image.php 1 -
+/index.htm 3 -
+/index.php/forum/index.php/forum/index.php/forum 1 http://poec.org/index.php/forum
+/administrator/fckeditor/editor/filemanager/connectors/uploadtest.html 5 http://poec.org/administrator/fckeditor/editor/filemanager/connectors/uploadtest.html
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/index.php/features-mainmenu-47/template-specific-features 16 -
+/index.php/features-mainmenu-47/template-features/responsive-layout 34 -
+/manage/fckeditor/editor/filemanager/browser/default/connectors/test.html 6 http://poec.org/manage/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/public/js/fckeditor/editor/filemanager/connectors/uploadtest.html 7 http://poec.org/public/js/fckeditor/editor/filemanager/connectors/uploadtest.html
+/components/com_userprofiles/userprofiles.php 1 -
+/modules/mod_add/mod_add.php 1 -
+/modules/mod_status/mod_status.php 1 -
+/index.php/features-mainmenu-47/template-features/95-module-positions 14 -
+/components/com_contact/index.php 1 -
+/%09%E5%9B%BD%E5%A4%96%E8%AE%BA%E5%9D%9B-Kunena%E7%B1%BB%E5%9E%8B%0984300%09-1 2 -
+/poec.cgim 7 -
+/modules/mod_articless/mod_articless.php 1 -
+/cached_files/4fdd639bd676502cf638b219ba3644e612c55aa3firefox_logo.gif-40x40.gif 1 -
+/admin/editors/fckeditor/editor/filemanager/upload/test.html 6 http://poec.org/admin/editors/fckeditor/editor/filemanager/upload/test.html
+/includes/editors/fckeditor/editor/filemanager/upload/test.html 6 http://poec.org/includes/editors/fckeditor/editor/filemanager/upload/test.html
+/editor/editor/filemanager/upload/test.html 7 http://poec.org/editor/editor/filemanager/upload/test.html
+/images/components/com_extplorer/f1bsi7.php 2 http://www.test.com
+/index.php/features-mainmenu-47/template-features/hide-divs-and-modules 12 -
+/fckeditor/editor/fckeditor.html 6 http://poec.org/fckeditor/editor/fckeditor.html
+/webeditor/editor/filemanager/browser/default/connectors/test.html 6 http://poec.org/webeditor/editor/filemanager/browser/default/connectors/test.html
+/editor/filemanager/browser/default/browser.html 6 http://poec.org/editor/filemanager/browser/default/browser.html
+/modules/mod_bing/mod_bing.php 1 -
+/components/com_banners/banners.html.php 1 -
+/Fckeditor/editor/filemanager/connectors/test.html 1 -
+/components/com_poll/inc.php 1 -
+/admin/fckeditor1/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/admin/fckeditor1/editor/filemanager/connectors/uploadtest.html
+/fckeditor/editor/filemanager/upload/test.html 6 http://poec.org/fckeditor/editor/filemanager/upload/test.html
+/cached_files/19f49d852660fe0a079cbf95c3efb34ba88de911POEC_DavidEgan2.jpeg-330x2448.jpeg 1 -
+/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum 1 http://poec.org/index.php/forum
+/oa/fckeditor/editor/filemanager/browser/default/browser.html 7 http://poec.org/oa/fckeditor/editor/filemanager/browser/default/browser.html
+/public/js/fckeditor/editor/filemanager/browser/default/connectors/test.html 6 http://poec.org/public/js/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/administrator/components/com_myapi/helpers/joomla-settings.php 1 -
+/language/en-GB/language.php 1 -
+/editors/fckeditor/editor/filemanager/upload/test.html 7 http://poec.org/editors/fckeditor/editor/filemanager/upload/test.html
+/webeditor/editor/filemanager/connectors/uploadtest.html 7 http://poec.org/webeditor/editor/filemanager/connectors/uploadtest.html
+/downloads/POEC_Bylaws_2009.DOC 3 -
+/admin//error 1 -
+/js/joomla.javascript.js 1 http://poec.org/
+/admin/fckeditor_ap/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/admin/fckeditor_ap/editor/filemanager/connectors/uploadtest.html
+/wiki/index.php 1 -
+/bbadmin/editors/fckeditor/editor/filemanager/upload/test.html 6 http://poec.org/bbadmin/editors/fckeditor/editor/filemanager/upload/test.html
+/index.php/blogs/8-news/ 1 -
+/index.php/new/8-news/ 1 -
+/fckeditor/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/fckeditor/editor/filemanager/connectors/uploadtest.html
+/fckeditor/editor/fckdialog.html 6 http://poec.org/fckeditor/editor/fckdialog.html
+/includes/config.php 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 8 http://poec.org/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/admin/editor/filemanager/upload/test.html 6 http://poec.org/admin/editor/filemanager/upload/test.html
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/modules/mod_acepolls/2.php 1 -
+/index.php/component/content/article 17 -
+/modules/mod_s5_box/js/settings.href 2 -
+/editor/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/editor/editor/filemanager/connectors/uploadtest.html
+/mods/ckeditor/filemanager/connectors/uploadtest.html 7 http://poec.org/mods/ckeditor/filemanager/connectors/uploadtest.html
+/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum/index.php/forum 2 http://poec.org/index.php/forum
+/fckeditor/_samples/default.html 6 http://poec.org/fckeditor/_samples/default.html
+/components/com_jce/media/js/index.php 1 -
+/path/fckeditor/editor/filemanager/browser/default/browser.html 6 http://poec.org/path/fckeditor/editor/filemanager/browser/default/browser.html
+/plugins/search/index.php 1 -
+/index.php/faq/8-news/ 2 -
+/components/com_contact/link.php 1 -
+/components/com_user/views/reset/jquery.php 1 -
+/index.php/forum/suggestion-box/index.php/forum/suggestion-box 6 http://poec.org/index.php/forum/suggestion-box
+/administrator/components/com_jnewsletter/includes/openflashchart/tmp-upload-images/sittir.php 1 -
+/admin/fckeditor/editor/filemanager/connectors/uploadtest.html 7 http://poec.org/admin/fckeditor/editor/filemanager/connectors/uploadtest.html
+/tmp/w.php 1 -
+/editor/editor/filemanager/browser/default/connectors/test.html 7 http://poec.org/editor/editor/filemanager/browser/default/connectors/test.html
+/modules/mod_mainmenu/tmpl/tmpl.php 1 -
+/a 1 -
+/cache/cache.php 1 -
+/webmanage/fckeditor/editor/filemanager/browser/default/connectors/test.html 6 http://poec.org/webmanage/fckeditor/editor/filemanager/browser/default/connectors/test.html
+/components/com_user/views/login/search.php 1 -
+/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/editor/filemanager/connectors/uploadtest.html
+/admin/ 1 -
+/modules/mod_ariimageslidersa/mod_ariimageslidersa.php 1 -
+/components/com_support/support.php 1 -
+/content/bt_socialshare/assets/bt_socialshare.css 1 http://poec.org/
+/fckeditor/editor/fckeditor.original.html 7 http://poec.org/fckeditor/editor/fckeditor.original.html
+/components/com_user/views/login/tmpls.php 1 -
+/components/com_user/views/index.php 1 -
+/admin/fckeditor/editor/filemanager/upload/test.html 7 http://poec.org/admin/fckeditor/editor/filemanager/upload/test.html
+/js/fckeditor/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/js/fckeditor/editor/filemanager/connectors/uploadtest.html
+/index.php/forum/administrator/index.php 1 -
+/%09%E5%9B%BD%E5%A4%96%E5%8D%9A%E5%AE%A2-OpenBlog%E7%B1%BB%E5%9E%8B%0984700%09-1 2 -
+/components/com_weblinks/models/gallery.php 1 -
+/index.php/administrator/index.php 1 -
+/ps/components/com_community/index.html 1 -
+/edit/editor/filemanager/browser/default/browser.html 7 http://poec.org/edit/editor/filemanager/browser/default/browser.html
+/webeditor/editor/filemanager/connectors/test.html 6 http://poec.org/webeditor/editor/filemanager/connectors/test.html
+/join-now.html 4 -
+/modules/mod_systemzz/mod_systemzz.php 1 -
+/biologypartnership/assts/february%2022/Cellular%20Respiration%20Protocol%20-%20Balloon%20Lab.pdf 1 -
+/mod_s5_tabshow/s5_tabshow/s5_activejs.js 1 http://poec.org/
+/administrator/components/com_wusers/wusers.php 1 -
+/libraries/libraries.php 1 -
+/mod_s5_tabshow/s5_tabshow/iCarousel_jquery.js 1 http://poec.org/
+/fckeditor1/editor/filemanager/connectors/uploadtest.html 6 http://poec.org/fckeditor1/editor/filemanager/connectors/uploadtest.html
+/components/com_search/views/search/index.php 1 -
+/index.php/forum/suggestion-box/index.php/forum/suggestion-box/index.php/forum/suggestion-box 5 http://poec.org/index.php/forum/suggestion-box
+/media/kunena/js/%7Bx%7D 1 -
+/wiki/components/com_community/index.html 1 -
+/tmp/search.php 1 -
+/index.php 11 -
+/admin/fckeditor/editor/filemanager/browser/default/browser.html 6 http://poec.org/admin/fckeditor/editor/filemanager/browser/default/browser.html
+/downloads/sendmail/sendmail-8.12.X/untarred/contrib/slowqueue/qtool-vs-re-mqueue 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 555
+119.92.93.54 253 2131 54091184 20140530053646
+107.150.45.107 83 83 4301257 20140524161141
+108.163.194.162 75 98 4319423 20140531090312
+31.41.218.136 36 36 1683462 20140529170032
+216.244.77.234 30 30 1182173 20140525202544
+37.187.144.114 30 30 1607507 20140519223402
+5.9.145.107 29 29 1558521 20140504101836
+172.246.129.194 28 28 1408265 20140530155019
+173.236.29.218 28 28 1533709 20140524091121
+146.185.232.183 28 28 1396353 20140531042353
+112.198.243.164 27 319 6574035 20140530093953
+46.119.114.96 25 25 1359352 20140522130405
+31.41.216.144 25 25 1271198 20140526035454
+27.159.79.225 25 25 1666658 20140509224937
+46.119.125.212 25 25 1379267 20140503182728
+69.175.20.162 24 24 1312178 20140527090406
+159.224.160.172 24 24 1334228 20140521121256
+121.54.54.49 23 294 9603618 20140503211542
+107.150.45.106 20 20 1174311 20140519203612
+184.154.132.90 20 20 1092849 20140529091055
+69.175.118.170 20 20 1108622 20140510090128
+159.224.160.157 20 20 975070 20140530000844
+117.30.148.18 19 19 1266654 20140517055708
+196.46.246.66 19 101 2823205 20140506052416
+117.30.32.4 19 19 1266624 20140510133058
+123.125.71.15 0 2 30048 
+59.57.216.123 13 13 866667 20140528103336
+220.255.1.99 0 9 125720 
+119.56.123.207 5 5 83730 20140503201409
+222.76.235.154 4 4 266668 20140512103501
+222.77.206.103 2 2 133330 20140505091025
+69.58.178.56 12 12 658604 20140508080847
+91.200.12.9 12 12 643405 20140504160523
+199.30.25.107 0 10 594743 
+109.173.27.182 6 6 297747 20140528002839
+107.178.210.13 1 1 66664 20140528102415
+142.0.32.213 2 2 127640 20140502220024
+123.125.71.35 0 2 30985 
+119.56.123.26 6 14 133850 20140503201157
+89.72.152.178 8 8 727847 20140531145803
+220.255.1.86 0 14 890407 
+220.255.1.61 0 30 1332676 
+107.178.208.239 1 1 66664 20140527102351
+64.196.55.131 2 2 115287 20140530001021
+179.158.166.143 2 108 5974163 20140525104707
+107.158.22.199 2 2 156426 20140503003816
+123.125.71.41 0 2 128011 
+37.105.71.35 3 93 3528002 20140509004951
+27.154.78.164 5 5 333400 20140503211321
+165.231.1.55 2 2 102417 20140530140059
+220.255.1.58 0 13 316463 
+220.255.1.109 1 2 43810 20140504093123
+119.56.118.36 1 1 66664 20140511052633
+119.56.115.215 1 1 66668 20140511051504
+220.255.1.126 0 1 4217 
+37.187.89.162 2 2 128386 20140507051842
+220.255.2.195 0 1 1317 
+93.182.136.145 10 10 530009 20140503035700
+220.255.1.32 0 12 613658 
+107.178.213.230 1 1 66662 20140514191211
+220.160.190.207 6 6 399992 20140519010221
+123.125.71.20 0 3 119014 
+119.56.113.71 1 1 66664 20140510235804
+107.178.221.196 1 1 66668 20140531102324
+61.135.190.220 1 29 894306 20140526120733
+14.104.63.109 1 1 66668 20140516115747
+31.41.219.180 7 7 350931 20140515212939
+120.42.96.60 10 10 666642 20140517215749
+220.255.2.56 0 1 10814 
+68.7.141.45 2 110 6441869 20140509112244
+95.25.118.251 6 6 280567 20140524192825
+77.30.54.30 7 107 4060761 20140529235505
+220.255.1.146 0 1 41419 
+103.14.215.41 1 1 66668 20140504232902
+220.255.2.224 1 18 686429 20140527004528
+175.44.28.131 1 1 58177 20140507042411
+121.54.54.131 1 1 66668 20140505110535
+218.207.132.87 1 1 66662 20140515135624
+220.255.1.140 0 8 296123 
+123.125.71.16 0 1 1168 
+121.205.213.232 3 3 200004 20140515035050
+202.156.8.237 3 39 1488845 20140507222322
+91.236.74.153 18 18 857537 20140518212800
+117.24.127.226 3 3 174517 20140512192749
+121.54.54.155 6 6 400002 20140504211639
+117.173.189.30 2 2 102431 20140504022014
+58.151.0.101 1 1 66662 20140513055557
+123.125.71.55 0 2 265981 
+220.255.2.74 0 1 10814 
+67.83.87.222 2 107 5554108 20140513224329
+123.125.71.40 0 2 87792 
+220.255.1.143 0 1 326270 
+220.255.1.104 0 3 7321 
+120.43.10.249 1 1 66668 20140509154502
+110.89.63.125 1 1 66668 20140526150901
+187.10.56.166 2 105 5775159 20140501063949
+196.46.246.65 1 35 810340 20140506045859
+202.156.9.254 4 35 1506403 20140501033914
+27.153.162.245 1 1 66668 20140531080244
+162.222.177.130 1 1 66668 20140501113158
+110.89.47.160 5 5 333325 20140524110544
+110.87.109.137 1 1 66668 20140521083004
+66.87.47.49 0 1 2998 
+27.159.224.52 2 2 133330 20140517024956
+192.187.108.235 8 8 373050 20140510020819
+119.56.113.181 1 1 66668 20140511051930
+123.125.71.32 0 3 195306 
+92.154.2.95 3 93 3528002 20140522004308
+123.125.71.22 0 2 3920 
+91.236.75.38 16 16 801816 20140518114533
+85.59.217.33 2 106 5973385 20140520104613
+220.255.1.39 0 19 822439 
+199.30.24.92 1 71 1435001 20140508011909
+112.198.90.193 2 92 3537485 20140530053401
+91.121.58.172 7 7 330776 20140526132223
+117.26.117.252 1 1 54019 20140503223455
+78.158.11.226 2 2 113358 20140517141019
+220.255.1.33 1 2 37581 20140510001651
+120.35.207.177 1 1 66662 20140520050731
+27.153.211.55 1 1 66668 20140521223324
+110.55.157.24 4 117 3932836 20140515032416
+107.178.219.206 1 1 66662 20140513171446
+188.92.75.244 4 4 271678 20140515005050
+220.255.2.47 0 6 500717 
+110.89.10.234 4 4 266656 20140509110257
+182.18.239.186 4 95 3595880 20140514064656
+220.255.1.161 1 3 501454 20140511093445
+107.178.218.255 1 1 66669 20140518102429
+123.125.71.46 0 1 5412 
+119.95.102.15 3 93 3527996 20140508000554
+121.205.238.144 1 1 66662 20140512150550
+220.255.2.83 0 2 12121 
+74.208.148.95 2 2 125958 20140531210522
+94.242.233.18 2 2 154643 20140528225439
+220.255.2.232 0 18 621602 
+183.5.141.116 2 2 94096 20140524115504
+38.100.21.63 4 8 279349 20140521072602
+27.154.79.244 9 9 454933 20140520071040
+27.159.235.87 9 9 454903 20140506100446
+198.204.240.4 18 18 903921 20140531234426
+120.37.230.234 1 1 66668 20140506111324
+54.198.181.92 1 1 66911 20140515154739
+107.178.217.192 1 1 66662 20140520102403
+110.89.9.63 1 1 66668 20140516231357
+208.104.157.42 7 105 3947676 20140512164451
+27.158.83.249 3 3 199984 20140518223737
+112.198.90.2 2 92 3537485 20140515213818
+27.153.161.35 2 2 118322 20140513031633
+175.44.6.21 1 1 60423 20140528065702
+85.195.82.41 1 1 66662 20140520071637
+112.111.191.117 4 4 266650 20140508142135
+14.104.60.99 1 1 66668 20140503210215
+69.64.86.138 1 1 66658 20140523002729
+220.255.1.70 0 15 409563 
+91.200.13.5 5 5 238421 20140501140013
+126.114.249.18 1 1 66668 20140528233619
+91.236.74.180 12 12 573328 20140518122801
+188.245.148.121 3 93 3528002 20140507061047
+120.42.89.109 11 11 733319 20140510122023
+107.178.221.229 1 1 66668 20140529102450
+107.178.211.208 1 1 66668 20140522102454
+79.88.182.94 3 93 3528002 20140506114437
+175.156.154.16 2 92 3527361 20140521100943
+173.255.116.129 1 1 66668 20140523102344
+222.76.154.143 12 12 799986 20140516161114
+78.88.82.71 10 168 3438427 20140504134809
+125.77.219.96 9 9 600004 20140523214137
+123.125.71.36 0 1 96381 
+61.135.190.103 1 31 907742 20140520034850
+220.255.1.73 4 25 833824 20140506032510
+120.43.7.62 2 2 133336 20140513072029
+123.125.71.27 0 3 205985 
+220.255.1.64 1 1 66978 20140509051732
+121.204.148.115 1 1 66668 20140520160232
+220.255.1.87 2 20 494279 20140506032406
+220.255.2.73 0 6 408580 
+110.84.39.216 9 9 483057 20140501030640
+120.37.242.106 4 4 178336 20140519111456
+192.151.152.98 6 6 378454 20140521052814
+123.125.71.58 0 1 30313 
+123.125.71.43 0 4 363540 
+107.178.212.109 1 1 66652 20140509210815
+192.74.236.241 12 12 561148 20140528215625
+175.44.25.183 1 1 67968 20140529005239
+175.44.6.53 1 1 67970 20140528044250
+63.141.226.3 10 10 641928 20140509052814
+123.125.71.17 0 1 7199 
+113.109.185.245 1 1 66668 20140522172530
+220.255.2.35 0 3 334168 
+1.230.125.77 2 94 3534741 20140507184851
+23.108.74.150 2 2 102431 20140504212026
+202.83.27.89 1 1 63708 20140527063203
+149.210.156.132 1 1 66668 20140512172811
+119.56.121.152 3 4 201214 20140503201108
+180.194.185.4 3 96 3536892 20140510232844
+27.153.139.166 12 12 799994 20140514043429
+61.135.190.221 0 12 361867 
+218.186.14.10 2 92 3537808 20140505040513
+110.86.36.219 7 7 466662 20140505203444
+107.178.220.206 1 1 66662 20140525102352
+41.220.28.51 2 2 127152 20140524001940
+46.161.41.56 1 1 66668 20140527220715
+220.255.1.71 1 3 75029 20140510001640
+173.208.182.91 8 8 513556 20140507073200
+110.86.38.254 18 18 1199994 20140505232836
+123.125.71.34 0 2 34568 
+110.84.27.213 8 8 533316 20140522110006
+27.153.204.146 2 2 60004 20140515085659
+62.210.122.123 1 1 66668 20140503234205
+119.147.146.189 1 3 164436 20140526200807
+112.200.153.32 3 62 2449216 20140516043102
+107.178.223.141 1 1 66668 20140516103030
+186.205.201.139 2 106 5973395 20140522135703
+199.217.119.4 3 3 200490 20140509231731
+27.153.139.146 6 6 399998 20140507033620
+84.240.9.6 16 16 811050 20140523034029
+188.92.76.167 8 8 0 20140529022951
+121.54.32.99 4 93 3595661 20140512175732
+14.107.117.11 1 1 66664 20140512011835
+189.7.101.243 2 106 5973395 20140501171803
+220.255.1.31 1 14 742368 20140506032400
+183.32.165.131 2 2 133332 20140507082817
+61.135.190.102 4 78 2358034 20140527070532
+106.187.46.69 2 2 133332 20140521012627
+174.139.123.226 2 2 133332 20140531021638
+140.237.96.248 5 5 333330 20140502222625
+119.84.156.106 1 1 66668 20140518114909
+220.255.2.189 1 1 66668 20140504230938
+202.156.9.11 4 69 2475568 20140501033641
+110.89.62.67 3 3 199998 20140512121815
+112.208.98.93 2 85 3518099 20140531201940
+120.42.75.235 1 1 66668 20140509152500
+36.250.178.143 3 3 166677 20140531043047
+191.239.1.173 1 1 66662 20140514035846
+91.121.141.160 1 1 67018 20140531210316
+192.200.112.34 1 1 56328 20140523034835
+23.236.49.207 1 1 66668 20140506111751
+123.125.71.18 0 2 13659 
+110.89.10.68 2 2 60365 20140504000401
+220.255.2.20 0 8 68478 
+37.187.92.78 1 1 66668 20140525212049
+108.59.84.18 1 1 66664 20140512085451
+125.81.14.95 2 2 133332 20140507060315
+123.125.71.38 0 1 15248 
+120.37.232.228 4 4 266663 20140531155640
+94.242.222.13 2 2 133822 20140507151801
+120.42.97.71 2 2 126169 20140505031341
+64.6.234.185 1 1 2012 20140529141606
+123.125.71.21 0 1 2491 
+220.255.2.33 1 2 40820 20140505030606
+98.26.79.176 1 1 66668 20140516150311
+23.94.99.25 1 1 66911 20140519223821
+188.32.197.241 18 18 841670 20140525154636
+190.165.19.39 2 104 5344179 20140531195148
+220.255.2.162 1 16 662121 20140527004531
+14.221.203.171 1 1 68034 20140516033307
+110.89.47.10 1 1 66668 20140506205307
+192.99.47.32 6 6 294236 20140503092843
+61.135.190.222 5 69 2017751 20140523223917
+27.153.216.130 2 2 118330 20140528034628
+213.238.175.66 4 4 110302 20140531201557
+27.153.102.37 3 3 188439 20140505014749
+66.249.80.188 2 61 2895139 20140522062837
+125.78.198.214 4 4 236640 20140521064031
+110.86.186.91 6 6 377620 20140520141653
+61.135.190.101 2 35 1023037 20140525142022
+120.37.232.59 1 1 60417 20140529093948
+196.46.246.67 6 61 1511311 20140506052003
+140.237.38.255 2 2 128391 20140522045604
+123.136.6.187 2 92 3527359 20140521183334
+107.178.220.87 1 1 66664 20140526102743
+106.81.21.186 2 2 133330 20140524042534
+222.78.164.170 3 3 200004 20140525142603
+220.255.1.37 0 1 1168 
+199.30.25.82 1 69 2351202 20140518170024
+192.187.108.236 12 12 360060 20140529012117
+14.104.13.78 1 1 66668 20140520031711
+123.125.71.39 0 1 54458 
+192.99.12.128 4 4 212360 20140512173156
+222.76.232.181 10 10 666648 20140505101330
+220.255.1.93 0 7 437931 
+222.77.225.175 9 9 463762 20140512005812
+110.87.110.30 14 14 933330 20140524160240
+50.112.53.247 2 2 120846 20140526073301
+119.56.113.199 1 1 66658 20140512055633
+110.89.12.140 8 8 533316 20140530143243
+123.125.71.52 0 4 72378 
+27.153.138.33 6 6 385158 20140513121627
+175.44.5.231 2 2 135948 20140529021546
+220.255.1.131 0 19 395987 
+123.125.71.50 0 1 501 
+94.98.9.194 3 93 3527990 20140502072728
+218.207.195.206 6 6 280576 20140531203949
+120.33.216.187 7 7 347257 20140530230814
+120.37.232.214 1 1 60419 20140529164410
+119.56.116.34 1 1 66662 20140510122215
+220.255.1.55 1 13 268222 20140527035911
+27.154.249.184 7 7 310898 20140501061504
+27.153.233.153 1 1 56328 20140523204930
+91.236.75.98 8 8 258618 20140528085944
+117.30.217.229 9 9 600006 20140531115316
+23.236.48.59 1 1 66668 20140507111730
+110.89.60.187 1 1 66668 20140527105359
+123.125.71.31 0 1 30313 
+123.125.71.19 0 2 99345 
+77.30.57.252 2 91 2969121 20140505105616
+119.56.127.213 1 1 66668 20140503205426
+93.182.131.12 11 11 581601 20140504101816
+110.89.47.127 1 1 66668 20140511095105
+23.251.150.78 1 1 66664 20140505230331
+36.248.163.139 1 1 66668 20140530015019
+202.156.8.243 1 33 919200 20140506232253
+110.86.67.181 2 2 133330 20140511142112
+14.104.15.219 1 1 66664 20140510011505
+66.119.41.34 2 2 133336 20140511211341
+120.37.228.21 2 2 118324 20140527094409
+61.135.190.223 2 33 1045187 20140522230651
+110.84.34.248 1 1 66668 20140510122926
+220.255.1.148 0 8 260084 
+208.49.40.176 2 91 3522347 20140507122624
+220.255.2.199 0 9 217981 
+61.135.190.100 1 58 1663892 20140530065927
+107.178.221.138 1 1 66662 20140517102359
+91.236.75.85 12 12 564864 20140526013601
+37.59.29.72 2 2 128393 20140509005756
+31.41.219.131 1 1 68034 20140522060256
+123.125.71.56 0 2 54479 
+61.135.190.219 3 55 1608651 20140529110226
+198.23.174.123 2 2 115299 20140528194843
+212.219.41.130 8 259 4685479 20140508100853
+110.86.70.190 1 1 66668 20140518075327
+220.255.1.36 0 32 926294 
+220.255.2.193 0 6 107898 
+220.255.2.196 0 7 194011 
+220.255.1.82 1 22 668940 20140527035915
+119.95.164.188 2 92 3527608 20140501220835
+106.187.97.193 1 1 66662 20140515065919
+199.223.236.44 1 1 66664 20140502112329
+125.89.62.155 1 1 66668 20140524180555
+110.86.71.129 11 11 588221 20140508220845
+110.84.31.62 4 4 266672 20140527194341
+69.162.127.20 16 16 1014361 20140530073508
+69.171.234.119 1 1 66851 20140516211509
+120.40.156.230 2 2 133330 20140505162638
+27.150.240.121 2 2 60012 20140513201559
+175.44.9.112 1 1 66668 20140502131837
+189.82.24.7 2 106 5973395 20140507192720
+220.255.1.164 0 9 97148 
+91.236.74.90 12 12 568558 20140521035545
+220.255.1.46 0 5 350534 
+119.56.116.47 2 93 3534460 20140508235411
+78.41.17.166 6 6 399882 20140510203229
+125.81.11.69 1 1 66668 20140513004411
+66.249.91.43 0 1 15508 
+220.255.1.169 0 13 556787 
+218.66.136.172 1 1 66668 20140508235135
+107.178.211.61 1 1 66668 20140514170107
+66.87.121.113 2 92 3541686 20140506153423
+117.26.85.121 6 6 284659 20140505084245
+222.127.85.11 15 127 4218140 20140517011047
+220.255.1.105 0 3 5143 
+61.135.190.224 1 33 920473 20140503132104
+94.98.74.22 7 100 3797188 20140505144323
+220.255.2.61 1 1 66668 20140507223357
+14.107.115.54 1 1 66662 20140529211823
+123.125.71.45 0 2 18338 
+183.207.228.2 2 2 115299 20140528160339
+220.255.1.147 1 25 1373718 20140511093314
+220.181.132.215 2 2 125322 20140513180346
+54.236.254.132 1 88 3492654 20140516145131
+220.255.1.108 1 10 326706 20140504093111
+220.255.1.74 1 20 654131 20140527035904
+110.84.32.210 17 17 916555 20140527041900
+123.125.71.26 0 2 25082 
+107.178.215.33 1 1 66668 20140521110628
+220.255.1.139 0 7 178750 
+46.229.170.197 2 2 133324 20140524230022
+121.205.197.253 1 1 66668 20140507123905
+74.3.171.4 1 1 66664 20140513113309
+101.199.112.52 1 48 985823 20140513180401
+202.156.8.11 2 114 4680408 20140507222053
+220.255.1.141 0 9 96804 
+123.125.71.12 0 1 120537 
+107.178.221.189 1 1 66669 20140519102620
+216.244.77.235 6 6 180036 20140531123256
+110.84.36.175 1 1 66668 20140506045151
+117.26.1.82 2 2 116354 20140507222826
+82.145.221.212 1 88 3489128 20140526073652
+220.255.2.43 0 6 431936 
+120.37.236.44 1 1 60415 20140504094354
+119.56.116.148 1 1 66650 20140512083858
+185.38.251.194 2 2 86405 20140509154635
+198.20.71.70 2 2 127646 20140503015050
+222.76.154.208 9 9 454927 20140519215018
+119.56.114.154 1 1 66668 20140511030305
+120.37.226.27 1 1 60423 20140527204528
+220.255.2.208 0 3 6645 
+119.56.114.15 1 1 66668 20140511031020
+31.41.91.215 1 1 49572 20140527063211
+192.210.62.164 7 7 347153 20140525000229
+220.255.1.27 1 13 782709 20140509050251
+112.111.174.94 1 1 60423 20140528063714
+192.157.235.165 5 5 238435 20140501040939
+183.90.37.160 1 1 66668 20140526002914
+220.255.2.119 1 14 453139 20140527004521
+31.202.241.245 1 1 66668 20140527174641
+58.37.8.55 1 1 56328 20140523125016
+27.153.217.225 4 4 266662 20140528062742
+218.30.103.42 0 25 292061 
+120.37.226.195 2 2 133322 20140515071634
+220.255.2.197 1 7 335283 20140505030508
+23.251.155.181 1 1 66662 20140505151852
+220.255.2.112 0 14 493444 
+37.48.81.37 1 1 66662 20140513174948
+68.64.166.36 6 6 346275 20140522085316
+123.125.71.25 0 1 21 
+27.150.231.146 1 1 66668 20140519110252
+123.125.244.210 1 1 68030 20140506190856
+110.85.112.166 3 3 199998 20140512142044
+61.135.190.105 4 54 1723573 20140531070045
+27.154.218.115 1 1 66664 20140507205510
+123.125.71.44 0 2 5542 
+121.205.240.83 8 8 533384 20140527135018
+220.255.2.41 0 1 10814 
+69.162.101.19 7 7 466658 20140531035428
+173.255.112.100 1 1 66668 20140510121911
+112.111.172.108 1 1 67974 20140531140834
+220.255.1.166 0 2 60493 
+112.111.172.254 2 2 135948 20140530115952
+110.84.28.151 4 4 266672 20140531154501
+222.76.152.227 9 9 455354 20140505073832
+220.255.1.171 0 6 165093 
+120.36.190.171 5 5 333340 20140503234801
+27.150.241.61 9 9 463762 20140517061422
+123.125.71.54 0 3 27964 
+124.197.78.123 11 194 7545593 20140514144415
+23.22.128.84 16 16 825345 20140513115554
+124.107.247.133 5 115 3680718 20140515042903
+119.56.124.187 2 92 3537485 20140503201011
+192.163.252.66 1 1 2037 20140513121038
+203.116.251.232 3 97 3644372 20140503095418
+220.255.2.213 0 1 10814 
+222.77.229.217 2 2 60012 20140529020335
+220.255.1.56 0 38 1592081 
+192.187.114.114 6 6 284256 20140510223706
+117.30.62.136 1 1 66668 20140504083951
+194.6.4.10 5 113 3812343 20140508094145
+117.26.193.63 1 1 66668 20140504005422
+101.199.108.55 1 48 985823 20140512051934
+89.187.217.50 0 26 1817767 
+71.65.214.172 3 93 3528002 20140508210714
+123.125.71.60 0 1 21 
+222.76.159.14 1 1 66668 20140515024226
+37.187.74.6 1 1 66668 20140529013044
+208.43.243.245 1 1 66771 20140501212245
+202.46.62.84 1 1 66911 20140506130613
+109.61.19.82 2 2 102421 20140501214236
+110.89.49.98 1 1 66668 20140528134435
+220.255.2.93 0 5 16570 
+220.255.1.43 0 13 601464 
+89.187.219.8 1 38 1144494 20140515075241
+110.89.61.19 3 3 200004 20140523035554
+27.159.23.8 9 9 600003 20140529103136
+36.250.178.95 5 5 322969 20140525152917
+123.125.71.57 0 3 9054 
+120.37.243.83 2 2 118322 20140506103329
+140.237.96.68 13 13 866672 20140509141752
+61.135.190.104 1 29 894306 20140514140032
+110.86.68.134 1 1 66668 20140520015121
+176.14.223.81 6 6 280580 20140525212848
+222.77.227.104 2 2 60002 20140524132235
+220.255.2.36 0 3 307703 
+123.125.71.13 0 2 7220 
+196.46.246.64 15 56 892820 20140506052124
+146.185.156.30 1 1 66668 20140531160807
+220.255.2.48 0 1 10814 
+123.125.71.28 0 1 3090 
+187.127.184.71 6 6 6784 20140530043726
+220.255.1.59 0 21 566108 
+54.221.114.41 1 1 66668 20140519025235
+107.178.217.245 1 1 66668 20140515125055
+119.56.118.123 4 94 3671799 20140520050332
+123.125.71.14 0 2 103580 
+137.175.21.170 2 2 133336 20140515141753
+200.164.151.55 2 106 5973385 20140506234140
+27.159.229.12 3 3 188810 20140531133351
+220.255.1.172 1 29 1088956 20140511093258
+213.238.175.74 6 6 284268 20140508221941
+119.56.120.182 7 7 154991 20140503205403
+199.30.25.99 0 33 950792 
+180.194.170.235 1 1 66668 20140521181657
+183.90.37.189 3 89 3509165 20140508042037
+173.252.100.112 1 1 66847 20140508093947
+123.125.71.24 0 3 32686 
+187.57.219.66 2 104 5555189 20140505182112
+119.56.116.100 1 1 66656 20140510215940
+174.139.8.83 3 3 200062 20140527120857
+117.24.124.23 6 6 384265 20140503182004
+27.150.199.98 1 1 66668 20140510061553
+61.131.74.19 2 2 133336 20140522234707
+123.125.71.47 0 1 21 
+220.255.1.135 0 14 756874 
+176.9.23.240 15 15 796381 20140504155927
+27.153.206.134 2 2 133330 20140514010449
+70.196.70.98 4 184 7060387 20140513130041
+31.41.216.123 12 12 561118 20140528120307
+107.178.218.181 1 1 66662 20140530102442
+110.86.184.24 1 1 68034 20140516154928
+93.182.157.60 11 11 573005 20140504155901
+106.186.114.9 1 1 66668 20140510042933
+110.86.36.10 2 2 133332 20140519012537
+192.74.236.243 12 12 561119 20140525112425
+120.42.91.113 3 3 200000 20140508090709
+36.248.161.71 1 1 66668 20140512075559
+69.171.230.114 1 1 66847 20140527084457
+190.200.23.4 1 1 59053 20140530230325
+220.255.2.57 0 1 10814 
+126.15.83.228 1 1 56336 20140530234824
+220.255.2.76 0 11 305046 
+199.30.24.73 1 40 915878 20140508195704
+123.125.71.29 0 1 2491 
+220.255.2.126 0 15 609331 
+27.150.246.199 10 10 666662 20140520225617
+91.236.75.86 18 18 849120 20140526094205
+220.255.1.90 1 27 1006383 20140509050454
+113.185.6.65 1 1 63708 20140528225718
+198.2.233.121 1 1 66668 20140523051608
+112.111.172.19 1 1 67970 20140528061246
+201.68.17.241 2 102 5964936 20140524000036
+110.83.81.74 15 15 999988 20140510093146
+112.111.173.35 1 1 67970 20140531010625
+123.125.71.30 0 2 30814 
+198.100.144.92 2 2 106174 20140511212006
+91.236.75.58 18 18 849084 20140526125605
+117.30.204.46 5 5 333328 20140504042143
+192.151.152.99 1 1 67974 20140530194301
+216.185.35.35 2 95 3536255 20140511210943
+119.56.113.100 2 93 3534703 20140508235451
+2.88.32.223 2 23 1309942 20140505144409
+207.244.73.5 1 1 0 20140509125506
+107.178.218.148 1 1 66668 20140524102506
+199.30.25.151 1 92 3694030 20140517115343
+69.171.229.117 1 1 66851 20140501024153
+110.84.35.44 9 9 454921 20140519023625
+27.150.196.204 2 2 118330 20140529005406
+110.85.113.96 3 3 200004 20140516222858
+27.150.196.88 7 7 350858 20140510184058
+220.255.1.156 1 2 67887 20140511093407
+175.44.7.56 1 1 60423 20140519211326
+121.54.2.133 6 176 7041321 20140509021748
+222.79.77.234 10 10 521591 20140514222101
+218.66.123.172 1 1 66668 20140509234405
+220.255.2.30 0 8 242738 
+194.214.98.106 1 1 2012 20140527103709
+220.255.1.123 0 2 400698 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140501 71 480 23058329 30
+20140502 90 599 13807616 17
+20140503 143 630 23468743 40
+20140504 139 426 15083708 45
+20140505 67 603 24571568 39
+20140506 101 810 29578794 37
+20140507 71 589 24937698 45
+20140508 91 1030 32809135 39
+20140509 64 586 25246481 39
+20140510 71 277 11508015 33
+20140511 28 212 8525998 22
+20140512 123 380 14779424 30
+20140513 73 639 22275402 35
+20140514 56 349 14076482 24
+20140515 79 832 28588505 39
+20140516 29 175 7484150 23
+20140517 62 288 11140687 20
+20140518 56 176 6974535 21
+20140519 65 65 3671727 25
+20140520 63 391 17176782 25
+20140521 58 271 11005436 28
+20140522 62 334 16067610 23
+20140523 81 165 8064002 34
+20140524 96 131 7637084 27
+20140525 76 461 15910132 20
+20140526 102 210 9786045 28
+20140527 76 442 15563635 43
+20140528 100 126 6280577 42
+20140529 96 520 15126883 27
+20140530 132 533 16446140 30
+20140531 61 269 12602768 26
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+5mn-15mn 15
+30s-2mn 64
+2mn-5mn 7
+15mn-30mn 17
+0s-30s 811
+30mn-1h 28
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 142
+/ 787 51874080 663 565
+/index.php/forum 210 11956791 79 27
+/index.php/forum/ofw-forum/3-looking-for-people-to-work-abroad-with 151 8276344 0 6
+/index.php/forum/suggestion-box 127 7550046 81 50
+/index.php/forum/topics/mode-topics 117 117519 0 89
+/index.php/index.php 89 5956596 3 6
+/templates/new_vision/css/font-awesome/font/fontawesome-webfont.woff 88 3093612 9 32
+/index.php/forum/statistics 76 4568844 0 0
+/index.php/forum/recent 67 3827435 0 30
+/index.php/component/search/ 61 1893601 3 14
+/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 57 3844382 44 29
+/index.php/login 43 2008780 2 5
+/index.php/forum/index 42 2399277 2 1
+/index.php 40 1670467 7 9
+/index.php/new 38 1769621 1 1
+/index.php/jobs 36 2154736 2 5
+/index.php/contact-us 29 1349355 7 2
+/index.php/forum/topics/index.php 24 1357081 0 1
+/index.php/forum/topics 23 1293471 0 5
+/index.php/forum/search 20 1092893 2 17
+/templates/new_vision/css/font-awesome/font/fontawesome-webfont.ttf 18 1423368 5 17
+/index.php/topmenu-blog 17 906527 2 2
+/index.php/topmenu-about-us 16 814330 2 0
+/index.php/topmenu-faq 16 811605 1 1
+/index.php/topmenu-news 15 742301 0 0
+/index.php/contact-us/loader/component/280/media/chosen/css 9 141264 0 0
+/index.php/employer/jsjobs/listjobs/jobcategory-9 1 68790 0 0
+/index.php/about/8-news/latest-news/197-template-specific-options/RK=0/RS=VCcwxPNwIDTbq6J0F4HOME6AJ1w- 1 105109 1 0
+/index.php/contact-us/loader/component/280/components/bootstrap/css 6 55926 1 1
+/index.php/contact-us/loader/component/280/media/bootstrap/css 6 79686 1 0
+/index.php/20-frontpage/296-beautiful-design-and-flexbile-features/trackback/ 2 137256 0 2
+/index.php/about/8-news/latest-news/233-s5-drop-down-panel 1 52727 0 0
+/index.php/forum/index/trackback/ 2 116674 0 2
+/index.php/job-seekers/jsjobs/appliedresume 1 44490 0 0
+/index.php/topmenu-blog/17-installing-the-template 1 53231 0 0
+/index.php/faq 7 324783 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-health-medicine-26 1 69242 0 0
+/index.php/job-seekers/jsjobs/myjobs 1 45716 0 0
+/joomla_update.php 3 284 0 1
+/index.php/38-sample-content/278-sample-content-2 1 67020 0 0
+/index.php/employer/jsjobs/formjob 1 109174 0 0
+/index.php/new/8-news/latest-news/291-stock-photography 1 51699 0 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-12/6 1 93540 0 0
+/index.php/employer/jsjobs/mycompanies 8 399408 0 0
+/index.php/forum/ 3 164890 1 0
+/index.php/blogs/20-frontpage/296-beautiful-design-and-flexbile-features 1 51561 0 0
+/index.php/new/20-frontpage/296-beautiful-design-and-flexbile-features 1 51529 0 0
+/index.php/employer/jsjobs/companyjobs/companyjobs-santarli-20 1 51819 0 0
+/index.php/component/content/ 6 277645 5 2
+/index.php/new/8-news/latest-news/287-responsive-layout 6 345885 3 3
+/index.php/forum/user/843-poec100-yahoo-com 1 50444 0 0
+/index.php/job-seekers/jsjobs/controlpannel 1 52337 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-computer-it-13 2 157036 0 0
+/index.php/blogs/38-sample-content/279-sample-content-3 1 50964 0 0
+/index.php/jobs/jsjobs/searchjob 1 58071 0 0
+/index.php/8-news/latest-news 8 803915 5 5
+/index.php/jobs/jsjobs/listjobs/jobcategory-accounting-finance-1 3 236484 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-customer-service-16 1 70088 0 0
+/templates/new_vision/css/font-awesome/font/fontawesome-webfont.eot 8 224430 3 3
+/index.php/employer/jsjobs/listsubcategoryjobs/jobssubcategory-software-vendors-50 1 75501 0 0
+/index.php/employer/jsjobs/folderresumes/folderresume-it-applicants-1 1 55036 0 0
+/index.php/blogs/8-news/latest-news 1 105993 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-manufacturing-warehouse-36 2 154209 0 1
+/index.php/employer/jsjobs/viewjob/categoryjob-account-executive-3/2 1 60335 0 1
+/index.php/employer/jsjobs/rssjobs/jobsrssformat-rss 1 3552 0 0
+/index.php/contact-us#cid_280 3 139457 0 3
+/index.php/login/profile 11 485219 0 0
+/index.php/employer/jsjobs/viewresume/vfresume-nursing-6/5/1 1 79712 0 0
+/index.php/new/8-news/latest-news 1 105867 0 0
+/index.php/about/38-sample-content/278-sample-content-2 1 51091 0 0
+/index.php/employer/jsjobs/controlpannel 3 157275 0 0
+/index.php/topmenu-about-us/47-site-info 1 58051 0 0
+/index.php/jobs/jsjobs/viewjob/categoryjob-cashier-12/2 1 58289 0 0
+/index.php/job-seekers/jsjobs/jobcategory 1 59083 0 0
+/index.php/employer/jsjobs/companyjobs/companyjobs-jae-industries-13 1 51850 0 0
+/index.php/blogs/2-uncategorised 1 50848 0 0
+/index.php/employer/jsjobs/appliedresume 2 94207 0 0
+/index.php/employer/jsjobs/listjobs/jobcategory-computer-it-13/sortby-salarytodesc 1 78121 0 0
+/index.php/forum/main-forum 1 53533 0 0
+/index.php/about/8-news/latest-news/197-template-specific-options 8 409700 4 4
+/index.php/faq/38-sample-content/279-sample-content-3 1 9772 0 0
+/index.php/faq/8-news/latest-news/291-stock-photography 1 10377 0 0
+/index.php/new/38-sample-content 1 62455 0 0
+/index.php/employer/jsjobs/viewjob/searchjob-account-executive-3/3 1 59627 0 0
+/index.php/20-frontpage 2 137148 1 0
+/index.php/faq/20-frontpage 1 52011 0 0
+/index.php/forum/suggestion-box/5-ofw 2 111322 0 0
+/index.php/about/8-news/latest-news/255-3rd-party-component-compatibility 1 51317 0 1
+/index.php/employer/jsjobs/viewjob/searchjob-programmer-10/3 1 57096 0 0
+/index.php/employer/jsjobs/stats 1 49572 0 0
+/index.php/forum/suggestion-box/4-how-to-navigate-the-interface-of-poec 1 59282 0 0
+/index.php/job-seekers 8 397030 0 2
+/index.php/employer/jsjobs/formcompany 1 61348 0 0
+/index.php/job-seekers/jsjobs/formresume/2 1 140672 0 0
+/index.php/forum/user/928-jcboy 1 49603 1 1
+/index.php/job-seekers/jsjobs/resumesearch 1 62234 0 0
+/index.php/employer/jsjobs/viewcompany/vcompany-jae-industries-13/1 1 47553 0 0
+/index.php/job-seekers/jsjobs/myresumes 1 54648 0 0
+/index.php/blogs/8-news/latest-news/291-stock-photography 1 10403 0 0
+/index.php/component/content/article 1 49798 0 1
+/index.php/jobs/jsjobs/viewjob/categoryjob-marketing-manager-8/2 1 58457 0 0
+/index.php/employer/jsjobs/viewcompany/vcompany-santarli-20/1 2 95068 0 0
+/index.php/forum/newtopic 1 80158 0 0
+/index.php/employer/jsjobs/packages 2 99912 0 0
+/index.php/jobs/jsjobs/viewcompany/1 1 45762 0 0
+/index.php/employer 10 515825 0 0
+/index.php/about/8-news/latest-news 2 211089 1 1
+/index.php/new/38-sample-content/279-sample-content-3 1 9772 0 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-12/5 1 79103 0 0
+/index.php/employer/jsjobs/formcompany/ecompany-jae-industries-13 1 61660 0 0
+/index.php/blogs 6 277723 1 1
+/index.php/forum/suggestion-box/2-i-would-like-to-work-abroad 1 60651 0 0
+/index.php/employer/jsjobs/myjobs 3 181098 0 0
+/index.php/jobs/jsjobs/jobsearchresults 1 64365 0 0
+/index.php/38-sample-content 4 302186 1 0
+/index.php/ 8 530422 2 1
+/index.php/component/mailto/ 1 4130 0 0
+/index.php/employer/jsjobs/listjobs/jobcategory-13/sortby-salarytodesc 1 78109 0 0
+/index.php/topmenu-news/2-uncategorised 1 50832 0 0
+/index.php/forum/ofw-forum 7 379569 4 0
+/index.php/employer/jsjobs/myfolders 1 48897 0 0
+/index.php/employer/jsjobs/viewresume/appliedresume-sales-lady-5/2/12 1 130118 0 0
+/index.php/about/20-frontpage/296-beautiful-design-and-flexbile-features 1 10548 0 0
+/index.php/jobs/jsjobs/listsubcategoryjobs/jobssubcategory-computer-installations-services-49 1 75837 0 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-cashier-12 1 93560 0 0
+/index.php/contact-us/foxcontact 7 304967 2 1
+/components/com_extplorer/f1bsi7.php 3 6500 1 0
+/index.php/about 7 324949 1 0
+/index.php/about/2-uncategorised 1 50873 0 0
+/index.php/jobs/jsjobs/newestjobs 1 82113 0 0
+/index.php/faq/8-news/latest-news 1 105867 0 0
+/index.php/employer/jsjobs/jobappliedapplications/jobappliedapplications-12/5/1 1 79107 0 0
+/index.php/component/jsjobs/jsjobs/listsubcategoryjobs/jobssubcategory-14 4 271678 2 2
+/index.php/topmenu-faq/47-site-info 1 57989 0 0
+/index.php/8-news/latest-news/287-responsive-layout 1 77567 0 0
+/index.php/employer/jsjobs/listjobs 1 65807 0 0
+/index.php/contact-us/loader/component/280/none/none/captcha 5 11379 0 1
+/index.php/faq/20-frontpage/296-beautiful-design-and-flexbile-features 1 10508 0 0
+/index.php/20-frontpage/trackback/ 2 137170 0 1
+/index.php/employer/jsjobs/formcompany/ecompany-santarli-20 1 62225 0 0
+/index.php/jobs/jsjobs/viewjob/categoryjob-electrician-11/2 1 58351 0 0
+/index.php/contact-us/loader/component/280/components/jtext/js 6 8172 0 1
+END_SIDER

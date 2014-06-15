@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0"  client="site" method="upgrade">
+	<name>JS Jobs Stats</name>
+	<author>Joom Sky</author>
+	<creationDate>Oct 31, 2011</creationDate>
+	<copyright>(C) 2009 - 2010. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>ahmad@joomsky.com</authorEmail>
+	<authorUrl>www.joomsky.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Show Jsjobs Stats  from JS Jobs database. </description>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field name="title" type="text" default="Jsjobs Stats" label="JS_TITLE" description="Title" />
+
+				<field name="shtitle" type="radio" default="1" label="JS_SHOW_TITLE" description="Show/Hide the title">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="employer" type="radio" default="1" label="JS_SHOW_EMPLOYER" description="Show/Hide the Employer">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="jobseeker" type="radio" default="1" label="JS_SHOW_JOBSEEKER" description="Show/Hide the Jobseeker">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="jobs" type="radio" default="1" label="JS_SHOW_JOBS" description="Show/Hide the Jobs">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="companies" type="radio" default="1" label="JS_SHOW_COMPANIES" description="Show/Hide the Companies">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="activejobs" type="radio" default="1" label="JS_SHOW_ACTIVE_JOBS" description="Show/Hide the Active Jobs">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="resumes" type="radio" default="1" label="JS_SHOW_RESUMES" description="Show/Hide the Resumes">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="todaystats" type="radio" default="1" label="JS_SHOW_TODAY_STATS" description="Show/Hide the Today Stats">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field name="separator" type="radio" default="1" label="JS_SEPARATOR" description="Show/Hide the line separator">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="sliding" type="radio" default="1" label="JS_SLIDING" description="Yes/No the sliding">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="slidingdirection" type="radio" default="1" label="JS_SLIDING_DIRECTION" description="Yes/No the sliding direction">
+					<option value="0">Left</option>
+					<option value="1">Up</option>
+				</field>
+
+				<field name="consecutivesliding" type="text" default="3" label="JS_CONSECTIVE_SLIDE" description="Consective Slid" />
+
+			</fieldset>
+		</fields>	
+	</config>
+	<files>
+		<filename module="mod_jsjobsstats">mod_jsjobsstats.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_jsjobsstats.ini</language>
+	</languages>
+</extension>

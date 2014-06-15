@@ -1,0 +1,36 @@
+#s5_rss, #s5_facebook, #s5_twitter, #s5_google {
+margin-top:12px;
+}
+
+.s5_am_innermenu {
+display:inline-block;
+}
+
+#subMenusContainer div.s5_sub_wrap ul, #subMenusContainer div.s5_sub_wrap_rtl ul, #subMenusContainer div.s5_sub_wrap_lower ul, #subMenusContainer div.s5_sub_wrap_lower_rtl ul {
+border:solid 1px #E0DFDF;
+}
+
+#subMenusContainer div.s5_sub_wrap ul, #subMenusContainer div.s5_sub_wrap_rtl ul {
+border-top:none;
+}
+
+#s5_nav li:hover, #s5_nav li.mainMenuParentBtnFocused, #s5_nav li.active:hover {
+border:solid 1px #E0DFDF;
+border-top:none;
+border-bottom:none;
+}
+
+#s5_nav li:hover .s5_level1_span1, #s5_nav li.mainMenuParentBtnFocused .s5_level1_span1, #s5_nav li.active:hover .s5_level1_span1 {
+padding-left:15px;
+padding-right:15px;
+}
+
+.tab_box1, .tab_box2, .tab_box3, .tab_box4 {
+width:49%;
+}
+
+.s5_readon {
+padding:5px !important;
+padding-left:10px !important;
+padding-right:10px !important;
+}

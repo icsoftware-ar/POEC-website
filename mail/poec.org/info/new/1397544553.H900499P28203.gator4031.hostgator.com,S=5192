@@ -1,0 +1,123 @@
+Return-path: <>
+Envelope-to: info@poec.org
+Delivery-date: Tue, 15 Apr 2014 01:49:13 -0500
+Received: from gateway06.websitewelcome.com ([67.18.59.2]:46713)
+	by gator4031.hostgator.com with esmtp (Exim 4.82)
+	id 1WZxBB-0007Kh-QZ
+	for info@poec.org; Tue, 15 Apr 2014 01:49:13 -0500
+Received: by gateway06.websitewelcome.com (Postfix)
+	id B1F53222147EC; Tue, 15 Apr 2014 01:49:13 -0500 (CDT)
+Date: Tue, 15 Apr 2014 01:49:13 -0500 (CDT)
+From: MAILER-DAEMON@gateway06.websitewelcome.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: info@poec.org
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3BDBF2221470B.1397544553/gateway06.websitewelcome.com"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20140415064913.B1F53222147EC@gateway06.websitewelcome.com>
+
+This is a MIME-encapsulated message.
+
+--3BDBF2221470B.1397544553/gateway06.websitewelcome.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host gateway06.websitewelcome.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<a@gmail.com>: host gmail-smtp-in.l.google.com[173.194.77.26] said: 552-5.2.2
+    The email account that you tried to reach is over quota. Please direct
+    552-5.2.2 the recipient to 552 5.2.2
+    http://support.google.com/mail/bin/answer.py?answer=6558
+    rk8si15765342oeb.57 - gsmtp (in reply to RCPT TO command)
+
+--3BDBF2221470B.1397544553/gateway06.websitewelcome.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gateway06.websitewelcome.com
+X-Postfix-Queue-ID: 3BDBF2221470B
+X-Postfix-Sender: rfc822; info@poec.org
+Arrival-Date: Tue, 15 Apr 2014 01:49:13 -0500 (CDT)
+
+Final-Recipient: rfc822; a@gmail.com
+Action: failed
+Status: 5.2.2
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 552-5.2.2 The email account that you tried to reach is
+    over quota. Please direct 552-5.2.2 the recipient to 552 5.2.2
+    http://support.google.com/mail/bin/answer.py?answer=6558
+    rk8si15765342oeb.57 - gsmtp
+
+--3BDBF2221470B.1397544553/gateway06.websitewelcome.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <info@poec.org>
+Received: by gateway06.websitewelcome.com (Postfix, from userid 5007)
+	id 3BDBF2221470B; Tue, 15 Apr 2014 01:49:13 -0500 (CDT)
+Received: from gator4031.hostgator.com (gator4031.hostgator.com [192.185.4.42])
+	by gateway06.websitewelcome.com (Postfix) with ESMTP id 2DDD2222146E7
+	for <a@gmail.com>; Tue, 15 Apr 2014 01:49:13 -0500 (CDT)
+Received: from poec by gator4031.hostgator.com with local (Exim 4.82)
+	(envelope-from <info@poec.org>)
+	id 1WZxBA-0007JL-Vc
+	for a@gmail.com; Tue, 15 Apr 2014 01:49:12 -0500
+To: a@gmail.com
+Subject: POEC Jobs Portal: New Message Alert
+X-PHP-Script: www.poec.org/index.php/employer/jsjobs/employersendmessages/employersendmessage-16/1/index.php for 119.92.93.54
+Date: Tue, 15 Apr 2014 01:49:12 -0500
+From: POEC Jobs Portal <info@poec.org>
+Message-ID: <a054ad3ca8c9ab32c7e60f2866660695@www.poec.org>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.6 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - gator4031.hostgator.com
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [31309 33172] / [47 12]
+X-AntiAbuse: Sender Address Domain - poec.org
+X-BWhitelist: no
+X-Source-IP: 
+X-Exim-ID: 1WZxBA-0007JL-Vc
+X-Source: /opt/php53/bin/php-cgi
+X-Source-Args: /opt/php53/bin/php-cgi /home3/poec/public_html/index.php 
+X-Source-Dir: poec.org:/public_html
+X-Source-Sender: 
+X-Source-Auth: poec
+X-Email-Count: 1
+X-Source-Cap: cG9lYztwb2VjO2dhdG9yNDAzMS5ob3N0Z2F0b3IuY29t
+
+<div style="background: #6DC6DD; height: 20px;">&nbsp;</div>
+<p style="color: #2191ad;">Dear aa,</p>
+<p style="color: #4f4f4f;">Jae: send you new message.</p>
+<div style="display: block; padding: 20px; color: #4f4f4f; background: #F5FEFF; border: 1px solid #B7EAF7;">
+<p><strong><span style="text-decoration: underline;">Summary</span></strong></p>
+<p>Company Name: Jae Industries</p>
+<p>Job Title: Electrician</p>
+<p>Resume Title: aaa</p>
+<p>Subject: interview</p>
+<p>Message: tomorrow 9am</p>
+<p>&nbsp;</p>
+<p>Login and view details at <a href="http://www.poec.org">www.poec.org</a></p>
+</div>
+<div style="margin-top: 10px; padding: 10px 20px; color: #000000; background: #FAF2F2; border: 1px solid #F7C1C1;">
+<p><span style="color: red;"><strong>*DO NOT REPLY TO THIS E-MAIL*</strong></span><br />This is an automated e-mail message sent from our support system. Do not reply to this e-mail as we wonot receive your reply!</p>
+</div>
+
+
+--3BDBF2221470B.1397544553/gateway06.websitewelcome.com--

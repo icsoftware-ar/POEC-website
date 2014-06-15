@@ -1,0 +1,24 @@
+head	1.1;
+access;
+symbols;
+locks
+	poec:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2013.10.14.16.30.39;	author poec;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@@

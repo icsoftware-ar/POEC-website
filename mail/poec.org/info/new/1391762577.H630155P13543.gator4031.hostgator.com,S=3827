@@ -1,0 +1,45 @@
+Return-path: <lourdesramos18@yahoo.com>
+Envelope-to: info@poec.org
+Delivery-date: Fri, 07 Feb 2014 02:42:57 -0600
+Received: from nm45.bullet.mail.ne1.yahoo.com ([98.138.120.52]:38182)
+	by gator4031.hostgator.com with esmtps (TLSv1:DHE-RSA-AES256-SHA:256)
+	(Exim 4.80)
+	(envelope-from <lourdesramos18@yahoo.com>)
+	id 1WBh1V-0003UE-3L
+	for info@poec.org; Fri, 07 Feb 2014 02:42:57 -0600
+Received: from [127.0.0.1] by nm45.bullet.mail.ne1.yahoo.com with NNFMP; 07 Feb 2014 08:42:55 -0000
+Received: from [98.138.101.130] by nm45.bullet.mail.ne1.yahoo.com with NNFMP; 07 Feb 2014 08:40:14 -0000
+Received: from [98.139.215.141] by tm18.bullet.mail.ne1.yahoo.com with NNFMP; 07 Feb 2014 08:40:14 -0000
+Received: from [98.139.212.205] by tm12.bullet.mail.bf1.yahoo.com with NNFMP; 07 Feb 2014 08:40:14 -0000
+Received: from [127.0.0.1] by omp1014.mail.bf1.yahoo.com with NNFMP; 07 Feb 2014 08:40:14 -0000
+X-Yahoo-Newman-Property: ymail-4
+X-Yahoo-Newman-Id: 457164.15213.bm@omp1014.mail.bf1.yahoo.com
+Received: (qmail 11682 invoked by uid 60001); 7 Feb 2014 08:40:14 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1391762414; bh=6IjGeJyrjyxvZyUE6mgVvIF33aKfSH6qjEV5aCMfpWk=; h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:Message-ID:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type; b=lSr0rOar4MhWULHgpx5JLmmeKjqrUF8I/F99sd2GHx6pZmWj4DxOczGELj+ZX8ZYFIIjL0YpvpQHRgAvoPC0UbqJ+nqOItN06LirUGVm1tY+/GH3JGiVM1/83LZAfBKr4pA64Ro0oywHJMzuf4Zza+soaR79V2flCXLj3xsa3oQ=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:Message-ID:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type;
+  b=ZCa1a8Ll4CuXT89iriGtN77Lr19wvGnRquVS2mcmJae54bcJxoRNWoxqAPBDTAattzqj1ZC0FjQvfSSpQ8oZInzcIMfTqkJ2i2Lxn2QiYRMBnul9Hv62hrJAL9vsWi70fpolpHMUt3Cq4tFVjZkGGSHMsP3fsAIrMiDVuVXgKJc=;
+X-YMail-OSG: mK0JqzYVM1lf26uHLtngeCfqUS5DFZ7Gkzisx.KypAGKO99
+ M9nGazGrEdkwz0QhYoH4kWjww.bGJJ0CbJ4b64gdT9BeGiOM-
+Received: from [115.84.242.18] by web163103.mail.bf1.yahoo.com via HTTP; Fri, 07 Feb 2014 00:40:13 PST
+X-Rocket-MIMEInfo: 002.001,SSBqdXN0IHdhbnQgdG8ga25vdyBpZiB5b3UgYXJlIHJlbGF0ZWQgb3IgaWYgeW91IGhhdmUgYW55IGNvbm5lY3Rpb24gd2l0aCB0aGUgU2FudGFybGkgQ29uc3RydWN0aW9uLCB0aGF0IHByb3ZpZGVzIHRyYWluaW5nIGZvciBGaWxpcGlubyBza2lsbGVkIHdvcmtlcnMgdG8gd29yayBhYnJvYWQgKFNpbmdhcG9yZSkuIERvIHlvdSBoYXZlIGFueSxjb250YWN0IHBlcnNvbiBhbmQgY29udGFjdCBudW1iZXIgc28gdGhhdCB3ZSBjYW4gYXBwbHkuIFRoYW5rIHlvdS4BMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.175.632
+Message-ID: <1391762413.80895.YahooMailNeo@web163103.mail.bf1.yahoo.com>
+Date: Fri, 7 Feb 2014 00:40:13 -0800 (PST)
+From: Lourdes Ramos <lourdesramos18@yahoo.com>
+Reply-To: Lourdes Ramos <lourdesramos18@yahoo.com>
+Subject: seeking for a job!
+To: "info@poec.org" <info@poec.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="673831718-1776433833-1391762413=:80895"
+
+--673831718-1776433833-1391762413=:80895
+Content-Type: text/plain; charset=us-ascii
+
+I just want to know if you are related or if you have any connection with the Santarli Construction, that provides training for Filipino skilled workers to work abroad (Singapore). Do you have any,contact person and contact number so that we can apply. Thank you.
+--673831718-1776433833-1391762413=:80895
+Content-Type: text/html; charset=us-ascii
+
+<html><body><div style="color:#000; background-color:#fff; font-family:HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:12pt"><div>I just want to know if you are related or if you have any connection with the Santarli Construction, that provides training for Filipino skilled workers to work abroad (Singapore). Do you have any,contact person and contact number so that we can apply. Thank you.</div></div></body></html>
+--673831718-1776433833-1391762413=:80895--

@@ -1,0 +1,28 @@
+Return-path: <info@poec.org>
+Envelope-to: admin@poec.org
+Delivery-date: Mon, 02 Jun 2014 06:06:30 -0500
+Received: from poec by gator4031.hostgator.com with local (Exim 4.82)
+	(envelope-from <info@poec.org>)
+	id 1WrQ4U-0000tv-Lr
+	for admin@poec.org; Mon, 02 Jun 2014 06:06:30 -0500
+To: admin@poec.org
+Subject: POEC Jobs Portal:  New resume Cashier has beed received
+X-PHP-Script: poec.org/index.php/job-seekers/jsjobs/formresume/index.php for 222.127.232.120
+Date: Mon, 2 Jun 2014 06:06:30 -0500
+From: POEC Jobs Portal <info@poec.org>
+Message-ID: <79ade0784a2ac0bac61bf26a7989d2d2@poec.org>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.6 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<div style="background: #6DC6DD; height: 20px;">&nbsp;</div>
+<p style="color: #2191ad;">Hello Admin ,</p>
+<p style="color: #4f4f4f;">We received a new resume of Nelmar Mullanida.</p>
+<p style="color: #4f4f4f;">&nbsp;</p>
+<p style="color: #4f4f4f;">Login and view details at <a href="http://www.poec.org">www.poec.org</a></p>
+<div style="margin-top: 10px; padding: 10px 20px; color: #000000; background: #FAF2F2; border: 1px solid #F7C1C1;">
+<p><span style="color: red;"><strong>*DO NOT REPLY TO THIS E-MAIL*</strong></span><br />This is an automated e-mail message sent from our support system. Do not reply to this e-mail as we wonot receive your reply!</p>
+</div>
+

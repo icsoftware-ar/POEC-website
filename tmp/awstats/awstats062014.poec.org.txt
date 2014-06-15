@@ -1,0 +1,871 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+# Last config file used to build this data file was /home3/poec/tmp/awstats/awstats.poec.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1999                
+POS_TIME 2683                
+POS_VISITOR 16303               
+POS_DAY 25332               
+POS_DOMAIN 3632                
+POS_LOGIN 4228                
+POS_ROBOT 4383                
+POS_WORMS 4859                
+POS_EMAILSENDER 4990                
+POS_EMAILRECEIVER 5133                
+POS_SESSION 25777               
+POS_SIDER 25987               
+POS_FILETYPES 5268                
+POS_DOWNLOADS 5578                
+POS_OS 5651                
+POS_BROWSER 5829                
+POS_SCREENSIZE 6796                
+POS_UNKNOWNREFERER 6870                
+POS_UNKNOWNREFERERBROWSER 7210                
+POS_ORIGIN 7436                
+POS_SEREFERRALS 7582                
+POS_PAGEREFS 7758                
+POS_SEARCHWORDS 8189                
+POS_KEYWORDS 8508                
+POS_MISC 2346                
+POS_ERRORS 8745                
+POS_CLUSTER 4084                
+POS_SIDER_404 8957                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140614070925 817 212407 19399126264834
+FirstTime 20140601002104
+LastTime 20140614070925
+LastUpdate 20140614084906 817 0 817 0 0
+TotalVisits 316                 
+TotalUnique 187                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 238                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 79 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 133 631 14355107 87 139 3063260
+1 133 615 11259870 139 206 3473728
+2 155 1609 42885236 109 220 3503728
+3 247 1511 23354284 127 289 3990722
+4 215 2350 19773106 149 283 3130134
+5 181 1408 28784417 128 254 4074509
+6 139 968 25078532 112 258 7516505
+7 96 569 16638353 210 256 8911911
+8 46 439 11132636 366 476 17846443
+9 53 186 7430587 367 423 10903804
+10 25 133 5359864 84 107 2708855
+11 21 219 6160174 88 113 2627987
+12 30 37 1840202 94 133 2931169
+13 42 87 3117576 127 134 3433243
+14 16 37 2666068 96 127 2315423
+15 11 19 851227 98 123 3747335
+16 21 144 5061135 88 118 2952242
+17 35 139 7774874 100 108 4014155
+18 18 108 4411265 176 217 4203638
+19 25 222 10507838 76 83 2744635
+20 63 401 13385191 87 141 2451423
+21 52 564 21482593 110 144 3451214
+22 156 1668 34010612 124 258 3989471
+23 304 1964 53314797 124 244 4328534
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 24
+ph 1698 13825 277501746
+us 215 642 25425679
+cn 105 200 9614891
+pl 39 39 2194188
+ca 29 29 1421392
+za 28 28 1387579
+ua 25 25 1315618
+ru 14 14 694833
+qa 9 124 4634164
+br 7 380 18859943
+sa 6 6 332749
+de 6 6 367850
+gb 5 187 5092685
+sg 5 220 7928613
+fi 5 5 263945
+fr 4 4 231851
+at 4 4 266658
+lv 3 3 0
+ie 3 75 1726847
+ma 2 106 5973424
+in 2 103 5199525
+cl 1 1 66662
+eu 1 1 68034
+nl 1 1 66668
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bot[\s_+:,\.\;\/\\-] 698 26364539 20140614070048 236
+spider 489 21279284 20140613095532 28
+crawl 319 17191360 20140613221955 3
+googlebot 272 14183658 20140614051249 27
+robot 58 1326453 20140614065839 32
+no_user_agent 9 518484 20140608100734 0
+slurp 6 49131 20140612150838 5
+unknown 3 2595 20140611214754 3
+msnbot\-media 3 2595 20140613085215 3
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 1 37405 0 0
+css 3509 28923685 0 0
+png 3719 10684937 0 0
+ttf 11 815804 0 0
+woff 113 2588980 0 0
+php 1018 45182809 0 0
+html 457 26420770 0 0
+xml 1 141 0 0
+js 4773 61823080 0 0
+jpg 1555 159327619 0 0
+Unknown 616 34033611 0 0
+gif 255 796703 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 336 0 290640
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 603
+winxp 327
+winlong 73
+winnt 1
+win2000 2
+linux 16
+winvista 2861
+win7 11809
+winme 1
+macosx 247
+j2me 68
+win2003 1
+Unknown 19
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 52
+msie6.0 57
+safari7.0 211
+chrome29.0.1547.76 220
+firefox10.0 91
+android 304
+firefox26.0 75
+chrome28.0.1467.0 1
+safari7.0.4 13
+chrome22.0.1229.79 8
+firefox18.0 139
+curl 3
+opera12.80 1
+chrome23.0.1271.95 46
+opera9.80 101
+firefox3.6.15 90
+chrome33.0.1750.46 580
+msie8.0 48
+chrome19.1.1084.5409 2
+chrome32.0.1700.102 30
+chrome30.0.1599.13014 6
+chrome35.0.1916.122 104
+msie7.0 24
+firefox23.0 1
+chrome33.0.1750.146 726
+msie9.0 156
+chrome24.0.1312.52 2
+firefox27.0 30
+Unknown 16
+netscape 2
+chrome32.0.1667.0 2
+chrome35.0.1916.138 195
+chrome34.0.1847.131 3
+safari6.0 7
+firefox29.0 1225
+firefox8.2.4 1
+chrome27.0.1453.110 1
+firefox30.0 16
+chrome24.0.1292.0 1
+chrome32.0.1700.107 706
+chrome35.0.1916.114 9822
+mozilla 141
+chrome24.0.1312.60 1
+chrome30.0.1599.12785 21
+chrome33.0.1750.117 48
+chrome35.0.1916.153 413
+chrome32.0.1700.76 12
+firefox14.0.1 12
+firefox22.0 1
+msie10.0 181
+safari6.0.3 13
+firefox19.0 118
+firefox15.0.1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla 20140603002039
+visionutils/0.2 20140609085357
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20140609085353
+Mozilla/5.0_(compatible;_WebMasterAid/1.0;__http://wmaid.com/explore/) 20140607112438
+NerdyBot 20140609095433
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+visionutils/0.2 20140609085357
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20140609085353
+NerdyBot 20140609095433
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 374 388
+From1 0 0
+From2 66 86
+From3 16 106
+From4 1761 15448
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 58 78
+baidu 6 6
+bing 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://semalt.semalt.com/crawler.php 7 7
+http://x14files.in 3 3
+http://chineseretireesfoundation.org/forums/view/popular/ 2 2
+http://wmaid.com/explore/poec.org 1 1
+http://ognemet.net/conclusion.php 1 1
+http://iosandroidcheats.ru 1 1
+http://webcache.googleusercontent.com/search 1 91
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+philippineoverseasemploymentcenter-welcometophilippineoverseasemploymentcenter 5
+poec 2
+www.poec.org 1
+web+development+companies+lviv 1
+santarli+philippines+address 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 10
+philippineoverseasemploymentcenter-welcometophilippineoverseasemploymentcenter 5
+poec 2
+www.poec.org 1
+web 1
+philippines 1
+address 1
+companies 1
+santarli 1
+lviv 1
+development 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+403 24 436800
+503 691 3361972
+206 159 9712198
+999 1 2308
+303 533 472
+406 70 15820
+302 78 528
+500 39 70164
+301 15 4529
+404 1308 15442219
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 136
+/pdfs/POEC_Membership_Form_04_2008.pdf 1 -
+/login/editors/fckeditor/editor/filemanager/upload/test.html 2 -
+/admin/editor/filemanager/connectors/uploadtest.html 5 -
+/admin.php 2 -
+/trackback/ 2 http://poec.org/
+/index.php/forum/suggestion-box 3 http://poec.org/index.php/forum/suggestion-box
+/index.php/new-jobs/jsjobs/viewcompany/51 1 -
+/502.html 4 -
+/index.php/extensions/s5-flex-menu-1360 5 -
+//includes/js/joomla.javascript.js 590 http://www.poec.org/index.php/login
+/js/fckeditor/editor/filemanager/browser/default/connectors/test.html 4 -
+/includes/js/joomla.javascript.js 6 http://www.poec.org/
+/opec_web/en/2559.htm 1 -
+/fckeditor_ap/editor/filemanager/connectors/uploadtest.html 1 -
+/media/system/js/s 2 -
+/index.php/about-us 1 -
+/webmanage/fckeditor/editor/filemanager/connectors/uploadtest.html 2 -
+/editor/editor/filemanager/connectors/test.html 2 -
+/fckeditor/editor/filemanager/browser/default/connectors/test.html 4 -
+/index.php/admin 1 -
+/nyet.gif 9 -
+/public/js/fckeditor/editor/filemanager/upload/test.html 1 -
+/th1s_1s_a_4o4.html 13 http://www.google.com/url
+/components/com_jsjobs/js/jquery-1.2.6.pack.js 59 http://poec.org/index.php/jobs/jsjobs/listjobs/jobcategory-accounting-finance-1
+/js/fckeditor/editor/filemanager/upload/test.html 2 -
+/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/components/com_oziogallery/imagin/scripts_ralcr/filesystem/writeToFile.php 1 -
+/administrator/editors/fckeditor/editor/filemanager/upload/test.html 3 -
+/components/com_oziogallery2/imagin/scripts_ralcr/filesystem/writeToFile.php 1 -
+/administrator//includes/js/joomla.javascript.js 254 http://www.poec.org/administrator/index.php
+/index.php/forum/statistics 1 -
+/fckeditor/editor/filemanager/browser/default/browser.html 4 -
+/index.php/user/register 1 http://poec.org/
+/editor/filemanager/browser/default/connectors/test.html 2 -
+/js/fckeditor/editor/filemanager/browser/default/browser.html 2 -
+/plugins/system/function.php 1 -
+/wp-login.php 3 -
+/administrator/fckeditor1/editor/filemanager/connectors/uploadtest.html 1 -
+/504.html 1 http://www.poec.org/
+/index.php/forum 58 http://www.poec.org/index.php
+/cms/fckeditor/editor/filemanager/connectors/uploadtest.html 4 -
+/admin/fckeditor_ap/editor/filemanager/upload/asp/upload.asp 1 -
+/cms 1 -
+/components/com_community/index.html 3 -
+/index.php/&q=Your%20sure%20jobs%20abroad. 2 http://www.poec.org/index.php/login
+/_vti_bin/_vti_aut/author.dll 1 -
+/templates/new_vision/vertex/admin/df-images/vertex-plain-spacer.png 7 http://poec.org/administrator/index.php
+/admin/system/editor/fckeditor/editor/fckeditor.html 5 -
+/modules/mod_youtube/mod_youtube.php 1 -
+/index.htm 2 -
+/system/index.php 1 -
+/index.php/forum/suggestion-box/5-ofw/unread 1 -
+/administrator/fckeditor/editor/filemanager/connectors/uploadtest.html 2 -
+/cpannel 1 -
+/index.php/features-mainmenu-47/template-features/responsive-layout 5 -
+/index.php/features-mainmenu-47/template-specific-features 11 -
+/manage/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/public/js/fckeditor/editor/filemanager/connectors/uploadtest.html 3 -
+/index.php/forum/user/751-poecemail16-gmail-com 1 -
+/index.php/features-mainmenu-47/template-features/95-module-positions 1 -
+/poec.cgim 6 -
+/index.php/jpbs/jsjobs/listjobs 1 -
+/admin/editors/fckeditor/editor/filemanager/upload/test.html 3 -
+/includes/editors/fckeditor/editor/filemanager/upload/test.html 3 -
+/index.php/new-jobs/jsjobs/viewjob/newestjobs-10/5 1 -
+/editor/editor/filemanager/upload/test.html 2 -
+/fckeditor/editor/fckeditor.html 2 -
+/index.php/features-mainmenu-47/template-features/hide-divs-and-modules 2 -
+/wordpress/wp-admin/ 1 -
+/editor/filemanager/browser/default/browser.html 2 -
+/webeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/fckeditor/editor/filemanager/upload/test.html 1 -
+/admin/fckeditor1/editor/filemanager/connectors/uploadtest.html 3 -
+/administrator/components/com_jsjobs/include/css/background.png 6 http://poec.org/administrator/index.php
+/plugins/community/walls/walls.php 1 -
+/oa/fckeditor/editor/filemanager/browser/default/browser.html 3 -
+/index.php/site-terms 1 -
+/public/js/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/components/com_banners/models/sys.php 1 -
+/editors/fckeditor/editor/filemanager/upload/test.html 4 -
+/cpanell 1 -
+/index.php/forum/suggestion-box/4-how-to-navigate-the-interface-of-poec 3 -
+/downloads/POEC_Bylaws_2009.DOC 2 -
+/webeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/index.php/forum/suggestion-box/4-how-to-navigate-the-interface-of-poec/unread 1 -
+/admin/fckeditor_ap/editor/filemanager/connectors/uploadtest.html 2 -
+/wordpress/wp-login.php 1 -
+/index.php/new-jobs/jsjobs/viewjob/newestjobs-12/5 1 -
+/bbadmin/editors/fckeditor/editor/filemanager/upload/test.html 4 -
+/wp-admin/ 1 -
+/fckeditor/editor/fckdialog.html 4 -
+/fckeditor/editor/filemanager/connectors/uploadtest.html 5 -
+/system/components/com_community/index.html 1 -
+/admin/editor/filemanager/upload/test.html 4 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/index.php/component/content/article 6 -
+/forum 42 http://www.poec.org/forum
+/editor/editor/filemanager/connectors/uploadtest.html 4 -
+/mods/ckeditor/filemanager/connectors/uploadtest.html 1 -
+/fckeditor/_samples/default.html 3 -
+/path/fckeditor/editor/filemanager/browser/default/browser.html 3 -
+/index.php/new-jobs/newestjobs 1 -
+/pc77/index.php 1 -
+/index.php/forum/ofw-forum/3-looking-for-people-to-work-abroad-with 1 -
+/admin/fckeditor_ap/editor/filemanager/connectors/uploadasp/connector.asp 1 http://poec.org/admin/fckeditor_ap/editor/filemanager/connectors/uploadtest.html
+/admin/fckeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/blog/wp-admin/ 1 -
+/blog/wp-login.php 1 -
+/a 4 -
+/modules/mod_docman_ult/mod_docman_ult.php 1 -
+/webmanage/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/index.php/forum/suggestion-box/2-i-would-like-to-work-abroad 1 -
+/editor/filemanager/connectors/uploadtest.html 3 -
+/fckeditor/editor/fckeditor.original.html 2 -
+/kbf 1 -
+//images/stories/petx.gif 1 -
+/index.php/new-jobs/jsjobs/viewjob/newestjobs-11/5 1 -
+/index.php/new-jobs/jsjobs/viewcompany/1 1 -
+/test/wp-login.php 1 -
+/admin/fckeditor/editor/filemanager/upload/test.html 3 -
+/index.php/jpbs/jsjobs/listjobs/jobcategory-computer-it-13 1 -
+/js/fckeditor/editor/filemanager/connectors/uploadtest.html 4 -
+/edit/editor/filemanager/browser/default/browser.html 2 -
+/wp/wp-login.php 1 -
+/webeditor/editor/filemanager/connectors/test.html 2 -
+/join-now.html 2 -
+/admin/fckeditor_ap/editor/filemanager/upload/aspx/upload.aspx 1 -
+/admin/fckeditor_ap/editor/filemanager/upload/php/upload.php 1 -
+/admin 1 -
+/fckeditor1/editor/filemanager/connectors/uploadtest.html 1 -
+/plugins/content/blogping/elements/donations.php 1 -
+/index.php 2 -
+/news/wp-login.php 1 -
+/index.php/forum/search 2 -
+/admin/fckeditor/editor/filemanager/browser/default/browser.html 3 -
+/pc77/components/com_community/index.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 238
+115.84.245.30 506 3736 67802091 20140609065436
+27.110.169.42 406 2191 31736316 20140610082522
+121.54.29.86 224 2186 15929517 20140610082959
+222.127.232.120 83 580 8954049 20140602060753
+119.92.93.54 82 788 23583486 20140610025428
+119.92.93.50 72 909 27682703 20140606202540
+49.144.164.24 71 505 10342771 20140614070925 20140614065158 /administrator/index.php
+198.204.240.4 62 62 3035994 20140605121359
+121.97.150.123 61 108 3343669 20140608232022
+112.209.198.160 35 356 9403253 20140606023745
+112.198.82.244 35 276 5984336 20140601082153
+172.246.129.194 28 28 1419380 20140609135123
+192.157.235.84 28 28 1387579 20140603005626
+49.144.191.92 23 220 5316965 20140608062235
+198.204.240.5 19 19 971695 20140608120737
+112.203.227.162 15 122 4253664 20140606023713
+222.127.85.170 15 191 5427393 20140606125504
+108.163.194.162 13 13 711458 20140608090226
+31.41.216.123 13 13 628941 20140608080120
+69.58.178.58 12 12 670779 20140608133008
+112.208.94.174 11 118 4155575 20140602230628
+112.198.79.231 10 51 920793 20140601042003
+69.162.101.19 10 10 666693 20140609041139
+146.185.232.183 10 10 493868 20140609135112
+222.76.159.242 9 9 600035 20140609135047
+61.135.190.105 0 5 129045 
+220.255.1.63 1 2 66792 20140603020234
+220.255.1.20 0 10 579928 
+23.225.128.161 1 1 66905 20140606183528
+54.237.139.137 2 2 101466 20140608005405
+108.186.100.182 1 1 66662 20140605193557
+64.74.215.88 2 24 530083 20140606092505
+173.252.74.119 1 1 66934 20140609085352
+91.236.75.98 8 8 278584 20140603070915
+198.2.234.123 1 1 66662 20140606211333
+201.19.86.144 2 105 5542415 20140607215506
+175.44.8.108 1 1 67974 20140607232028
+67.198.213.58 1 1 66668 20140607110013
+188.165.245.48 1 1 66668 20140606020343
+220.255.1.81 0 4 90359 
+175.44.24.66 1 1 67970 20140604053627
+27.153.207.67 3 3 203922 20140607124902
+175.44.27.82 1 1 67974 20140603091611
+41.142.168.190 2 106 5973424 20140609172309
+175.44.25.183 3 3 204497 20140608183906
+112.111.172.254 2 2 135942 20140603062444
+175.44.6.53 1 1 67974 20140606034629
+175.44.27.99 2 2 135948 20140607234703
+220.255.2.150 0 6 485559 
+192.99.170.65 4 4 197046 20140606072553
+220.255.1.84 0 10 351744 
+185.25.48.97 1 1 68034 20140602164227
+14.107.118.82 1 1 66697 20140609230139
+112.111.172.247 2 2 135948 20140602223527
+120.37.233.133 7 7 466701 20140609104658
+222.77.227.202 2 2 60009 20140603043423
+76.164.214.37 6 6 281106 20140603135256
+220.160.190.78 2 2 133394 20140609214705
+220.255.2.242 0 8 276081 
+31.41.216.144 7 7 347764 20140605213806
+61.135.190.223 1 20 642252 20140602230213
+220.255.2.245 0 2 1828 
+86.51.26.18 6 6 332749 20140606121330
+112.198.77.94 3 91 3572565 20140607234805
+202.156.8.15 0 6 160111 
+23.88.47.10 1 1 62742 20140604102340
+202.105.88.120 1 1 47048 20140602021921
+180.190.58.228 8 103 4018014 20140604104732
+36.248.171.221 1 1 54025 20140604093105
+220.255.1.91 0 11 628048 
+61.135.190.100 1 20 642256 20140601230250
+96.248.89.56 0 7 115139 
+186.211.1.6 1 63 2742295 20140601135924
+198.50.178.57 4 4 260260 20140603044553
+193.61.41.63 4 119 3935717 20140606163225
+173.236.29.218 8 18 701590 20140605091141
+49.145.160.197 2 92 3537485 20140601205213
+220.255.2.111 1 6 304073 20140604022859
+107.178.216.181 1 1 66658 20140603101801
+203.215.119.33 0 18 365632 
+91.236.75.85 7 7 347256 20140609133244
+220.255.2.134 0 4 129399 
+54.82.2.218 3 3 152259 20140607104059
+112.198.77.17 5 91 3687884 20140607212211
+31.41.219.131 2 2 136091 20140609073441
+61.135.190.220 1 11 390200 20140601075934
+14.104.2.167 2 2 133324 20140605011813
+61.135.190.219 0 9 252050 
+175.44.26.230 1 1 67974 20140603162104
+199.30.24.77 1 90 3494079 20140607202221
+37.187.74.6 2 2 133332 20140607022357
+184.154.132.90 3 3 161323 20140609090320
+78.100.68.82 9 124 4634164 20140608055029
+89.76.221.44 2 2 186820 20140605020921
+212.227.58.213 1 1 2031 20140610024522
+220.255.1.26 0 4 38789 
+220.255.2.102 0 5 42806 
+220.255.2.247 0 3 148287 
+82.145.222.172 1 68 1156968 20140601002104
+131.253.24.76 1 48 1099358 20140609213609
+137.175.53.204 1 1 66784 20140609221836
+188.92.76.167 3 3 0 20140607112438
+220.255.2.151 0 2 57103 
+89.223.53.7 1 1 66664 20140606192453
+192.95.59.78 2 2 125724 20140605064606
+61.135.190.104 0 9 252050 
+69.238.162.225 1 17 305501 20140606045651
+220.255.1.31 0 3 132736 
+192.187.125.99 2 2 133394 20140609180130
+220.255.2.238 0 1 33685 
+112.111.174.12 4 4 271884 20140607125721
+112.111.173.191 1 1 67974 20140604235212
+69.175.118.170 8 8 434191 20140604090631
+146.185.156.30 2 2 134160 20140608072446
+61.135.190.102 0 4 135826 
+112.111.174.171 2 2 135943 20140604190643
+66.249.90.138 0 2 31016 
+220.255.2.127 0 7 70679 
+87.206.22.97 1 1 97435 20140601020807
+112.111.174.37 1 1 67970 20140604044445
+91.236.74.153 7 7 350519 20140610014834
+119.95.226.59 0 13 258860 
+37.59.48.220 1 1 66668 20140603022836
+203.117.37.212 0 13 258860 
+61.135.190.224 1 1 66911 20140605094809
+107.178.221.77 1 1 66668 20140606095450
+120.28.127.19 4 94 3594670 20140606224623
+175.44.11.156 1 1 67974 20140602175012
+27.153.233.228 2 2 133394 20140610003120
+121.54.54.11 1 1 67492 20140608172829
+173.252.74.118 1 1 67249 20140608061418
+220.255.1.65 0 4 108499 
+74.218.56.146 1 1 66668 20140603020737
+23.105.219.128 2 2 86611 20140609083555
+110.55.5.243 2 97 3592259 20140606073344
+220.255.1.77 0 11 353923 
+173.252.79.117 0 1 430980 
+188.143.233.174 1 1 141 20140601091338
+124.6.181.74 3 93 3528002 20140603183232
+208.43.245.104 1 1 66771 20140605203945
+24.147.46.3 2 106 5973385 20140601225305
+27.159.229.12 1 1 60426 20140603091128
+119.94.198.202 1 104 3726147 20140610073039
+76.164.194.117 6 6 281106 20140603190835
+220.255.1.52 0 1 96381 
+178.63.201.117 1 1 101079 20140606145145
+27.153.162.245 1 1 66668 20140602203841
+220.255.2.135 0 8 266463 
+183.90.87.39 1 1 67245 20140608205851
+37.187.92.78 2 2 133326 20140606024943
+175.44.5.175 2 2 136546 20140609084740
+176.9.50.43 1 1 68281 20140606223620
+220.255.2.253 0 5 125445 
+175.44.5.145 2 2 135940 20140606173639
+120.37.232.228 2 2 133326 20140603104757
+110.55.1.219 0 16 353034 
+220.255.2.117 0 9 97007 
+112.198.77.147 3 93 3527992 20140601032303
+120.37.228.11 3 3 199998 20140607094938
+142.4.223.153 1 1 2012 20140601215516
+173.252.74.115 2 2 134069 20140609085353
+91.236.75.38 1 1 66697 20140609122832
+69.171.247.113 1 1 5661 20140608012024
+112.209.151.228 0 13 258860 
+125.60.156.171 3 94 3602776 20140608072230
+106.81.18.247 1 1 67239 20140608213852
+14.104.35.33 1 1 66662 20140605213450
+27.159.23.151 8 8 534558 20140609151942
+69.175.20.162 4 14 484476 20140606090604
+107.178.217.71 1 1 66668 20140601102248
+187.64.231.75 2 103 4815630 20140605062352
+180.191.193.77 0 13 258860 
+216.244.77.235 5 5 187226 20140608230042
+175.44.58.148 1 1 66668 20140607231126
+64.74.215.94 2 24 530560 20140606113544
+198.60.22.56 1 1 2012 20140602083835
+220.255.2.159 0 2 331992 
+202.156.8.252 0 7 189425 
+220.255.2.133 0 2 432287 
+173.252.105.115 0 1 6922 
+112.111.173.161 1 1 68003 20140610010624
+46.5.113.187 1 1 62655 20140606133944
+220.255.1.33 0 3 83391 
+63.141.239.2 6 6 346737 20140605154407
+27.154.77.146 1 1 66668 20140604104508
+203.192.217.114 2 103 5199525 20140606231619
+110.55.157.24 0 13 258860 
+140.237.14.16 5 5 333330 20140604235111
+61.135.190.222 1 11 390202 20140603230253
+120.28.127.48 4 181 3663620 20140610025238
+112.111.172.116 1 1 67974 20140606155514
+220.255.1.95 0 5 33707 
+91.236.75.86 7 7 348151 20140609182029
+199.7.108.32 1 1 2012 20140607131523
+175.44.4.95 2 2 135944 20140607143736
+220.255.2.232 1 3 83066 20140604022911
+220.255.1.21 0 7 323763 
+107.178.222.168 1 1 66664 20140602102351
+109.255.163.186 3 75 1726847 20140607062604
+31.202.241.242 3 3 202822 20140607160552
+220.255.1.18 0 7 120245 
+91.236.75.58 1 1 67239 20140608142349
+175.44.27.88 1 1 68555 20140608195331
+220.255.2.167 1 9 191696 20140604022849
+220.255.1.76 0 10 601030 
+107.178.210.196 1 1 66662 20140607095314
+175.44.24.58 1 1 67999 20140609110439
+192.187.108.236 2 2 60014 20140607055101
+175.44.27.137 2 2 135971 20140609045717
+195.154.168.130 2 2 98515 20140604141832
+23.21.25.150 1 1 67317 20140607141408
+61.131.75.72 1 1 66697 20140609203110
+199.30.24.165 1 48 586533 20140608230653
+218.30.103.42 0 10 107408 
+121.54.59.2 3 67 3275721 20140602052001
+107.178.220.102 1 1 66691 20140609095433
+119.95.235.57 3 93 3595661 20140608193723
+222.76.158.171 6 6 400621 20140609154729
+122.54.217.89 4 95 3661911 20140603215458
+89.67.144.11 4 4 384238 20140604071035
+107.178.214.172 1 1 66668 20140605101847
+201.26.126.126 2 109 5759603 20140607195734
+109.201.154.153 1 1 66668 20140606101331
+131.253.24.33 1 50 992307 20140610005606
+220.255.2.114 0 11 512852 
+120.43.21.159 1 1 60423 20140604191900
+175.44.5.231 2 2 135948 20140603192848
+91.236.74.180 1 1 67249 20140608201254
+144.76.42.76 2 2 133804 20140607185900
+23.251.157.92 1 1 66664 20140604101941
+175.44.25.103 1 1 68032 20140605225708
+198.27.67.14 1 1 66668 20140605212040
+220.255.1.50 0 4 8959 
+107.178.214.108 1 1 67249 20140608095251
+192.99.9.164 1 1 66899 20140605054700
+112.198.77.201 0 13 258860 
+220.255.1.23 0 3 33556 
+220.255.2.188 0 1 10814 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20140601 89 822 26787230 19
+20140602 183 872 21466945 28
+20140603 86 351 14780979 32
+20140604 57 355 13932344 29
+20140605 141 1235 40869872 31
+20140606 160 1298 45770548 48
+20140607 90 1050 42250869 37
+20140608 1010 6688 88449745 38
+20140609 234 1658 38860423 40
+20140610 98 1154 27785330 13
+20140611 0 31 651414 0
+20140612 0 38 766553 0
+20140613 0 50 1098622 0
+20140614 69 426 7164670 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 13
+5mn-15mn 13
+2mn-5mn 6
+15mn-30mn 6
+0s-30s 249
+30s-2mn 21
+30mn-1h 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 105
+/administrator/index.php 848 36029538 1 4
+/ 382 25352601 188 145
+/index.php 135 7190770 7 14
+/templates/new_vision/css/font-awesome/font/fontawesome-webfont.woff 98 2309316 2 16
+/index.php/login 80 3730771 2 3
+/index.php/forum 53 2918851 12 0
+/index.php/20-frontpage/296-beautiful-design-and-flexbile-features 52 3525405 47 44
+/index.php/forum/ofw-forum/3-looking-for-people-to-work-abroad-with 45 2468762 0 2
+/index.php/jobs 42 2538001 0 1
+/administrator/ 38 419537 11 1
+/index.php/forum/topics/mode-topics 31 29637 0 22
+/index.php/component/search/ 27 530380 0 5
+/index.php/job-seekers 24 1257281 0 1
+/index.php/forum/recent 23 1271254 0 7
+/index.php/forum/statistics 22 1332708 0 0
+/index.php/new-jobs 21 1639376 0 0
+/index.php/login/profile 19 985837 0 0
+/media/jui/fonts/IcoMoon.woff 15 279664 0 0
+/index.php/forum/index 14 798074 0 0
+/index.php/forum/suggestion-box 13 770480 13 2
+/index.php/index.php 11 669492 0 0
+/templates/new_vision/css/font-awesome/font/fontawesome-webfont.ttf 10 790760 2 10
+/index.php/new-jobs/jsjobs/listjobs/jobcategory- 10 687070 0 0
+/index.php/forum/topics 9 491363 0 3
+/index.php/forum/topics/index.php 9 491441 0 0
+/index.php/contact-us/loader/component/280/media/chosen/css 4 62784 0 0
+/index.php/employer/jsjobs/myresumes 2 94447 0 0
+/index.php/contact-us/loader/component/280/components/bootstrap/css 1 9321 0 0
+/index.php/contact-us/loader/component/280/media/bootstrap/css 1 13281 0 0
+/index.php/job-seekers/jsjobs/formresume/2 6 842943 0 0
+/index.php/employer/jsjobs/viewcompany/searchcompany-jae-industries-13/3/1 1 47412 0 0
+/administrator/components/com_extplorer/fetchscript.php 6 798933 0 0
+/index.php/job-seekers/jsjobs/formresume/index.php 4 1125 0 0
+/index.php/component/jsjobs/jsjobs/jobalertunsubscribe 1 44400 1 1
+/index.php/jobs/jsjobs/listjobs/jobcategory- 1 70072 0 0
+/index.php/job-seekers/jsjobs/myresumes 7 347142 0 0
+/index.php/jobs/jsjobs/listjobs/ 1 68590 0 0
+/index.php/job-seekers/jsjobs/mycoverletters 2 88329 0 0
+/index.php/job-seekers/jsjobs/jobsearchresults 1 56514 0 0
+/index.php/component/content/article 1 50386 0 1
+/index.php/topmenu-about-us 1 50484 0 0
+/index.php/job-seekers/jsjobs/newestjobs 1 79551 0 0
+/index.php/employer/jsjobs/companyjobs/companyjobs-13 4 280383 0 0
+/index.php/forum/profile/list 3 259794 0 0
+/index.php/employer 4 177595 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-maintenance-34 2 138466 0 0
+/cpanel 8 70768 1 1
+/index.php/employer/jsjobs/listjobs/jobcategory-0 1 70261 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-administrative-2 1 69823 0 1
+/index.php/job-seekers/jsjobs/myresumes/sortby-salaryrangedesc 1 49344 0 0
+/index.php/job-seekers/jsjobs/formresume/eresume-cashier-17/1 1 140624 0 1
+/index.php/blogs 1 46559 0 0
+/index.php/job-seekers/jsjobs/searchjob 2 115450 0 0
+/index.php/component/content/ 1 47048 1 1
+/components/ 2 31 0 0
+/index.php/jobs/jsjobs/listjobs 1 65723 0 0
+/index.php/job-seekers/jsjobs/formcoverletter 1 46711 0 0
+/index.php/new/8-news/latest-news/287-responsive-layout 3 170448 3 0
+/index.php/blogs/8-news/latest-news/212-css-tableless-overrides 2 101466 1 1
+/index.php/38-sample-content 5 377740 5 1
+/index.php/job-seekers/jsjobs/listjobs/jobcategory-accounting-finance-1 1 77617 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-computer-it-13 2 157818 0 0
+/index.php/new-jobs/jsjobs/newestjobs 1 72304 0 0
+/index.php/forum/profile 1 57381 0 0
+/index.php/job-seekers/jsjobs/formresume/eresume-aaa-16/1 1 141185 0 0
+/index.php/new/8-news/latest-news/36-how-to-setup-the-search-box-and-menus 2 103672 2 1
+/index.php/8-news/latest-news 7 668493 7 7
+/index.php/jobs/jsjobs/listjobs/jobcategory-accounting-finance-1 8 627196 0 2
+/index.php/forum/ofw-forum 2 108724 0 0
+/templates/new_vision/css/font-awesome/font/fontawesome-webfont.eot 1 37405 0 0
+/index.php/jobs/jsjobs/listsubcategoryjobs/jobssubcategory-computer-installations-services-49 1 76616 0 0
+/index.php/blogs/8-news/latest-news 1 101079 1 1
+/index.php/job-seekers/jsjobs/myresumes/sortby-createddesc 1 49108 0 0
+/index.php/jobs/jsjobs/listjobs/jobcategory-10 1 69870 1 1
+/index.php/topmenu-blog 3 159343 2 1
+/components/com_search/views/search/metadata.xml 1 141 1 1
+/index.php/forum/profile/745-willymangubat 2 110836 0 0
+/index.php/job-seekers/jsjobs/viewjob/newestjobs-cashier-12/5 1 57108 0 0
+/index.php/contact-us/foxcontact 4 185210 0 1
+/index.php/about 1 46571 0 0
+/index.php/about/2-uncategorised 1 51461 0 0
+/index.php/about/8-news/latest-news/212-css-tableless-overrides 3 152259 1 1
+/index.php/job-seekers/jsjobs/myresumes/sortby-createdasc 1 49104 0 0
+/index.php/forum/user/935-eds 1 49820 0 0
+/index.php/new 8 372845 0 1
+/index.php/job-seekers/jsjobs/index.php 1 298 0 0
+/index.php/employer/jsjobs/companyjobs/index.php 4 1212 0 0
+/index.php/jobs/jsjobs/viewjob/categoryjob-cashier-12/2 6 344740 0 0
+/index.php/job-seekers/jsjobs/jobcategory 2 118334 0 0
+/components/com_jsjobs/ 3 0 0 0
+/index.php/employer/jsjobs/companyjobs/companyjobs-jae-industries-13 3 215321 0 0
+/index.php/job-seekers/jsjobs/formresume/eresume-recruitment-officer-18/1 2 282491 0 0
+/media/jui/fonts/IcoMoon.ttf 1 25044 0 0
+/index.php/job-seekers/jsjobs/viewresume/viewresume-recruitment-officer-18/1 1 78376 0 1
+/index.php/contact-us 5 226203 2 1
+/index.php/contact-us/loader/component/280/none/none/captcha 1 2048 0 1
+/index.php/job-seekers/jsjobs/myappliedjobs 1 48379 0 0
+/index.php/about/8-news/latest-news/197-template-specific-options 2 108590 1 0
+/index.php/forum/search 6 326606 0 6
+/index.php/forum/profile/edit/935-eds 1 86059 0 0
+/components/com_jsjobs/js/ 3 2583 0 0
+/index.php/new/38-sample-content 1 63042 0 1
+/index.php/contact-us/loader/component/280/components/jtext/js 1 1362 0 0
+/index.php/employer/jsjobs/viewjob/searchjob-account-executive-3/3 1 59438 1 0
+/index.php/job-seekers/jsjobs/jobapply/jobcatapply-cashier-12/1/1 1 43911 0 0
+END_SIDER

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade"> 
+	<name>JS Search Resumes</name>
+	<author>Joom Sky</author>
+	<creationDate>Dec 11, 2009</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>ahmad@joomsky.com</authorEmail>
+	<authorUrl>www.joomsky.com</authorUrl>
+	<version>1.0</version>
+	<description>Usage {jssearchresumes}. Show newest jobs from JS Jobs database. </description>
+			<params>
+				<param name="title" type="text" default="Search Resume" label="JS_TITLE" description="Title" />
+				<param name="shtitle" type="radio" default="1" label="JS_RESUME_SEARCH" description="Show/Hide the title">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="name" type="radio" default="1" label="JS_NAME" description="Show/Hide the name">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="natinality" type="radio" default="1" label="JS_NATIONALITY" description="Show/Hide the natinality">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="gender" type="radio" default="1" label="JS_GENDER" description="Show/Hide the gender">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="iamavailable" type="radio" default="1" label="JS_I_AM_AVAILABLE" description="Show/Hide the i am available">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+
+
+				<param name="category" type="radio" default="1" label="JS_CATEGORY" description="Show/Hide the category">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="subcategory" type="radio" default="1" label="JS_SUB_CATEGORY" description="Show/Hide the subcategory">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="jobtype" type="radio" default="1" label="JS_JOB_TYPE" description="Show/Hide the job type">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="salaryrange" type="radio" default="1" label="JS_SLARAY_RANGE" description="Show/Hide the salary range">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="heighesteducation" type="radio" default="1" label="JS_HEIGHEST_EDUCATION" description="Show/Hide the heighest education">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="experience" type="radio" default="1" label="JS_EXPERIENCE" description="Show/Hide the experience">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</param>
+				<param name="colperrow" type="text" default="" label="JS_COLUMN_PER_ROW" description="Column per row" />
+                                <param name="Itemid" type="text" default="" label="ITEMID" description="ITEMID_FOR_NAVIGATION" />
+			</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="title" type="text" default="Search Resume" label="JS_TITLE" description="Title" />
+				<field name="shtitle" type="radio" default="1" label="JS_RESUME_SEARCH" description="Show/Hide the title">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="name" type="radio" default="1" label="JS_NAME" description="Show/Hide the name">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="natinality" type="radio" default="1" label="JS_NATIONALITY" description="Show/Hide the natinality">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="gender" type="radio" default="1" label="JS_GENDER" description="Show/Hide the gender">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="iamavailable" type="radio" default="1" label="JS_I_AM_AVAILABLE" description="Show/Hide the i am available">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+
+
+				<field name="category" type="radio" default="1" label="JS_CATEGORY" description="Show/Hide the category">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="subcategory" type="radio" default="1" label="JS_SUB_CATEGORY" description="Show/Hide the subcategory">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="jobtype" type="radio" default="1" label="JS_JOB_TYPE" description="Show/Hide the job type">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="salaryrange" type="radio" default="1" label="JS_SALARY_RANGE" description="Show/Hide the salary range">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="heighesteducation" type="radio" default="1" label="JS_HEIGHEST_EDUCATION" description="Show/Hide the heighest education">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="experience" type="radio" default="1" label="JS_EXPERIENCE" description="Show/Hide the experience">
+					<option value="0">Hide</option>
+					<option value="1">Show</option>
+				</field>
+				<field name="colperrow" type="text" default="" label="JS_COLUMN_PER_ROW" description="Column per row" />
+                                <field name="Itemid" type="text" default="" label="ITEMID" description="ITEMID_FOR_NAVIGATION" />
+			</fieldset>
+		</fields>
+	</config>
+	<files>
+		<filename plugin="jssearchresumes">jssearchresumes.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_jssearchresumes.ini</language>
+	</languages>
+</extension>
